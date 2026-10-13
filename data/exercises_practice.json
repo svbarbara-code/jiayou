@@ -1,0 +1,1134 @@
+{
+ "meta": {
+  "source": "Chinês DB Practice (rows assigned to a homework)"
+ },
+ "sets": [
+  {
+   "id": "finais",
+   "title": "Finals (韵母)",
+   "note": "Say each final aloud, then tap. The picture is the Livro do Aluno table cell.",
+   "items": [
+    {
+     "id": "p029",
+     "group": "单韵母 · vogal única",
+     "zh": "",
+     "pinyin": "a",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 1",
+     "img": "img/exp-fin-a.png"
+    },
+    {
+     "id": "p030",
+     "group": "单韵母 · vogal única",
+     "zh": "",
+     "pinyin": "o",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 2",
+     "img": "img/exp-fin-o.png"
+    },
+    {
+     "id": "p031",
+     "group": "单韵母 · vogal única",
+     "zh": "",
+     "pinyin": "e",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 3",
+     "img": "img/exp-fin-e.png"
+    },
+    {
+     "id": "p032",
+     "group": "单韵母 · vogal única",
+     "zh": "",
+     "pinyin": "i",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 4",
+     "img": "img/exp-fin-i.png"
+    },
+    {
+     "id": "p033",
+     "group": "单韵母 · vogal única",
+     "zh": "",
+     "pinyin": "u",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 5",
+     "img": "img/exp-fin-u.png"
+    },
+    {
+     "id": "p034",
+     "group": "单韵母 · vogal única",
+     "zh": "",
+     "pinyin": "ü",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 6",
+     "img": "img/exp-fin-v.png"
+    },
+    {
+     "id": "p035",
+     "group": "复韵母 · com -i final",
+     "zh": "",
+     "pinyin": "ai",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 7",
+     "img": "img/exp-fin-ai.png"
+    },
+    {
+     "id": "p036",
+     "group": "复韵母 · com -i final",
+     "zh": "",
+     "pinyin": "ei",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 8",
+     "img": "img/exp-fin-ei.png"
+    },
+    {
+     "id": "p037",
+     "group": "复韵母 · com -i final",
+     "zh": "",
+     "pinyin": "ao",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 9",
+     "img": "img/exp-fin-ao.png"
+    },
+    {
+     "id": "p038",
+     "group": "复韵母 · com -i final",
+     "zh": "",
+     "pinyin": "ou",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 10",
+     "img": "img/exp-fin-ou.png"
+    },
+    {
+     "id": "p039",
+     "group": "复韵母 · com -i final",
+     "zh": "",
+     "pinyin": "an",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 11",
+     "img": "img/exp-fin-an.png"
+    },
+    {
+     "id": "p040",
+     "group": "复韵母 · com -i final",
+     "zh": "",
+     "pinyin": "en",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 12",
+     "img": "img/exp-fin-en.png"
+    },
+    {
+     "id": "p041",
+     "group": "复韵母 · com -i final",
+     "zh": "",
+     "pinyin": "ang",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 13",
+     "img": "img/exp-fin-ang.png"
+    },
+    {
+     "id": "p042",
+     "group": "复韵母 · com -i final",
+     "zh": "",
+     "pinyin": "eng",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 14",
+     "img": "img/exp-fin-eng.png"
+    },
+    {
+     "id": "p043",
+     "group": "复韵母 · com -i final",
+     "zh": "",
+     "pinyin": "ong",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 15",
+     "img": "img/exp-fin-ong.png"
+    },
+    {
+     "id": "p044",
+     "group": "复韵母 · com i-",
+     "zh": "",
+     "pinyin": "ia",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 16",
+     "img": "img/exp-fin-ia.png"
+    },
+    {
+     "id": "p045",
+     "group": "复韵母 · com i-",
+     "zh": "",
+     "pinyin": "iao",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 17",
+     "img": "img/exp-fin-iao.png"
+    },
+    {
+     "id": "p046",
+     "group": "复韵母 · com i-",
+     "zh": "",
+     "pinyin": "ie",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 18",
+     "img": "img/exp-fin-ie.png"
+    },
+    {
+     "id": "p047",
+     "group": "复韵母 · com i-",
+     "zh": "",
+     "pinyin": "iu (iou)",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 19",
+     "img": "img/exp-fin-iuiou.png"
+    },
+    {
+     "id": "p048",
+     "group": "复韵母 · com i-",
+     "zh": "",
+     "pinyin": "ian",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 20",
+     "img": "img/exp-fin-ian.png"
+    },
+    {
+     "id": "p049",
+     "group": "复韵母 · com i-",
+     "zh": "",
+     "pinyin": "in",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 21",
+     "img": "img/exp-fin-in.png"
+    },
+    {
+     "id": "p050",
+     "group": "复韵母 · com i-",
+     "zh": "",
+     "pinyin": "iang",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 22",
+     "img": "img/exp-fin-iang.png"
+    },
+    {
+     "id": "p051",
+     "group": "复韵母 · com i-",
+     "zh": "",
+     "pinyin": "ing",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 23",
+     "img": "img/exp-fin-ing.png"
+    },
+    {
+     "id": "p052",
+     "group": "复韵母 · com i-",
+     "zh": "",
+     "pinyin": "iong",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 24",
+     "img": "img/exp-fin-iong.png"
+    },
+    {
+     "id": "p053",
+     "group": "复韵母 · com u-",
+     "zh": "",
+     "pinyin": "ua",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 25",
+     "img": "img/exp-fin-ua.png"
+    },
+    {
+     "id": "p054",
+     "group": "复韵母 · com u-",
+     "zh": "",
+     "pinyin": "uo",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 26",
+     "img": "img/exp-fin-uo.png"
+    },
+    {
+     "id": "p055",
+     "group": "复韵母 · com u-",
+     "zh": "",
+     "pinyin": "uai",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 27",
+     "img": "img/exp-fin-uai.png"
+    },
+    {
+     "id": "p056",
+     "group": "复韵母 · com u-",
+     "zh": "",
+     "pinyin": "ui (uei)",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 28",
+     "img": "img/exp-fin-uiuei.png"
+    },
+    {
+     "id": "p057",
+     "group": "复韵母 · com u-",
+     "zh": "",
+     "pinyin": "uan",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 29",
+     "img": "img/exp-fin-uan.png"
+    },
+    {
+     "id": "p058",
+     "group": "复韵母 · com u-",
+     "zh": "",
+     "pinyin": "un (uen)",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 30",
+     "img": "img/exp-fin-unuen.png"
+    },
+    {
+     "id": "p059",
+     "group": "复韵母 · com u-",
+     "zh": "",
+     "pinyin": "uang",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 31",
+     "img": "img/exp-fin-uang.png"
+    },
+    {
+     "id": "p060",
+     "group": "复韵母 · com u-",
+     "zh": "",
+     "pinyin": "ueng",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 32",
+     "img": "img/exp-fin-ueng.png"
+    },
+    {
+     "id": "p061",
+     "group": "复韵母 · com ü-",
+     "zh": "",
+     "pinyin": "üe",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 33",
+     "img": "img/exp-fin-ve.png"
+    },
+    {
+     "id": "p062",
+     "group": "复韵母 · com ü-",
+     "zh": "",
+     "pinyin": "üan",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 34",
+     "img": "img/exp-fin-van.png"
+    },
+    {
+     "id": "p063",
+     "group": "复韵母 · com ü-",
+     "zh": "",
+     "pinyin": "ün",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 35",
+     "img": "img/exp-fin-vn.png"
+    },
+    {
+     "id": "p064",
+     "group": "retroflexo",
+     "zh": "",
+     "pinyin": "er",
+     "pt": "",
+     "taught_on": "2026-08-17",
+     "alt": "Finals (韵母) 36",
+     "img": "img/exp-fin-er.png"
+    }
+   ]
+  },
+  {
+   "id": "iniciais",
+   "title": "Initials (声母)",
+   "note": "Say each initial aloud, then tap. y and w are not in the book's table; your teacher includes them.",
+   "items": [
+    {
+     "id": "p065",
+     "group": "b p m f",
+     "zh": "",
+     "pinyin": "b",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 1",
+     "img": "img/exp-ini-b.png"
+    },
+    {
+     "id": "p066",
+     "group": "b p m f",
+     "zh": "",
+     "pinyin": "p",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 2",
+     "img": "img/exp-ini-p.png"
+    },
+    {
+     "id": "p067",
+     "group": "b p m f",
+     "zh": "",
+     "pinyin": "m",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 3",
+     "img": "img/exp-ini-m.png"
+    },
+    {
+     "id": "p068",
+     "group": "b p m f",
+     "zh": "",
+     "pinyin": "f",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 4",
+     "img": "img/exp-ini-f.png"
+    },
+    {
+     "id": "p069",
+     "group": "d t n l",
+     "zh": "",
+     "pinyin": "d",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 5",
+     "img": "img/exp-ini-d.png"
+    },
+    {
+     "id": "p070",
+     "group": "d t n l",
+     "zh": "",
+     "pinyin": "t",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 6",
+     "img": "img/exp-ini-t.png"
+    },
+    {
+     "id": "p071",
+     "group": "d t n l",
+     "zh": "",
+     "pinyin": "n",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 7",
+     "img": "img/exp-ini-n.png"
+    },
+    {
+     "id": "p072",
+     "group": "d t n l",
+     "zh": "",
+     "pinyin": "l",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 8",
+     "img": "img/exp-ini-l.png"
+    },
+    {
+     "id": "p073",
+     "group": "g k h",
+     "zh": "",
+     "pinyin": "g",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 9",
+     "img": "img/exp-ini-g.png"
+    },
+    {
+     "id": "p074",
+     "group": "g k h",
+     "zh": "",
+     "pinyin": "k",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 10",
+     "img": "img/exp-ini-k.png"
+    },
+    {
+     "id": "p075",
+     "group": "g k h",
+     "zh": "",
+     "pinyin": "h",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 11",
+     "img": "img/exp-ini-h.png"
+    },
+    {
+     "id": "p076",
+     "group": "j q x",
+     "zh": "",
+     "pinyin": "j",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 12",
+     "img": "img/exp-ini-j.png"
+    },
+    {
+     "id": "p077",
+     "group": "j q x",
+     "zh": "",
+     "pinyin": "q",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 13",
+     "img": "img/exp-ini-q.png"
+    },
+    {
+     "id": "p078",
+     "group": "j q x",
+     "zh": "",
+     "pinyin": "x",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 14",
+     "img": "img/exp-ini-x.png"
+    },
+    {
+     "id": "p079",
+     "group": "z c s",
+     "zh": "",
+     "pinyin": "z",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 15",
+     "img": "img/exp-ini-z.png"
+    },
+    {
+     "id": "p080",
+     "group": "z c s",
+     "zh": "",
+     "pinyin": "c",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 16",
+     "img": "img/exp-ini-c.png"
+    },
+    {
+     "id": "p081",
+     "group": "z c s",
+     "zh": "",
+     "pinyin": "s",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 17",
+     "img": "img/exp-ini-s.png"
+    },
+    {
+     "id": "p082",
+     "group": "zh ch sh r",
+     "zh": "",
+     "pinyin": "zh",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 18",
+     "img": "img/exp-ini-zh.png"
+    },
+    {
+     "id": "p083",
+     "group": "zh ch sh r",
+     "zh": "",
+     "pinyin": "ch",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 19",
+     "img": "img/exp-ini-ch.png"
+    },
+    {
+     "id": "p084",
+     "group": "zh ch sh r",
+     "zh": "",
+     "pinyin": "sh",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 20",
+     "img": "img/exp-ini-sh.png"
+    },
+    {
+     "id": "p085",
+     "group": "zh ch sh r",
+     "zh": "",
+     "pinyin": "r",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 21",
+     "img": "img/exp-ini-r.png"
+    },
+    {
+     "id": "p086",
+     "group": "semivogais",
+     "zh": "",
+     "pinyin": "y",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 22",
+     "img": "",
+     "note": "y e w não aparecem na tabela do livro — a professora os inclui nas 23 iniciais"
+    },
+    {
+     "id": "p087",
+     "group": "semivogais",
+     "zh": "",
+     "pinyin": "w",
+     "pt": "",
+     "taught_on": "2026-08-24",
+     "alt": "Initials (声母) 23",
+     "img": "",
+     "note": "y e w não aparecem na tabela do livro — a professora os inclui nas 23 iniciais"
+    }
+   ]
+  },
+  {
+   "id": "tons",
+   "title": "Tone practice words",
+   "note": "The 16 words from the 31 Aug slide. Say each with its tone, then tap for the reading.",
+   "items": [
+    {
+     "id": "p106",
+     "group": "prática de tons",
+     "zh": "听",
+     "pinyin": "tīng",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 1",
+     "img": "img/exp-tom-01.png"
+    },
+    {
+     "id": "p107",
+     "group": "prática de tons",
+     "zh": "说",
+     "pinyin": "shuō",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 2",
+     "img": "img/exp-tom-02.png"
+    },
+    {
+     "id": "p108",
+     "group": "prática de tons",
+     "zh": "吃",
+     "pinyin": "chī",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 3",
+     "img": "img/exp-tom-03.png"
+    },
+    {
+     "id": "p109",
+     "group": "prática de tons",
+     "zh": "喝",
+     "pinyin": "hē",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 4",
+     "img": "img/exp-tom-04.png"
+    },
+    {
+     "id": "p110",
+     "group": "prática de tons",
+     "zh": "来",
+     "pinyin": "lái",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 5",
+     "img": "img/exp-tom-05.png"
+    },
+    {
+     "id": "p111",
+     "group": "prática de tons",
+     "zh": "学",
+     "pinyin": "xué",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 6",
+     "img": "img/exp-tom-06.png"
+    },
+    {
+     "id": "p112",
+     "group": "prática de tons",
+     "zh": "读",
+     "pinyin": "dú",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 7",
+     "img": "img/exp-tom-07.png"
+    },
+    {
+     "id": "p113",
+     "group": "prática de tons",
+     "zh": "玩",
+     "pinyin": "wán",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 8",
+     "img": "img/exp-tom-08.png"
+    },
+    {
+     "id": "p114",
+     "group": "prática de tons",
+     "zh": "买",
+     "pinyin": "mǎi",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 9",
+     "img": "img/exp-tom-09.png"
+    },
+    {
+     "id": "p115",
+     "group": "prática de tons",
+     "zh": "想",
+     "pinyin": "xiǎng",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 10",
+     "img": "img/exp-tom-10.png"
+    },
+    {
+     "id": "p116",
+     "group": "prática de tons",
+     "zh": "写",
+     "pinyin": "xiě",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 11",
+     "img": "img/exp-tom-11.png"
+    },
+    {
+     "id": "p117",
+     "group": "prática de tons",
+     "zh": "给",
+     "pinyin": "gěi",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 12",
+     "img": "img/exp-tom-12.png"
+    },
+    {
+     "id": "p118",
+     "group": "prática de tons",
+     "zh": "做",
+     "pinyin": "zuò",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 13",
+     "img": "img/exp-tom-13.png"
+    },
+    {
+     "id": "p119",
+     "group": "prática de tons",
+     "zh": "要",
+     "pinyin": "yào",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 14",
+     "img": "img/exp-tom-14.png"
+    },
+    {
+     "id": "p120",
+     "group": "prática de tons",
+     "zh": "去",
+     "pinyin": "qù",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 15",
+     "img": "img/exp-tom-15.png"
+    },
+    {
+     "id": "p121",
+     "group": "prática de tons",
+     "zh": "看",
+     "pinyin": "kàn",
+     "pt": "",
+     "taught_on": "2026-08-31",
+     "alt": "Tone practice words 16",
+     "img": "img/exp-tom-16.png"
+    }
+   ]
+  },
+  {
+   "id": "tracos",
+   "title": "Basic strokes (笔画)",
+   "note": "Name each stroke, then tap. Pages 1–2 of the worksheet; the rest comes with later classes.",
+   "items": [
+    {
+     "id": "p001",
+     "group": "básico",
+     "zh": "横",
+     "pinyin": "héng",
+     "pt": "horizontal",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 1",
+     "img": "img/exp-traco-01.png"
+    },
+    {
+     "id": "p002",
+     "group": "básico",
+     "zh": "竖",
+     "pinyin": "shù",
+     "pt": "vertical",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 2",
+     "img": "img/exp-traco-02.png"
+    },
+    {
+     "id": "p003",
+     "group": "básico",
+     "zh": "撇",
+     "pinyin": "piě",
+     "pt": "inclinado à esquerda",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 3",
+     "img": "img/exp-traco-03.png"
+    },
+    {
+     "id": "p004",
+     "group": "básico",
+     "zh": "捺",
+     "pinyin": "nà",
+     "pt": "inclinado à direita",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 4",
+     "img": "img/exp-traco-04.png"
+    },
+    {
+     "id": "p005",
+     "group": "básico",
+     "zh": "点",
+     "pinyin": "diǎn",
+     "pt": "ponto",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 5",
+     "img": "img/exp-traco-05.png"
+    },
+    {
+     "id": "p006",
+     "group": "básico",
+     "zh": "提",
+     "pinyin": "tí",
+     "pt": "elevado",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 6",
+     "img": "img/exp-traco-06.png"
+    },
+    {
+     "id": "p007",
+     "group": "横",
+     "zh": "横折",
+     "pinyin": "héngzhé",
+     "pt": "horizontal, depois um vertical",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 7",
+     "img": "img/exp-traco-07.png"
+    },
+    {
+     "id": "p008",
+     "group": "横",
+     "zh": "横撇",
+     "pinyin": "héngpiě",
+     "pt": "horizontal, depois um traço descendente para a esquerda",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 8",
+     "img": "img/exp-traco-08.png"
+    },
+    {
+     "id": "p009",
+     "group": "横",
+     "zh": "横钩",
+     "pinyin": "hénggōu",
+     "pt": "horizontal, depois um gancho no canto inferior esquerdo",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 9",
+     "img": "img/exp-traco-09.png"
+    },
+    {
+     "id": "p010",
+     "group": "横",
+     "zh": "横折钩",
+     "pinyin": "héngzhégōu",
+     "pt": "horizontal, depois um vertical e um gancho no canto superior esquerdo",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 10",
+     "img": "img/exp-traco-10.png"
+    },
+    {
+     "id": "p011",
+     "group": "横",
+     "zh": "横斜钩",
+     "pinyin": "héngxiégōu",
+     "pt": "horizontal, depois um traço para a direita e um gancho para o canto superior esquerdo",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 11",
+     "img": "img/exp-traco-11.png"
+    },
+    {
+     "id": "p012",
+     "group": "横",
+     "zh": "横折弯钩",
+     "pinyin": "héngzhéwāngōu",
+     "pt": "horizontal, depois um vertical e um traço curvo até o topo",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 12",
+     "img": "img/exp-traco-12.png"
+    },
+    {
+     "id": "p013",
+     "group": "竖",
+     "zh": "竖折",
+     "pinyin": "shùzhé",
+     "pt": "vertical, depois um horizontal à direita",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 13",
+     "img": "img/exp-traco-13.png"
+    },
+    {
+     "id": "p014",
+     "group": "竖",
+     "zh": "竖弯",
+     "pinyin": "shùwān",
+     "pt": "vertical, depois um curto traço horizontal à direita",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 14",
+     "img": "img/exp-traco-14.png"
+    },
+    {
+     "id": "p015",
+     "group": "竖",
+     "zh": "竖提",
+     "pinyin": "shùtí",
+     "pt": "vertical, depois uma subida para o canto superior direito",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 15",
+     "img": "img/exp-traco-15.png"
+    },
+    {
+     "id": "p016",
+     "group": "竖",
+     "zh": "竖钩",
+     "pinyin": "shùgōu",
+     "pt": "vertical, depois um gancho no canto superior esquerdo",
+     "taught_on": "2026-09-21",
+     "alt": "Basic strokes (笔画) 16",
+     "img": "img/exp-traco-16.png"
+    }
+   ]
+  },
+  {
+   "id": "caracteres",
+   "title": "Characters from Livro de Caracteres p.10",
+   "note": "The model characters with their stroke-order numerals. Say the reading, then tap.",
+   "items": [
+    {
+     "id": "p088",
+     "group": "Livro de Caracteres p.10",
+     "zh": "国",
+     "pinyin": "guó",
+     "pt": "país",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 1",
+     "img": "img/exp-hz-56fd.png"
+    },
+    {
+     "id": "p089",
+     "group": "Livro de Caracteres p.10",
+     "zh": "学",
+     "pinyin": "xué",
+     "pt": "",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 2",
+     "img": "img/exp-hz-5b66.png"
+    },
+    {
+     "id": "p090",
+     "group": "Livro de Caracteres p.10",
+     "zh": "习",
+     "pinyin": "xí",
+     "pt": "",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 3",
+     "img": "img/exp-hz-4e60.png"
+    },
+    {
+     "id": "p091",
+     "group": "Livro de Caracteres p.10",
+     "zh": "汉",
+     "pinyin": "hàn",
+     "pt": "",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 4",
+     "img": "img/exp-hz-6c49.png"
+    },
+    {
+     "id": "p092",
+     "group": "Livro de Caracteres p.10",
+     "zh": "语",
+     "pinyin": "yǔ",
+     "pt": "",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 5",
+     "img": "img/exp-hz-8bed.png"
+    },
+    {
+     "id": "p093",
+     "group": "Livro de Caracteres p.10",
+     "zh": "文",
+     "pinyin": "wén",
+     "pt": "",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 6",
+     "img": "img/exp-hz-6587.png"
+    },
+    {
+     "id": "p094",
+     "group": "Livro de Caracteres p.10",
+     "zh": "写",
+     "pinyin": "xiě",
+     "pt": "",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 7",
+     "img": "img/exp-hz-5199.png"
+    },
+    {
+     "id": "p095",
+     "group": "Livro de Caracteres p.10",
+     "zh": "字",
+     "pinyin": "zì",
+     "pt": "",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 8",
+     "img": "img/exp-hz-5b57.png"
+    },
+    {
+     "id": "p096",
+     "group": "Livro de Caracteres p.16",
+     "zh": "日",
+     "pinyin": "rì",
+     "pt": "sol, dia",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 9",
+     "img": "img/exp-hz-65e5.png"
+    },
+    {
+     "id": "p097",
+     "group": "Livro de Caracteres p.16",
+     "zh": "月",
+     "pinyin": "yuè",
+     "pt": "lua, mês",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 10",
+     "img": "img/exp-hz-6708.png"
+    },
+    {
+     "id": "p098",
+     "group": "Livro de Caracteres p.16",
+     "zh": "木",
+     "pinyin": "mù",
+     "pt": "árvore, madeira",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 11",
+     "img": "img/exp-hz-6728.png"
+    },
+    {
+     "id": "p099",
+     "group": "Livro de Caracteres p.16",
+     "zh": "马",
+     "pinyin": "mǎ",
+     "pt": "cavalo",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 12",
+     "img": "img/exp-hz-9a6c.png"
+    },
+    {
+     "id": "p100",
+     "group": "Livro de Caracteres p.16",
+     "zh": "田",
+     "pinyin": "tián",
+     "pt": "campo",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 13",
+     "img": "img/exp-hz-7530.png"
+    },
+    {
+     "id": "p101",
+     "group": "Livro de Caracteres p.16",
+     "zh": "天",
+     "pinyin": "tiān",
+     "pt": "céu, dia",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 14",
+     "img": "img/exp-hz-5929.png"
+    },
+    {
+     "id": "p102",
+     "group": "Livro de Caracteres p.16",
+     "zh": "明",
+     "pinyin": "míng",
+     "pt": "brilhante",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 15",
+     "img": "img/exp-hz-660e.png"
+    },
+    {
+     "id": "p103",
+     "group": "Livro de Caracteres p.16",
+     "zh": "林",
+     "pinyin": "lín",
+     "pt": "floresta, bosque",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 16",
+     "img": "img/exp-hz-6797.png"
+    },
+    {
+     "id": "p104",
+     "group": "Livro de Caracteres p.16",
+     "zh": "妈",
+     "pinyin": "mā",
+     "pt": "mãe",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 17",
+     "img": "img/exp-hz-5988.png"
+    },
+    {
+     "id": "p105",
+     "group": "Livro de Caracteres p.16",
+     "zh": "河",
+     "pinyin": "hé",
+     "pt": "rio",
+     "taught_on": "2026-09-28",
+     "alt": "Characters from Livro de Caracteres p.10 18",
+     "img": "img/exp-hz-6cb3.png"
+    }
+   ]
+  }
+ ]
+}
