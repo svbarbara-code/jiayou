@@ -73,27 +73,36 @@
         { "who": "a", "en": "Teacher greets the class", "tokens": ["wd-你", "wd-好"] },
         { "who": "b", "en": "Greet back", "prompt": "The teacher said 你好. Say hello back.",
           "options": [
-            { "tokens": ["wd-你", "wd-好"], "en": "Hello (to anyone)" },
+            { "tokens": ["wd-你", "wd-好"], "en": "Hello (to anyone)", "default": true },
             { "tokens": ["wd-您", "wd-好"], "en": "Hello (polite, 您)" }
           ],
-          "hint": "好 hǎo is the character you already know. Put 你 nǐ (or polite 您 nín) in front." },
-        { "who": "a", "en": "Teacher addresses herself as 老师", "tokens": ["wd-老师", "wd-好"] },
-        { "who": "b", "en": "Greet the teacher", "prompt": "Greet the teacher, 老师.",
-          "options": [ { "tokens": ["wd-老师", "wd-好"], "en": "Hello, teacher" } ],
-          "hint": "老师 lǎoshī = professor. Same pattern: name + 好." }
+          "hint": "好 hǎo is the character you already know. Put 你 nǐ (or polite 您 nín) in front." }
       ]
     },
     {
-      "id": "dl-intro",
+      "id": "dl-name",
       "unit": "licao1",
-      "title": "Introducing yourself",
-      "en": "Give your name and where you are from.",
+      "title": "Asking a name",
+      "en": "The Lição 1 Texto 1 exchange: give your surname, then your full name.",
       "roles": { "a": "老师 Teacher", "b": "You" },
       "turns": [
-        { "who": "a", "en": "Teacher asks your name", "tokens": ["wd-你", "wd-叫", "wd-什么", "wd-名字"] },
-        { "who": "b", "en": "Say your name", "prompt": "Answer: 我叫 … (say your name).",
+        { "who": "a", "en": "Teacher asks your surname (formal)", "tokens": ["wd-您", "wd-贵姓"] },
+        { "who": "b", "en": "Give your surname", "prompt": "Answer: 我姓 … (your surname / sobrenome).",
+          "options": [ { "tokens": ["wd-我", "wd-姓"], "nameSlot": true, "en": "My surname is …" } ],
+          "hint": "姓 xìng = apelido (sobrenome). Say 我姓 then your family name." },
+        { "who": "a", "en": "Teacher asks your full name", "tokens": ["wd-你", "wd-叫", "wd-什么", "wd-名字"] },
+        { "who": "b", "en": "Say your name", "prompt": "Answer: 我叫 … (your name).",
           "options": [ { "tokens": ["wd-我", "wd-叫"], "nameSlot": true, "en": "My name is …" } ],
-          "hint": "我 wǒ = eu, 叫 jiào = chamar. Say 我叫 then your own name." },
+          "hint": "我 wǒ = eu, 叫 jiào = chamar. Say 我叫 then your own name." }
+      ]
+    },
+    {
+      "id": "dl-nationality",
+      "unit": "licao1",
+      "title": "Where are you from",
+      "en": "Say your nationality. (Later in Lição 1 — country words aren't taught yet.)",
+      "roles": { "a": "老师 Teacher", "b": "You" },
+      "turns": [
         { "who": "a", "en": "Teacher asks your nationality", "tokens": ["wd-你", "wd-是", "wd-哪国人"] },
         { "who": "b", "en": "Say where you are from", "prompt": "Answer: 我是 … 人.",
           "options": [
@@ -108,7 +117,7 @@
       "id": "dl-nice",
       "unit": "licao2",
       "title": "Nice to meet you",
-      "en": "Close the introduction warmly.",
+      "en": "Close the introduction warmly. (Lição 2.)",
       "roles": { "a": "同学 Classmate", "b": "You" },
       "turns": [
         { "who": "a", "en": "Classmate: nice to meet you", "tokens": ["wd-认识", "wd-你", "wd-很", "wd-高兴"] },
