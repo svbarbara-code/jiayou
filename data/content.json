@@ -22,14 +22,18 @@
    "sound": "sn-<unit>-<sound>",
    "legacy": "every char/word keeps `legacy` = the Chinês DB row id (h###/v###)"
   },
-  "taught_rule": "unit.taught_on is a date or null. Taught ⇔ taught_on && taught_on <= today (device date). null = upcoming. Never quiz/surface a unit that is not taught. char/word taught state = its unit's (also_in: any unit taught).",
+  "taught_rule": "Every char/word/grammar point/key sentence/text carries taught_on (date|null). Taught ⇔ taught_on && taught_on <= today (device date). unit.taught_on = the unit STARTED; unit.partial:true means the class has covered only part of it — then ONLY items with their own taught_on are taught (see unit.taught_scope). null = upcoming: never quiz/surface it. Items flagged added:true carry a dictionary gloss, not the book's.",
   "totals": {
    "chars_write": 73,
    "chars_read": 41,
    "words_lesson": 82,
-   "words_reference": 28
+   "words_reference": 28,
+   "chars_added_from_dictionary": 18,
+   "chars_taught_now": 54,
+   "words_taught_now": 13
   },
   "legend": {
+   "added": "gloss added from a dictionary — not in the book",
    "bound": "ⓑ morfema de ligação — não se usa sozinho",
    "starred": "marcado com * no original (a legenda do asterisco não aparece no livro)"
   }
@@ -113,15 +117,18 @@
    "notes": [
     {
      "id": "nt-0.2-1",
-     "text": "yi / wu / yu"
+     "text": "yi / wu / yu",
+     "taught_on": "2026-08-31"
     },
     {
      "id": "nt-0.2-2",
-     "text": "posição da boca em o e e"
+     "text": "posição da boca em o e e",
+     "taught_on": "2026-08-31"
     },
     {
      "id": "nt-0.2-3",
-     "text": "ü"
+     "text": "ü",
+     "taught_on": "2026-08-31"
     }
    ],
    "sounds": {
@@ -213,19 +220,23 @@
    "notes": [
     {
      "id": "nt-0.3-1",
-     "text": "ditongos ai ei ao ou"
+     "text": "ditongos ai ei ao ou",
+     "taught_on": "2026-08-31"
     },
     {
      "id": "nt-0.3-2",
-     "text": "[n] vs [ŋ]"
+     "text": "[n] vs [ŋ]",
+     "taught_on": "2026-08-31"
     },
     {
      "id": "nt-0.3-3",
-     "text": "sinal separador de sílaba '"
+     "text": "sinal separador de sílaba '",
+     "taught_on": "2026-08-31"
     },
     {
      "id": "nt-0.3-4",
-     "text": "tom neutro (qīngshēng)"
+     "text": "tom neutro (qīngshēng)",
+     "taught_on": "2026-08-31"
     }
    ],
    "sounds": {
@@ -309,19 +320,23 @@
    "notes": [
     {
      "id": "nt-0.4-1",
-     "text": "iu"
+     "text": "iu",
+     "taught_on": "2026-08-31"
     },
     {
      "id": "nt-0.4-2",
-     "text": "omissão do trema em ü depois de j q x"
+     "text": "omissão do trema em ü depois de j q x",
+     "taught_on": "2026-08-31"
     },
     {
      "id": "nt-0.4-3",
-     "text": "articulação de j q x"
+     "text": "articulação de j q x",
+     "taught_on": "2026-08-31"
     },
     {
      "id": "nt-0.4-4",
-     "text": "sandhi do 3.º tom"
+     "text": "sandhi do 3.º tom",
+     "taught_on": "2026-08-31"
     }
    ],
    "sounds": {
@@ -475,11 +490,13 @@
    "notes": [
     {
      "id": "nt-0.5-1",
-     "text": "ui / un"
+     "text": "ui / un",
+     "taught_on": "2026-08-31"
     },
     {
      "id": "nt-0.5-2",
-     "text": "zi ci si"
+     "text": "zi ci si",
+     "taught_on": "2026-08-31"
     }
    ],
    "sounds": {
@@ -597,15 +614,18 @@
    "notes": [
     {
      "id": "nt-0.6-1",
-     "text": "zhi chi shi ri"
+     "text": "zhi chi shi ri",
+     "taught_on": "2026-08-31"
     },
     {
      "id": "nt-0.6-2",
-     "text": "zh/ch/sh vs z/c/s"
+     "text": "zh/ch/sh vs z/c/s",
+     "taught_on": "2026-08-31"
     },
     {
      "id": "nt-0.6-3",
-     "text": "érhuà yùn 儿化韵 — 这儿 zhèr, 那儿 nàr, 哪儿 nǎr"
+     "text": "érhuà yùn 儿化韵 — 这儿 zhèr, 那儿 nàr, 哪儿 nǎr",
+     "taught_on": "2026-08-31"
     }
    ],
    "cultural": "Notas culturais: história do Hànyǔ Pīnyīn (1955–57, ratificado 11 Fev 1958, norma ISO em 1982); famílias e dialectos do chinês; pǔtōnghuà / guóyǔ / huáyǔ",
@@ -644,6 +664,7 @@
    "word_ids": [],
    "ref_word_ids": [],
    "char_ids_also": [],
+   "cultural_taught_on": "2026-08-31",
    "audio_ids": [
     "a07",
     "a16"
@@ -717,7 +738,7 @@
    "label": "Lição 1",
    "title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?",
    "kind": "licao",
-   "taught_on": null,
+   "taught_on": "2026-10-05",
    "pages": {
     "aluno": "11–19",
     "exercicios": "PDF 17–20",
@@ -731,11 +752,13 @@
    "texts": [
     {
      "n": 1,
-     "setting": "Bai Xiaohong (estudante chinesa) e Wang Ying (canadiana de ascendência chinesa) — primeiro encontro"
+     "setting": "Bai Xiaohong (estudante chinesa) e Wang Ying (canadiana de ascendência chinesa) — primeiro encontro",
+     "taught_on": "2026-10-05"
     },
     {
      "n": 2,
-     "setting": "Primeira aula de chinês do professor Zhang Lin"
+     "setting": "Primeira aula de chinês do professor Zhang Lin",
+     "taught_on": null
     }
    ],
    "key_sentences": [
@@ -743,67 +766,80 @@
      "id": "ks-licao1-1",
      "zh": "您是葡萄牙人吗？",
      "py": "Nín shì Pútáoyárén ma?",
-     "pt": "Você é português?"
+     "pt": "Você é português?",
+     "taught_on": null
     },
     {
      "id": "ks-licao1-2",
      "zh": "您是不是葡萄牙人？",
      "py": "Nín shì bu shì Pútáoyárén?",
-     "pt": "Você é português ou não (é)?"
+     "pt": "Você é português ou não (é)?",
+     "taught_on": null
     },
     {
      "id": "ks-licao1-3",
      "zh": "我不是林老师。",
      "py": "Wǒ bú shì Lín lǎoshī.",
-     "pt": "Não sou o professor Lin."
+     "pt": "Não sou o professor Lin.",
+     "taught_on": null
     },
     {
      "id": "ks-licao1-4",
      "zh": "您说葡萄牙语还是说法语？",
      "py": "Nín shuō Pútáoyáyǔ háishi shuō Fǎyǔ?",
-     "pt": "Você fala português ou francês?"
+     "pt": "Você fala português ou francês?",
+     "taught_on": null
     }
    ],
    "grammar": [
     {
      "id": "gr-licao1-1",
-     "text": "Frase simples 1: sujeito + verbo (+ objecto), forma afirmativa e negativa com 不"
+     "text": "Frase simples 1: sujeito + verbo (+ objecto), forma afirmativa e negativa com 不",
+     "taught_on": null
     },
     {
      "id": "gr-licao1-2",
-     "text": "Advérbio + verbo — o advérbio precede sempre o verbo (不, 也, 都, 只)"
+     "text": "Advérbio + verbo — o advérbio precede sempre o verbo (不, 也, 都, 只)",
+     "taught_on": null
     },
     {
      "id": "gr-licao1-3",
-     "text": "Frases interrogativas A: declarativa + 吗?"
+     "text": "Frases interrogativas A: declarativa + 吗?",
+     "taught_on": null
     },
     {
      "id": "gr-licao1-4",
-     "text": "Frases interrogativas B-a: X 不 X …? (不 em tom átono; 也/都/只 não podem aparecer)"
+     "text": "Frases interrogativas B-a: X 不 X …? (不 em tom átono; 也/都/只 não podem aparecer)",
+     "taught_on": null
     },
     {
      "id": "gr-licao1-5",
-     "text": "Frases interrogativas B-b: X 还是 Y?"
+     "text": "Frases interrogativas B-b: X 还是 Y?",
+     "taught_on": null
     },
     {
      "id": "gr-licao1-6",
-     "text": "Frases interrogativas C: com interrogativos (哪国人, 什么)"
+     "text": "Frases interrogativas C: com interrogativos (哪国人, 什么)",
+     "taught_on": "2026-10-05"
     },
     {
      "id": "gr-licao1-7",
-     "text": "Frases interrogativas D: locução substantiva + 呢?"
+     "text": "Frases interrogativas D: locução substantiva + 呢?",
+     "taught_on": "2026-10-05"
     }
    ],
    "phonetics": [
     {
      "id": "ph-licao1-1",
-     "text": "Mudança de tom de 不 bù: bù + 1.º/2.º/3.º tom; bú + 4.º tom"
+     "text": "Mudança de tom de 不 bù: bù + 1.º/2.º/3.º tom; bú + 4.º tom",
+     "taught_on": null
     }
    ],
    "notes": [
     {
      "id": "nt-licao1-1",
-     "text": "'张老师' — apelido + lǎoshī para tratar um professor"
+     "text": "'张老师' — apelido + lǎoshī para tratar um professor",
+     "taught_on": null
     }
    ],
    "cultural": "姓名 xìngmíng = 姓 xìng (apelido, quase sempre 1 caracter) + 名 míng (nome próprio, 1 ou 2). Perguntar o nome: 你叫什么名字？ (neutro) / 您贵姓？ e 您怎么称呼？ (mais formais).",
@@ -890,6 +926,9 @@
     "wd-华裔"
    ],
    "char_ids_also": [],
+   "partial": true,
+   "taught_scope": "Aula 8, 5 Oct 2026 — Siwen's deck 初级1-第1课-你好-我是 (vocabulary slides 9–18, 29–30; Texto 1, slides 17/32) + the 汉字书写 homework (你 好 我 是 姓 …). The deck presents the book's Lição 1 opening, not the whole lesson.",
+   "cultural_taught_on": "2026-10-05",
    "audio_ids": [
     "a08",
     "a17"
@@ -914,11 +953,13 @@
    "texts": [
     {
      "n": 1,
-     "setting": "Miguel encontra Bai Xiaohong no avião — apresentações, trabalho/estudo, telefone e e-mail"
+     "setting": "Miguel encontra Bai Xiaohong no avião — apresentações, trabalho/estudo, telefone e e-mail",
+     "taught_on": null
     },
     {
      "n": 2,
-     "setting": "Camilo e Zhang Yuanyuan visitam a casa de Ding Hansheng — 请进/请坐/请喝茶 e 怎么样"
+     "setting": "Camilo e Zhang Yuanyuan visitam a casa de Ding Hansheng — 请进/请坐/请喝茶 e 怎么样",
+     "taught_on": null
     }
    ],
    "key_sentences": [
@@ -926,71 +967,85 @@
      "id": "ks-licao2-1",
      "zh": "认识你很高兴！",
      "py": "Rènshi nǐ hěn gāoxìng!",
-     "pt": "Muito prazer em conhecê-lo!"
+     "pt": "Muito prazer em conhecê-lo!",
+     "taught_on": null
     },
     {
      "id": "ks-licao2-2",
      "zh": "我在里斯本大学文学系学习。",
      "py": "Wǒ zài Lǐsīběn Dàxué Wénxuéxì xuéxí.",
-     "pt": "Estudo na Faculdade de Letras da Universidade de Lisboa."
+     "pt": "Estudo na Faculdade de Letras da Universidade de Lisboa.",
+     "taught_on": null
     },
     {
      "id": "ks-licao2-3",
      "zh": "东方学院怎么样？",
      "py": "Dōngfāng Xuéyuàn zěnmeyàng?",
-     "pt": "Como é o Instituto Oriental?"
+     "pt": "Como é o Instituto Oriental?",
+     "taught_on": null
     },
     {
      "id": "ks-licao2-4",
      "zh": "东方学院很大，也很漂亮。",
      "py": "Dōngfāng Xuéyuàn hěn dà, yě hěn piàoliang.",
-     "pt": "O Instituto Oriental é grande, e é também bonito."
+     "pt": "O Instituto Oriental é grande, e é também bonito.",
+     "taught_on": null
     }
    ],
    "grammar": [
     {
      "id": "gr-licao2-1",
-     "text": "Frase simples 2: sujeito + adjectivo — o adjectivo é predicado, sem 是"
+     "text": "Frase simples 2: sujeito + adjectivo — o adjectivo é predicado, sem 是",
+     "taught_on": null
     },
     {
      "id": "gr-licao2-2",
-     "text": "很 antes do adjectivo predicativo é neutro; o adjectivo sozinho implica comparação"
+     "text": "很 antes do adjectivo predicativo é neutro; o adjectivo sozinho implica comparação",
+     "taught_on": null
     },
     {
      "id": "gr-licao2-3",
-     "text": "的 de — possessivo/atributivo (我的, 我们的)"
+     "text": "的 de — possessivo/atributivo (我的, 我们的)",
+     "taught_on": null
     },
     {
      "id": "gr-licao2-4",
-     "text": "在 + lugar + verbo — a locução prepositiva vem antes do verbo"
+     "text": "在 + lugar + verbo — a locução prepositiva vem antes do verbo",
+     "taught_on": null
     },
     {
      "id": "gr-licao2-5",
-     "text": "Ordem de localização: do maior para o menor (中国 上海 复旦 大学)"
+     "text": "Ordem de localização: do maior para o menor (中国 上海 复旦 大学)",
+     "taught_on": null
     },
     {
      "id": "gr-licao2-6",
-     "text": "可(以)不可以…? — interrogativa X不X com verbo dissilábico"
+     "text": "可(以)不可以…? — interrogativa X不X com verbo dissilábico",
+     "taught_on": null
     },
     {
      "id": "gr-licao2-7",
-     "text": "怎么样 — como é…?"
+     "text": "怎么样 — como é…?",
+     "taught_on": null
     }
    ],
    "phonetics": [
     {
      "id": "ph-licao2-1",
-     "text": "Acento tónico: (1) tónico + átono (名字, 朋友, 喜欢, 漂亮); (2) última sílaba acentuada (工作, 电话, 汉语, 老师)"
+     "text": "Acento tónico: (1) tónico + átono (名字, 朋友, 喜欢, 漂亮); (2) última sílaba acentuada (工作, 电话, 汉语, 老师)",
+     "taught_on": null
     }
    ],
    "notes": [
     {
      "id": "nt-licao2-1",
-     "text": "Números de telefone lêem-se dígito a dígito; 1 pode ler-se yāo para não se confundir com 7"
+     "text": "Números de telefone lêem-se dígito a dígito; 1 pode ler-se yāo para não se confundir com 7",
+     "taught_on": null
     },
     {
      "id": "nt-licao2-2",
-     "text": "Orações elípticas são comuns: 很好。很大，也很漂亮。我很喜欢。"
+     "text": "Orações elípticas são comuns: 很好。很大，也很漂亮。我很喜欢。",
+     "taught_on": null
     }
    ],
    "cultural": "Servir chá quente às visitas; outras bebidas conforme a preferência e a estação; álcool geralmente só à refeição; a água canalizada (zìláishuǐ) serve-se fervida (kāishuǐ).",
@@ -1110,6 +1165,7 @@
    "char_ids_also": [
     "ch-哪"
    ],
+   "cultural_taught_on": null,
    "audio_ids": [
     "a09",
     "a18"
@@ -1129,7 +1185,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h001"
+   "legacy": "h001",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-贵",
@@ -1143,7 +1200,8 @@
    "mode": "write",
    "bound": false,
    "starred": true,
-   "legacy": "h002"
+   "legacy": "h002",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-姓",
@@ -1157,7 +1215,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h003"
+   "legacy": "h003",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-我",
@@ -1171,7 +1230,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h004"
+   "legacy": "h004",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-呢",
@@ -1186,7 +1246,8 @@
    "bound": false,
    "starred": false,
    "legacy": "h005",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-是",
@@ -1200,7 +1261,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h006"
+   "legacy": "h006",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-吗",
@@ -1214,7 +1276,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h007"
+   "legacy": "h007",
+   "taught_on": null
   },
   {
    "id": "ch-不",
@@ -1228,7 +1291,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h008"
+   "legacy": "h008",
+   "taught_on": null
   },
   {
    "id": "ch-同",
@@ -1242,7 +1306,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h009"
+   "legacy": "h009",
+   "taught_on": null
   },
   {
    "id": "ch-们",
@@ -1257,7 +1322,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h010",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-老",
@@ -1271,7 +1337,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h011"
+   "legacy": "h011",
+   "taught_on": null
   },
   {
    "id": "ch-师",
@@ -1285,7 +1352,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h012"
+   "legacy": "h012",
+   "taught_on": null
   },
   {
    "id": "ch-叫",
@@ -1299,7 +1367,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h013"
+   "legacy": "h013",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-你",
@@ -1313,7 +1382,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h014"
+   "legacy": "h014",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-什",
@@ -1328,7 +1398,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h015",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-么",
@@ -1343,7 +1414,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h016",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-名",
@@ -1357,7 +1429,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h017"
+   "legacy": "h017",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-哪",
@@ -1377,7 +1450,8 @@
    "legacy_also": [
     "h063"
    ],
-   "bound_in_also": true
+   "bound_in_also": true,
+   "taught_on": null
   },
   {
    "id": "ch-也",
@@ -1391,7 +1465,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h019"
+   "legacy": "h019",
+   "taught_on": null
   },
   {
    "id": "ch-说",
@@ -1405,7 +1480,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h020"
+   "legacy": "h020",
+   "taught_on": null
   },
   {
    "id": "ch-葡",
@@ -1420,7 +1496,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h021",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-萄",
@@ -1435,7 +1512,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h022",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-牙",
@@ -1449,7 +1527,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h023"
+   "legacy": "h023",
+   "taught_on": null
   },
   {
    "id": "ch-还",
@@ -1464,7 +1543,8 @@
    "bound": false,
    "starred": false,
    "legacy": "h024",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-法",
@@ -1478,7 +1558,8 @@
    "mode": "write",
    "bound": true,
    "starred": true,
-   "legacy": "h025"
+   "legacy": "h025",
+   "taught_on": null
   },
   {
    "id": "ch-都",
@@ -1492,7 +1573,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h026"
+   "legacy": "h026",
+   "taught_on": null
   },
   {
    "id": "ch-只",
@@ -1506,7 +1588,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h027"
+   "legacy": "h027",
+   "taught_on": null
   },
   {
    "id": "ch-他",
@@ -1520,7 +1603,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h028"
+   "legacy": "h028",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-她",
@@ -1534,7 +1618,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h029"
+   "legacy": "h029",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-很",
@@ -1548,7 +1633,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h030"
+   "legacy": "h030",
+   "taught_on": null
   },
   {
    "id": "ch-高",
@@ -1562,7 +1648,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h031"
+   "legacy": "h031",
+   "taught_on": null
   },
   {
    "id": "ch-兴",
@@ -1576,7 +1663,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h032"
+   "legacy": "h032",
+   "taught_on": null
   },
   {
    "id": "ch-认",
@@ -1590,7 +1678,8 @@
    "mode": "write",
    "bound": true,
    "starred": true,
-   "legacy": "h033"
+   "legacy": "h033",
+   "taught_on": null
   },
   {
    "id": "ch-识",
@@ -1605,7 +1694,8 @@
    "bound": true,
    "starred": true,
    "legacy": "h034",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-在",
@@ -1620,7 +1710,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h035",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-进",
@@ -1634,7 +1725,8 @@
    "mode": "write",
    "bound": false,
    "starred": true,
-   "legacy": "h036"
+   "legacy": "h036",
+   "taught_on": null
   },
   {
    "id": "ch-出",
@@ -1648,7 +1740,8 @@
    "mode": "write",
    "bound": false,
    "starred": true,
-   "legacy": "h037"
+   "legacy": "h037",
+   "taught_on": null
   },
   {
    "id": "ch-公",
@@ -1662,7 +1755,8 @@
    "mode": "write",
    "bound": true,
    "starred": true,
-   "legacy": "h038"
+   "legacy": "h038",
+   "taught_on": null
   },
   {
    "id": "ch-司",
@@ -1677,7 +1771,8 @@
    "bound": true,
    "starred": true,
    "legacy": "h039",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-工",
@@ -1691,7 +1786,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h040"
+   "legacy": "h040",
+   "taught_on": null
   },
   {
    "id": "ch-作",
@@ -1705,7 +1801,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h041"
+   "legacy": "h041",
+   "taught_on": null
   },
   {
    "id": "ch-系",
@@ -1719,7 +1816,8 @@
    "mode": "write",
    "bound": true,
    "starred": true,
-   "legacy": "h042"
+   "legacy": "h042",
+   "taught_on": null
   },
   {
    "id": "ch-可",
@@ -1733,7 +1831,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h043"
+   "legacy": "h043",
+   "taught_on": null
   },
   {
    "id": "ch-以",
@@ -1748,7 +1847,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h044",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-给",
@@ -1762,7 +1862,8 @@
    "mode": "write",
    "bound": false,
    "starred": true,
-   "legacy": "h045"
+   "legacy": "h045",
+   "taught_on": null
   },
   {
    "id": "ch-打",
@@ -1776,7 +1877,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h046"
+   "legacy": "h046",
+   "taught_on": null
   },
   {
    "id": "ch-电",
@@ -1790,7 +1892,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h047"
+   "legacy": "h047",
+   "taught_on": null
   },
   {
    "id": "ch-话",
@@ -1804,7 +1907,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h048"
+   "legacy": "h048",
+   "taught_on": null
   },
   {
    "id": "ch-的",
@@ -1819,7 +1923,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h049",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-号",
@@ -1833,7 +1938,8 @@
    "mode": "write",
    "bound": false,
    "starred": true,
-   "legacy": "h050"
+   "legacy": "h050",
+   "taught_on": null
   },
   {
    "id": "ch-码",
@@ -1848,7 +1954,8 @@
    "bound": true,
    "starred": true,
    "legacy": "h051",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-发",
@@ -1862,7 +1969,8 @@
    "mode": "write",
    "bound": false,
    "starred": true,
-   "legacy": "h052"
+   "legacy": "h052",
+   "taught_on": null
   },
   {
    "id": "ch-邮",
@@ -1876,7 +1984,8 @@
    "mode": "write",
    "bound": true,
    "starred": true,
-   "legacy": "h053"
+   "legacy": "h053",
+   "taught_on": null
   },
   {
    "id": "ch-件",
@@ -1891,7 +2000,8 @@
    "bound": true,
    "starred": true,
    "legacy": "h054",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-这",
@@ -1905,7 +2015,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h055"
+   "legacy": "h055",
+   "taught_on": null
   },
   {
    "id": "ch-朋",
@@ -1919,7 +2030,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h056"
+   "legacy": "h056",
+   "taught_on": null
   },
   {
    "id": "ch-友",
@@ -1933,7 +2045,8 @@
    "mode": "write",
    "bound": true,
    "starred": false,
-   "legacy": "h057"
+   "legacy": "h057",
+   "taught_on": null
   },
   {
    "id": "ch-请",
@@ -1947,7 +2060,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h058"
+   "legacy": "h058",
+   "taught_on": null
   },
   {
    "id": "ch-坐",
@@ -1961,7 +2075,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h059"
+   "legacy": "h059",
+   "taught_on": null
   },
   {
    "id": "ch-谢",
@@ -1975,7 +2090,8 @@
    "mode": "write",
    "bound": false,
    "starred": true,
-   "legacy": "h060"
+   "legacy": "h060",
+   "taught_on": null
   },
   {
    "id": "ch-喝",
@@ -1989,7 +2105,8 @@
    "mode": "write",
    "bound": false,
    "starred": true,
-   "legacy": "h061"
+   "legacy": "h061",
+   "taught_on": null
   },
   {
    "id": "ch-茶",
@@ -2003,7 +2120,8 @@
    "mode": "write",
    "bound": false,
    "starred": true,
-   "legacy": "h062"
+   "legacy": "h062",
+   "taught_on": null
   },
   {
    "id": "ch-儿",
@@ -2018,7 +2136,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h064",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-里",
@@ -2033,7 +2152,8 @@
    "bound": true,
    "starred": true,
    "legacy": "h065",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-院",
@@ -2048,7 +2168,8 @@
    "bound": true,
    "starred": true,
    "legacy": "h066",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-怎",
@@ -2063,7 +2184,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h067",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-样",
@@ -2078,7 +2200,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h068",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-漂",
@@ -2093,7 +2216,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h069",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-亮",
@@ -2108,7 +2232,8 @@
    "bound": true,
    "starred": false,
    "legacy": "h070",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-喜",
@@ -2123,7 +2248,8 @@
    "bound": true,
    "starred": true,
    "legacy": "h071",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-欢",
@@ -2138,7 +2264,8 @@
    "bound": true,
    "starred": true,
    "legacy": "h072",
-   "gloss_missing": true
+   "gloss_missing": true,
+   "taught_on": null
   },
   {
    "id": "ch-那",
@@ -2152,7 +2279,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h073"
+   "legacy": "h073",
+   "taught_on": null
   },
   {
    "id": "ch-男",
@@ -2166,7 +2294,8 @@
    "mode": "write",
    "bound": false,
    "starred": false,
-   "legacy": "h074"
+   "legacy": "h074",
+   "taught_on": null
   },
   {
    "id": "ch-一",
@@ -2174,14 +2303,17 @@
    "unit": "hanzi0",
    "also_in": [],
    "n": 0,
-   "pinyin": null,
-   "pt": null,
+   "pinyin": "yī",
+   "pt": "um",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h075",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "pinyin_src": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-二",
@@ -2189,14 +2321,17 @@
    "unit": "hanzi0",
    "also_in": [],
    "n": 0,
-   "pinyin": null,
-   "pt": null,
+   "pinyin": "èr",
+   "pt": "dois",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h076",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "pinyin_src": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-三",
@@ -2204,14 +2339,17 @@
    "unit": "hanzi0",
    "also_in": [],
    "n": 0,
-   "pinyin": null,
-   "pt": null,
+   "pinyin": "sān",
+   "pt": "três",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h077",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "pinyin_src": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-四",
@@ -2219,14 +2357,17 @@
    "unit": "hanzi0",
    "also_in": [],
    "n": 0,
-   "pinyin": null,
-   "pt": null,
+   "pinyin": "sì",
+   "pt": "quatro",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h078",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "pinyin_src": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-五",
@@ -2234,14 +2375,17 @@
    "unit": "hanzi0",
    "also_in": [],
    "n": 0,
-   "pinyin": null,
-   "pt": null,
+   "pinyin": "wǔ",
+   "pt": "cinco",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h079",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "pinyin_src": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-六",
@@ -2249,14 +2393,17 @@
    "unit": "hanzi0",
    "also_in": [],
    "n": 0,
-   "pinyin": null,
-   "pt": null,
+   "pinyin": "liù",
+   "pt": "seis",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h080",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "pinyin_src": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-七",
@@ -2264,14 +2411,17 @@
    "unit": "hanzi0",
    "also_in": [],
    "n": 0,
-   "pinyin": null,
-   "pt": null,
+   "pinyin": "qī",
+   "pt": "sete",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h081",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "pinyin_src": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-八",
@@ -2279,14 +2429,17 @@
    "unit": "hanzi0",
    "also_in": [],
    "n": 0,
-   "pinyin": null,
-   "pt": null,
+   "pinyin": "bā",
+   "pt": "oito",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h082",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "pinyin_src": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-九",
@@ -2294,14 +2447,17 @@
    "unit": "hanzi0",
    "also_in": [],
    "n": 0,
-   "pinyin": null,
-   "pt": null,
+   "pinyin": "jiǔ",
+   "pt": "nove",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h083",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "pinyin_src": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-十",
@@ -2309,14 +2465,17 @@
    "unit": "hanzi0",
    "also_in": [],
    "n": 0,
-   "pinyin": null,
-   "pt": null,
+   "pinyin": "shí",
+   "pt": "dez",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h084",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "pinyin_src": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-上",
@@ -2330,7 +2489,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h085"
+   "legacy": "h085",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-下",
@@ -2344,7 +2504,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h086"
+   "legacy": "h086",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-大",
@@ -2358,7 +2519,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h087"
+   "legacy": "h087",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-中",
@@ -2372,7 +2534,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h088"
+   "legacy": "h088",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-小",
@@ -2386,7 +2549,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h089"
+   "legacy": "h089",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-人",
@@ -2400,7 +2564,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h090"
+   "legacy": "h090",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-口",
@@ -2414,7 +2579,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h091"
+   "legacy": "h091",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-国",
@@ -2428,7 +2594,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h092"
+   "legacy": "h092",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-学",
@@ -2437,14 +2604,16 @@
    "also_in": [],
    "n": 0,
    "pinyin": "xué",
-   "pt": null,
+   "pt": "estudar, aprender",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h093",
    "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-习",
@@ -2453,14 +2622,16 @@
    "also_in": [],
    "n": 0,
    "pinyin": "xí",
-   "pt": null,
+   "pt": "praticar, aprender",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h094",
    "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-汉",
@@ -2469,14 +2640,16 @@
    "also_in": [],
    "n": 0,
    "pinyin": "hàn",
-   "pt": null,
+   "pt": "chinês (etnia Han)",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h095",
    "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-语",
@@ -2485,14 +2658,16 @@
    "also_in": [],
    "n": 0,
    "pinyin": "yǔ",
-   "pt": null,
+   "pt": "língua, idioma",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h096",
    "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-文",
@@ -2501,14 +2676,16 @@
    "also_in": [],
    "n": 0,
    "pinyin": "wén",
-   "pt": null,
+   "pt": "escrita, língua escrita",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h097",
    "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-写",
@@ -2517,14 +2694,16 @@
    "also_in": [],
    "n": 0,
    "pinyin": "xiě",
-   "pt": null,
+   "pt": "escrever",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h098",
    "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-字",
@@ -2533,14 +2712,16 @@
    "also_in": [],
    "n": 0,
    "pinyin": "zì",
-   "pt": null,
+   "pt": "caractere, letra",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h099",
    "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-女",
@@ -2554,7 +2735,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h100"
+   "legacy": "h100",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-子",
@@ -2568,7 +2750,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h101"
+   "legacy": "h101",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-好",
@@ -2582,7 +2765,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h102"
+   "legacy": "h102",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-水",
@@ -2596,7 +2780,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h103"
+   "legacy": "h103",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-门",
@@ -2610,7 +2795,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h104"
+   "legacy": "h104",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-王",
@@ -2618,14 +2804,17 @@
    "unit": "hanzi0",
    "also_in": [],
    "n": 0,
-   "pinyin": null,
-   "pt": null,
+   "pinyin": "wáng",
+   "pt": "rei; também sobrenome (Wang)",
    "strokes": null,
    "mode": "read",
    "bound": false,
    "starred": false,
    "legacy": "h105",
-   "gloss_missing": true
+   "added": true,
+   "source": "dictionary",
+   "pinyin_src": "dictionary",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-日",
@@ -2639,7 +2828,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h106"
+   "legacy": "h106",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-月",
@@ -2653,7 +2843,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h107"
+   "legacy": "h107",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-木",
@@ -2667,7 +2858,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h108"
+   "legacy": "h108",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-马",
@@ -2681,7 +2873,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h109"
+   "legacy": "h109",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-田",
@@ -2695,7 +2888,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h110"
+   "legacy": "h110",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-天",
@@ -2709,7 +2903,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h111"
+   "legacy": "h111",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-明",
@@ -2723,7 +2918,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h112"
+   "legacy": "h112",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-林",
@@ -2737,7 +2933,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h113"
+   "legacy": "h113",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-妈",
@@ -2751,7 +2948,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h114"
+   "legacy": "h114",
+   "taught_on": "2026-09-21"
   },
   {
    "id": "ch-河",
@@ -2765,7 +2963,8 @@
    "mode": "read",
    "bound": false,
    "starred": false,
-   "legacy": "h115"
+   "legacy": "h115",
+   "taught_on": "2026-09-21"
   }
  ],
  "words": [
@@ -2777,7 +2976,8 @@
    "pos": "pron.",
    "pinyin": "nín",
    "pt": "você",
-   "legacy": "v001"
+   "legacy": "v001",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-好",
@@ -2787,7 +2987,8 @@
    "pos": "adj.",
    "pinyin": "hǎo",
    "pt": "bom",
-   "legacy": "v002"
+   "legacy": "v002",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-贵姓",
@@ -2797,7 +2998,8 @@
    "pos": null,
    "pinyin": "guìxìng",
    "pt": "Qual é o nome?",
-   "legacy": "v003"
+   "legacy": "v003",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-姓",
@@ -2807,7 +3009,8 @@
    "pos": "v. e n.",
    "pinyin": "xìng",
    "pt": "apelido",
-   "legacy": "v004"
+   "legacy": "v004",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-我",
@@ -2817,7 +3020,8 @@
    "pos": "pron.",
    "pinyin": "wǒ",
    "pt": "eu",
-   "legacy": "v005"
+   "legacy": "v005",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-呢",
@@ -2827,7 +3031,8 @@
    "pos": "part.",
    "pinyin": "ne",
    "pt": null,
-   "legacy": "v006"
+   "legacy": "v006",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-是",
@@ -2837,7 +3042,8 @@
    "pos": "v.",
    "pinyin": "shì",
    "pt": "ser",
-   "legacy": "v007"
+   "legacy": "v007",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-人",
@@ -2847,7 +3053,8 @@
    "pos": "n.",
    "pinyin": "rén",
    "pt": "pessoa, gente",
-   "legacy": "v008"
+   "legacy": "v008",
+   "taught_on": null
   },
   {
    "id": "wd-吗",
@@ -2857,7 +3064,8 @@
    "pos": "part.",
    "pinyin": "ma",
    "pt": null,
-   "legacy": "v009"
+   "legacy": "v009",
+   "taught_on": null
   },
   {
    "id": "wd-不",
@@ -2867,7 +3075,8 @@
    "pos": "adv.",
    "pinyin": "bù",
    "pt": "não",
-   "legacy": "v010"
+   "legacy": "v010",
+   "taught_on": null
   },
   {
    "id": "wd-同学",
@@ -2877,7 +3086,8 @@
    "pos": "n.",
    "pinyin": "tóngxué",
    "pt": "colega",
-   "legacy": "v011"
+   "legacy": "v011",
+   "taught_on": null
   },
   {
    "id": "wd-们",
@@ -2887,7 +3097,8 @@
    "pos": "sufixo",
    "pinyin": "men",
    "pt": null,
-   "legacy": "v012"
+   "legacy": "v012",
+   "taught_on": null
   },
   {
    "id": "wd-老师",
@@ -2897,7 +3108,8 @@
    "pos": "n.",
    "pinyin": "lǎoshī",
    "pt": "professor",
-   "legacy": "v013"
+   "legacy": "v013",
+   "taught_on": null
   },
   {
    "id": "wd-叫",
@@ -2907,7 +3119,8 @@
    "pos": "v.",
    "pinyin": "jiào",
    "pt": "chamar",
-   "legacy": "v014"
+   "legacy": "v014",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-你",
@@ -2917,7 +3130,8 @@
    "pos": "pron.",
    "pinyin": "nǐ",
    "pt": "tu",
-   "legacy": "v015"
+   "legacy": "v015",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-什么",
@@ -2927,7 +3141,8 @@
    "pos": "interr.",
    "pinyin": "shénme",
    "pt": "que",
-   "legacy": "v016"
+   "legacy": "v016",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-名字",
@@ -2937,7 +3152,8 @@
    "pos": "n.",
    "pinyin": "míngzi",
    "pt": "nome",
-   "legacy": "v017"
+   "legacy": "v017",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-哪国人",
@@ -2947,7 +3163,8 @@
    "pos": null,
    "pinyin": "nǎ guó rén",
    "pt": "de que país…?",
-   "legacy": "v018"
+   "legacy": "v018",
+   "taught_on": null
   },
   {
    "id": "wd-哪",
@@ -2957,7 +3174,8 @@
    "pos": "interr.",
    "pinyin": "nǎ",
    "pt": "que, qual",
-   "legacy": "v019"
+   "legacy": "v019",
+   "taught_on": null
   },
   {
    "id": "wd-国",
@@ -2967,7 +3185,8 @@
    "pos": null,
    "pinyin": "guó",
    "pt": "país",
-   "legacy": "v020"
+   "legacy": "v020",
+   "taught_on": null
   },
   {
    "id": "wd-也",
@@ -2977,7 +3196,8 @@
    "pos": "adv.",
    "pinyin": "yě",
    "pt": "também",
-   "legacy": "v021"
+   "legacy": "v021",
+   "taught_on": null
   },
   {
    "id": "wd-说",
@@ -2987,7 +3207,8 @@
    "pos": "v.",
    "pinyin": "shuō",
    "pt": "falar, dizer",
-   "legacy": "v022"
+   "legacy": "v022",
+   "taught_on": null
   },
   {
    "id": "wd-葡萄牙语",
@@ -2997,7 +3218,8 @@
    "pos": "n.",
    "pinyin": "Pútáoyáyǔ",
    "pt": "português, língua portuguesa",
-   "legacy": "v023"
+   "legacy": "v023",
+   "taught_on": null
   },
   {
    "id": "wd-还是",
@@ -3007,7 +3229,8 @@
    "pos": "conj.",
    "pinyin": "háishi",
    "pt": "ou",
-   "legacy": "v024"
+   "legacy": "v024",
+   "taught_on": null
   },
   {
    "id": "wd-法语",
@@ -3017,7 +3240,8 @@
    "pos": "n.",
    "pinyin": "Fǎyǔ",
    "pt": "língua francesa",
-   "legacy": "v025"
+   "legacy": "v025",
+   "taught_on": null
   },
   {
    "id": "wd-都",
@@ -3027,7 +3251,8 @@
    "pos": "adv.",
    "pinyin": "dōu",
    "pt": "todo, todos",
-   "legacy": "v026"
+   "legacy": "v026",
+   "taught_on": null
   },
   {
    "id": "wd-只",
@@ -3037,7 +3262,8 @@
    "pos": "adv.",
    "pinyin": "zhǐ",
    "pt": "apenas, só",
-   "legacy": "v027"
+   "legacy": "v027",
+   "taught_on": null
   },
   {
    "id": "wd-汉语",
@@ -3047,7 +3273,8 @@
    "pos": "n.",
    "pinyin": "Hànyǔ",
    "pt": "chinês, língua chinesa",
-   "legacy": "v028"
+   "legacy": "v028",
+   "taught_on": null
   },
   {
    "id": "wd-他",
@@ -3057,7 +3284,8 @@
    "pos": "pron.",
    "pinyin": "tā",
    "pt": "ele",
-   "legacy": "v029"
+   "legacy": "v029",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-她",
@@ -3067,7 +3295,8 @@
    "pos": "pron.",
    "pinyin": "tā",
    "pt": "ela",
-   "legacy": "v030"
+   "legacy": "v030",
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-葡萄牙",
@@ -3077,7 +3306,8 @@
    "pos": "prop.",
    "pinyin": "Pútáoyá",
    "pt": "Portugal",
-   "legacy": "v031"
+   "legacy": "v031",
+   "taught_on": null
   },
   {
    "id": "wd-中国",
@@ -3087,7 +3317,8 @@
    "pos": "prop.",
    "pinyin": "Zhōngguó",
    "pt": "China",
-   "legacy": "v032"
+   "legacy": "v032",
+   "taught_on": null
   },
   {
    "id": "wd-巴西",
@@ -3097,7 +3328,8 @@
    "pos": "prop.",
    "pinyin": "Bāxī",
    "pt": "Brasil",
-   "legacy": "v033"
+   "legacy": "v033",
+   "taught_on": null
   },
   {
    "id": "wd-美国",
@@ -3107,7 +3339,8 @@
    "pos": "prop.",
    "pinyin": "Měiguó",
    "pt": "Estados Unidos da América",
-   "legacy": "v034"
+   "legacy": "v034",
+   "taught_on": null
   },
   {
    "id": "wd-中文/汉语",
@@ -3117,7 +3350,8 @@
    "pos": "n.",
    "pinyin": "Zhōngwén/Hànyǔ",
    "pt": "língua chinesa",
-   "legacy": "v035"
+   "legacy": "v035",
+   "taught_on": null
   },
   {
    "id": "wd-英文/英语",
@@ -3127,7 +3361,8 @@
    "pos": "n.",
    "pinyin": "Yīngwén/Yīngyǔ",
    "pt": "língua inglesa",
-   "legacy": "v036"
+   "legacy": "v036",
+   "taught_on": null
   },
   {
    "id": "wd-法文/法语",
@@ -3137,7 +3372,8 @@
    "pos": "n.",
    "pinyin": "Fǎwén/Fǎyǔ",
    "pt": "língua francesa",
-   "legacy": "v037"
+   "legacy": "v037",
+   "taught_on": null
   },
   {
    "id": "wd-葡文/葡语",
@@ -3147,7 +3383,8 @@
    "pos": "n.",
    "pinyin": "Pǔwén/Pǔyǔ",
    "pt": "língua portuguesa",
-   "legacy": "v038"
+   "legacy": "v038",
+   "taught_on": null
   },
   {
    "id": "wd-西文/西语",
@@ -3157,7 +3394,8 @@
    "pos": "n.",
    "pinyin": "Xīwén/Xīyǔ",
    "pt": "língua espanhola",
-   "legacy": "v039"
+   "legacy": "v039",
+   "taught_on": null
   },
   {
    "id": "wd-普通话",
@@ -3167,7 +3405,8 @@
    "pos": "n.",
    "pinyin": "Pǔtōnghuà",
    "pt": "mandarim (lit. 'linguagem comum')",
-   "legacy": "v040"
+   "legacy": "v040",
+   "taught_on": null
   },
   {
    "id": "wd-英国",
@@ -3177,7 +3416,8 @@
    "pos": "n.",
    "pinyin": "Yīngguó",
    "pt": "Reino Unido",
-   "legacy": "v041"
+   "legacy": "v041",
+   "taught_on": null
   },
   {
    "id": "wd-俄罗斯",
@@ -3187,7 +3427,8 @@
    "pos": "n.",
    "pinyin": "Éluósī",
    "pt": "Rússia",
-   "legacy": "v042"
+   "legacy": "v042",
+   "taught_on": null
   },
   {
    "id": "wd-法国",
@@ -3197,7 +3438,8 @@
    "pos": "n.",
    "pinyin": "Fǎguó",
    "pt": "França",
-   "legacy": "v043"
+   "legacy": "v043",
+   "taught_on": null
   },
   {
    "id": "wd-德国",
@@ -3207,7 +3449,8 @@
    "pos": "n.",
    "pinyin": "Déguó",
    "pt": "Alemanha",
-   "legacy": "v044"
+   "legacy": "v044",
+   "taught_on": null
   },
   {
    "id": "wd-日本",
@@ -3217,7 +3460,8 @@
    "pos": "n.",
    "pinyin": "Rìběn",
    "pt": "Japão",
-   "legacy": "v045"
+   "legacy": "v045",
+   "taught_on": null
   },
   {
    "id": "wd-韩国",
@@ -3227,7 +3471,8 @@
    "pos": "n.",
    "pinyin": "Hánguó",
    "pt": "Coreia do Sul",
-   "legacy": "v046"
+   "legacy": "v046",
+   "taught_on": null
   },
   {
    "id": "wd-华裔",
@@ -3237,7 +3482,8 @@
    "pos": "n.",
    "pinyin": "huáyì",
    "pt": "descendente de chinês",
-   "legacy": "v047"
+   "legacy": "v047",
+   "taught_on": null
   },
   {
    "id": "wd-认识",
@@ -3247,7 +3493,8 @@
    "pos": "v.",
    "pinyin": "rènshi",
    "pt": "conhecer",
-   "legacy": "v048"
+   "legacy": "v048",
+   "taught_on": null
   },
   {
    "id": "wd-很",
@@ -3257,7 +3504,8 @@
    "pos": "adv.",
    "pinyin": "hěn",
    "pt": "muito",
-   "legacy": "v049"
+   "legacy": "v049",
+   "taught_on": null
   },
   {
    "id": "wd-高兴",
@@ -3267,7 +3515,8 @@
    "pos": "adj.",
    "pinyin": "gāoxìng",
    "pt": "contente",
-   "legacy": "v050"
+   "legacy": "v050",
+   "taught_on": null
   },
   {
    "id": "wd-在",
@@ -3277,7 +3526,8 @@
    "pos": "prep. & v.",
    "pinyin": "zài",
    "pt": "em, estar, ficar",
-   "legacy": "v051"
+   "legacy": "v051",
+   "taught_on": null
   },
   {
    "id": "wd-进出口",
@@ -3287,7 +3537,8 @@
    "pos": null,
    "pinyin": "jìnchūkǒu",
    "pt": "importação e exportação",
-   "legacy": "v052"
+   "legacy": "v052",
+   "taught_on": null
   },
   {
    "id": "wd-进口",
@@ -3297,7 +3548,8 @@
    "pos": "v.",
    "pinyin": "jìnkǒu",
    "pt": "importar",
-   "legacy": "v053"
+   "legacy": "v053",
+   "taught_on": null
   },
   {
    "id": "wd-出口",
@@ -3307,7 +3559,8 @@
    "pos": "v.",
    "pinyin": "chūkǒu",
    "pt": "exportar",
-   "legacy": "v054"
+   "legacy": "v054",
+   "taught_on": null
   },
   {
    "id": "wd-公司",
@@ -3317,7 +3570,8 @@
    "pos": "n.",
    "pinyin": "gōngsī",
    "pt": "companhia",
-   "legacy": "v055"
+   "legacy": "v055",
+   "taught_on": null
   },
   {
    "id": "wd-工作",
@@ -3327,7 +3581,8 @@
    "pos": "v. & n.",
    "pinyin": "gōngzuò",
    "pt": "trabalhar, trabalho",
-   "legacy": "v056"
+   "legacy": "v056",
+   "taught_on": null
   },
   {
    "id": "wd-大学",
@@ -3337,7 +3592,8 @@
    "pos": "n.",
    "pinyin": "dàxué",
    "pt": "universidade",
-   "legacy": "v057"
+   "legacy": "v057",
+   "taught_on": null
   },
   {
    "id": "wd-系",
@@ -3347,7 +3603,8 @@
    "pos": "n.",
    "pinyin": "xì",
    "pt": "faculdade (da universidade)",
-   "legacy": "v058"
+   "legacy": "v058",
+   "taught_on": null
   },
   {
    "id": "wd-学习",
@@ -3357,7 +3614,8 @@
    "pos": "v.",
    "pinyin": "xuéxí",
    "pt": "estudar, aprender",
-   "legacy": "v059"
+   "legacy": "v059",
+   "taught_on": null
   },
   {
    "id": "wd-可以",
@@ -3367,7 +3625,8 @@
    "pos": "v.o.",
    "pinyin": "kěyǐ",
    "pt": "poder",
-   "legacy": "v060"
+   "legacy": "v060",
+   "taught_on": null
   },
   {
    "id": "wd-给",
@@ -3377,7 +3636,8 @@
    "pos": "prep.",
    "pinyin": "gěi",
    "pt": "a, para",
-   "legacy": "v061"
+   "legacy": "v061",
+   "taught_on": null
   },
   {
    "id": "wd-打电话",
@@ -3387,7 +3647,8 @@
    "pos": null,
    "pinyin": "dǎ diànhuà",
    "pt": "telefonar",
-   "legacy": "v062"
+   "legacy": "v062",
+   "taught_on": null
   },
   {
    "id": "wd-电话",
@@ -3397,7 +3658,8 @@
    "pos": "n.",
    "pinyin": "diànhuà",
    "pt": "telefone",
-   "legacy": "v063"
+   "legacy": "v063",
+   "taught_on": null
   },
   {
    "id": "wd-给……打电话",
@@ -3407,7 +3669,8 @@
    "pos": null,
    "pinyin": "gěi…dǎ diànhuà",
    "pt": "telefonar a alguém",
-   "legacy": "v064"
+   "legacy": "v064",
+   "taught_on": null
   },
   {
    "id": "wd-的",
@@ -3417,7 +3680,8 @@
    "pos": "part.",
    "pinyin": "de",
    "pt": null,
-   "legacy": "v065"
+   "legacy": "v065",
+   "taught_on": null
   },
   {
    "id": "wd-我的",
@@ -3427,7 +3691,8 @@
    "pos": null,
    "pinyin": "wǒ de",
    "pt": "meu(s), minha(s)",
-   "legacy": "v066"
+   "legacy": "v066",
+   "taught_on": null
   },
   {
    "id": "wd-我们的",
@@ -3437,7 +3702,8 @@
    "pos": null,
    "pinyin": "wǒmen de",
    "pt": "nosso(s), nossa(s)",
-   "legacy": "v067"
+   "legacy": "v067",
+   "taught_on": null
   },
   {
    "id": "wd-号码",
@@ -3447,7 +3713,8 @@
    "pos": "n.",
    "pinyin": "hàomǎ",
    "pt": "número",
-   "legacy": "v068"
+   "legacy": "v068",
+   "taught_on": null
   },
   {
    "id": "wd-〇(零)",
@@ -3457,7 +3724,8 @@
    "pos": "num.",
    "pinyin": "líng",
    "pt": "zero",
-   "legacy": "v069"
+   "legacy": "v069",
+   "taught_on": null
   },
   {
    "id": "wd-发",
@@ -3467,7 +3735,8 @@
    "pos": "v.",
    "pinyin": "fā",
    "pt": "enviar, mandar",
-   "legacy": "v070"
+   "legacy": "v070",
+   "taught_on": null
   },
   {
    "id": "wd-电子邮件",
@@ -3477,7 +3746,8 @@
    "pos": null,
    "pinyin": "diànzǐ yóujiàn",
    "pt": "correio electrónico, e-mail",
-   "legacy": "v071"
+   "legacy": "v071",
+   "taught_on": null
   },
   {
    "id": "wd-电子",
@@ -3487,7 +3757,8 @@
    "pos": "n.",
    "pinyin": "diànzǐ",
    "pt": "electrónica",
-   "legacy": "v072"
+   "legacy": "v072",
+   "taught_on": null
   },
   {
    "id": "wd-邮件",
@@ -3497,7 +3768,8 @@
    "pos": "n.",
    "pinyin": "yóujiàn",
    "pt": "correio",
-   "legacy": "v073"
+   "legacy": "v073",
+   "taught_on": null
   },
   {
    "id": "wd-这",
@@ -3507,7 +3779,8 @@
    "pos": "pron.",
    "pinyin": "zhè",
    "pt": "este(a), isto",
-   "legacy": "v074"
+   "legacy": "v074",
+   "taught_on": null
   },
   {
    "id": "wd-女",
@@ -3517,7 +3790,8 @@
    "pos": "adj.",
    "pinyin": "nǚ",
    "pt": "feminino",
-   "legacy": "v075"
+   "legacy": "v075",
+   "taught_on": null
   },
   {
    "id": "wd-朋友",
@@ -3527,7 +3801,8 @@
    "pos": "n.",
    "pinyin": "péngyou",
    "pt": "namorado(a); amigo(a)",
-   "legacy": "v076"
+   "legacy": "v076",
+   "taught_on": null
   },
   {
    "id": "wd-请",
@@ -3537,7 +3812,8 @@
    "pos": "v.",
    "pinyin": "qǐng",
    "pt": "fazer favor",
-   "legacy": "v077"
+   "legacy": "v077",
+   "taught_on": null
   },
   {
    "id": "wd-进",
@@ -3547,7 +3823,8 @@
    "pos": "v.",
    "pinyin": "jìn",
    "pt": "entrar",
-   "legacy": "v078"
+   "legacy": "v078",
+   "taught_on": null
   },
   {
    "id": "wd-坐",
@@ -3557,7 +3834,8 @@
    "pos": "v.",
    "pinyin": "zuò",
    "pt": "sentar-se",
-   "legacy": "v079"
+   "legacy": "v079",
+   "taught_on": null
   },
   {
    "id": "wd-谢谢",
@@ -3567,7 +3845,8 @@
    "pos": "v.",
    "pinyin": "xièxie",
    "pt": "agradecer",
-   "legacy": "v080"
+   "legacy": "v080",
+   "taught_on": null
   },
   {
    "id": "wd-喝",
@@ -3577,7 +3856,8 @@
    "pos": "v.",
    "pinyin": "hē",
    "pt": "beber",
-   "legacy": "v081"
+   "legacy": "v081",
+   "taught_on": null
   },
   {
    "id": "wd-茶",
@@ -3587,7 +3867,8 @@
    "pos": "n.",
    "pinyin": "chá",
    "pt": "chá",
-   "legacy": "v082"
+   "legacy": "v082",
+   "taught_on": null
   },
   {
    "id": "wd-哪儿(哪里)",
@@ -3597,7 +3878,8 @@
    "pos": "interr.",
    "pinyin": "nǎr (nǎli)",
    "pt": "onde",
-   "legacy": "v083"
+   "legacy": "v083",
+   "taught_on": null
   },
   {
    "id": "wd-学院",
@@ -3607,7 +3889,8 @@
    "pos": "n.",
    "pinyin": "xuéyuàn",
    "pt": "instituto",
-   "legacy": "v084"
+   "legacy": "v084",
+   "taught_on": null
   },
   {
    "id": "wd-怎么样",
@@ -3617,7 +3900,8 @@
    "pos": "interr.",
    "pinyin": "zěnmeyàng",
    "pt": "como",
-   "legacy": "v085"
+   "legacy": "v085",
+   "taught_on": null
   },
   {
    "id": "wd-大",
@@ -3627,7 +3911,8 @@
    "pos": "adj.",
    "pinyin": "dà",
    "pt": "grande",
-   "legacy": "v086"
+   "legacy": "v086",
+   "taught_on": null
   },
   {
    "id": "wd-漂亮",
@@ -3637,7 +3922,8 @@
    "pos": "adj.",
    "pinyin": "piàoliang",
    "pt": "bonito, lindo",
-   "legacy": "v087"
+   "legacy": "v087",
+   "taught_on": null
   },
   {
    "id": "wd-喜欢",
@@ -3647,7 +3933,8 @@
    "pos": "v.",
    "pinyin": "xǐhuan",
    "pt": "gostar",
-   "legacy": "v088"
+   "legacy": "v088",
+   "taught_on": null
   },
   {
    "id": "wd-那",
@@ -3657,7 +3944,8 @@
    "pos": "pron.",
    "pinyin": "nà",
    "pt": "aquele, aquilo",
-   "legacy": "v089"
+   "legacy": "v089",
+   "taught_on": null
   },
   {
    "id": "wd-男",
@@ -3667,7 +3955,8 @@
    "pos": "adj.",
    "pinyin": "nán",
    "pt": "masculino",
-   "legacy": "v090"
+   "legacy": "v090",
+   "taught_on": null
   },
   {
    "id": "wd-小",
@@ -3677,7 +3966,8 @@
    "pos": "adj.",
    "pinyin": "xiǎo",
    "pt": "pequeno",
-   "legacy": "v091"
+   "legacy": "v091",
+   "taught_on": null
   },
   {
    "id": "wd-里斯本大学",
@@ -3687,7 +3977,8 @@
    "pos": "prop.",
    "pinyin": "Lǐsīběn Dàxué",
    "pt": "Universidade de Lisboa",
-   "legacy": "v092"
+   "legacy": "v092",
+   "taught_on": null
   },
   {
    "id": "wd-文学系",
@@ -3697,7 +3988,8 @@
    "pos": "prop.",
    "pinyin": "Wénxuéxì",
    "pt": "Faculdade de Letras",
-   "legacy": "v093"
+   "legacy": "v093",
+   "taught_on": null
   },
   {
    "id": "wd-加拿大",
@@ -3707,7 +3999,8 @@
    "pos": "prop.",
    "pinyin": "Jiānádà",
    "pt": "Canadá",
-   "legacy": "v094"
+   "legacy": "v094",
+   "taught_on": null
   },
   {
    "id": "wd-东方学院",
@@ -3717,7 +4010,8 @@
    "pos": "prop.",
    "pinyin": "Dōngfāng Xuéyuàn",
    "pt": "Instituto Oriental",
-   "legacy": "v095"
+   "legacy": "v095",
+   "taught_on": null
   },
   {
    "id": "wd-中学",
@@ -3727,7 +4021,8 @@
    "pos": "n.",
    "pinyin": "zhōngxué",
    "pt": "escola secundária",
-   "legacy": "v096"
+   "legacy": "v096",
+   "taught_on": null
   },
   {
    "id": "wd-小学",
@@ -3737,7 +4032,8 @@
    "pos": "n.",
    "pinyin": "xiǎoxué",
    "pt": "escola primária",
-   "legacy": "v097"
+   "legacy": "v097",
+   "taught_on": null
   },
   {
    "id": "wd-电脑",
@@ -3747,7 +4043,8 @@
    "pos": "n.",
    "pinyin": "diànnǎo",
    "pt": "computador",
-   "legacy": "v098"
+   "legacy": "v098",
+   "taught_on": null
   },
   {
    "id": "wd-饮料",
@@ -3757,7 +4054,8 @@
    "pos": "n.",
    "pinyin": "yǐnliào",
    "pt": "bebida",
-   "legacy": "v099"
+   "legacy": "v099",
+   "taught_on": null
   },
   {
    "id": "wd-水",
@@ -3767,7 +4065,8 @@
    "pos": "n.",
    "pinyin": "shuǐ",
    "pt": "água",
-   "legacy": "v100"
+   "legacy": "v100",
+   "taught_on": null
   },
   {
    "id": "wd-橙汁",
@@ -3777,7 +4076,8 @@
    "pos": "n.",
    "pinyin": "chéngzhī",
    "pt": "sumo de laranja",
-   "legacy": "v101"
+   "legacy": "v101",
+   "taught_on": null
   },
   {
    "id": "wd-可口可乐",
@@ -3787,7 +4087,8 @@
    "pos": "n.",
    "pinyin": "kěkǒukělè",
    "pt": "coca-cola",
-   "legacy": "v102"
+   "legacy": "v102",
+   "taught_on": null
   },
   {
    "id": "wd-咖啡",
@@ -3797,7 +4098,8 @@
    "pos": "n.",
    "pinyin": "kāfēi",
    "pt": "café",
-   "legacy": "v103"
+   "legacy": "v103",
+   "taught_on": null
   },
   {
    "id": "wd-亚洲",
@@ -3807,7 +4109,8 @@
    "pos": "n.",
    "pinyin": "Yàzhōu",
    "pt": "Ásia",
-   "legacy": "v104"
+   "legacy": "v104",
+   "taught_on": null
   },
   {
    "id": "wd-欧洲",
@@ -3817,7 +4120,8 @@
    "pos": "n.",
    "pinyin": "Ōuzhōu",
    "pt": "Europa",
-   "legacy": "v105"
+   "legacy": "v105",
+   "taught_on": null
   },
   {
    "id": "wd-美洲",
@@ -3827,7 +4131,8 @@
    "pos": "n.",
    "pinyin": "Měizhōu",
    "pt": "América",
-   "legacy": "v106"
+   "legacy": "v106",
+   "taught_on": null
   },
   {
    "id": "wd-大洋洲",
@@ -3837,7 +4142,8 @@
    "pos": "n.",
    "pinyin": "Dàyángzhōu",
    "pt": "Oceânia",
-   "legacy": "v107"
+   "legacy": "v107",
+   "taught_on": null
   },
   {
    "id": "wd-非洲",
@@ -3847,7 +4153,8 @@
    "pos": "n.",
    "pinyin": "Fēizhōu",
    "pt": "África",
-   "legacy": "v108"
+   "legacy": "v108",
+   "taught_on": null
   },
   {
    "id": "wd-西方",
@@ -3857,7 +4164,8 @@
    "pos": "p.l.",
    "pinyin": "Xīfāng",
    "pt": "Ocidente",
-   "legacy": "v109"
+   "legacy": "v109",
+   "taught_on": null
   },
   {
    "id": "wd-东方",
@@ -3867,7 +4175,8 @@
    "pos": "p.l.",
    "pinyin": "Dōngfāng",
    "pt": "Oriente",
-   "legacy": "v110"
+   "legacy": "v110",
+   "taught_on": null
   }
  ],
  "audio": [

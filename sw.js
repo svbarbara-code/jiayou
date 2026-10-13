@@ -1,6 +1,6 @@
 /* 加油 Jiāyóu — offline-first service worker. jy-design/hub bump CACHE on release.
    Cache-first for same-origin GETs so the app opens with no network. */
-const CACHE = 'jiayou-v1';
+const CACHE = 'jiayou-v2';
 const CORE = ['.', 'index.html', 'manifest.webmanifest', 'favicon.svg',
               'favicon-32.png', 'apple-touch-icon.png', 'icon-192.png', 'icon-512.png'];
 
@@ -15,6 +15,8 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
+  // Audio is large and the Audio tab manages its own offline cache — don't double-cache it here.
+  if (new URL(req.url).pathname.includes('/audio/')) return;
   e.respondWith(
     caches.match(req).then(hit => hit || fetch(req).then(res => {
       if (res.ok) { const copy = res.clone(); caches.open(CACHE).then(c => c.put(req, copy)); }

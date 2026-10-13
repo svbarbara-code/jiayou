@@ -8,7 +8,8 @@
  "teacher": "朱思文 · Siwen Zhu",
  "session_minutes": 10,
  "term_start": "2026-08-10",
- "term_end": null,
+ "term_end": "2026-12-14",
+ "term_end_approx": true,
  "horizon_weeks": 8,
  "suspended": [
   {
@@ -104,6 +105,15 @@
     {
      "id": "hanzi0",
      "title": "汉字本 · Lição 0 — 汉字 Resumo"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "units": [
+    {
+     "id": "licao1",
+     "title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?"
     }
    ]
   }
