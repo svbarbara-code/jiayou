@@ -1,0 +1,216 @@
+{
+ "version": 1,
+ "generated": "2026-10-13",
+ "tz": "America/Sao_Paulo",
+ "class_day": "mon",
+ "class_time": "19:00",
+ "turma": "ON_B1_2N06 · 2º semestre 2026",
+ "teacher": "朱思文 · Siwen Zhu",
+ "session_minutes": 10,
+ "term_start": "2026-08-10",
+ "term_end": null,
+ "horizon_weeks": 8,
+ "suspended": [
+  {
+   "date": "2026-09-07",
+   "reason": "Independência do Brasil",
+   "note": "The 31 Aug homework was therefore due 14 Sep."
+  },
+  {
+   "date": "2026-10-12",
+   "reason": "Nossa Senhora Aparecida",
+   "note": "Work set on aula 8 (5 Oct) is therefore due 19 Oct."
+  }
+ ],
+ "holidays": [
+  {
+   "date": "2026-09-07",
+   "name": "Independência do Brasil",
+   "scope": "national"
+  },
+  {
+   "date": "2026-10-12",
+   "name": "Nossa Senhora Aparecida",
+   "scope": "national"
+  },
+  {
+   "date": "2026-11-02",
+   "name": "Finados",
+   "scope": "national"
+  },
+  {
+   "date": "2026-11-15",
+   "name": "Proclamação da República",
+   "scope": "national"
+  },
+  {
+   "date": "2026-11-20",
+   "name": "Consciência Negra",
+   "scope": "national"
+  },
+  {
+   "date": "2026-12-25",
+   "name": "Natal",
+   "scope": "national"
+  },
+  {
+   "date": "2027-01-01",
+   "name": "Confraternização Universal",
+   "scope": "national"
+  }
+ ],
+ "taught": [
+  {
+   "date": "2026-08-10",
+   "units": [
+    {
+     "id": "front",
+     "title": "Front matter"
+    },
+    {
+     "id": "0.1",
+     "title": "Lição 0 · 0.1 — Introdução à fonética"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "units": [
+    {
+     "id": "0.2",
+     "title": "Lição 0 · 0.2"
+    },
+    {
+     "id": "0.3",
+     "title": "Lição 0 · 0.3"
+    },
+    {
+     "id": "0.4",
+     "title": "Lição 0 · 0.4"
+    },
+    {
+     "id": "0.5",
+     "title": "Lição 0 · 0.5"
+    },
+    {
+     "id": "0.6",
+     "title": "Lição 0 · 0.6"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "units": [
+    {
+     "id": "hanzi0",
+     "title": "汉字本 · Lição 0 — 汉字 Resumo"
+    }
+   ]
+  }
+ ],
+ "homework_set": [
+  {
+   "date": "2026-08-10",
+   "items": [
+    {
+     "id": "w01",
+     "class_no": 1,
+     "title": "Baixar o texto da Lição 0 e instalar o teclado pinyin",
+     "kind": "prep",
+     "due": "2026-08-17"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-17",
+   "items": [
+    {
+     "id": "w02",
+     "class_no": 2,
+     "title": "Revisar a pronúncia das vogais (finais) e enviar a gravação",
+     "kind": "gravação",
+     "due": "2026-08-24"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "items": [
+    {
+     "id": "w03",
+     "class_no": 3,
+     "title": "Revisar as iniciais e enviar a gravação",
+     "kind": "gravação",
+     "due": "2026-08-31"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "items": [
+    {
+     "id": "w04",
+     "class_no": 4,
+     "title": "Gravar as 16 palavras de prática de tons",
+     "kind": "gravação",
+     "due": "2026-09-14"
+    },
+    {
+     "id": "w05",
+     "class_no": 4,
+     "title": "Imprimir a folha de quadrículas (空白字帖) para praticar caracteres",
+     "kind": "prep",
+     "due": "2026-09-14"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "items": [
+    {
+     "id": "w06",
+     "class_no": 5,
+     "title": "Letra de 月亮代表我的心 (zh + PT-BR)",
+     "kind": "material",
+     "due": "2026-09-21"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "items": [
+    {
+     "id": "w07",
+     "class_no": 6,
+     "title": "Praticar os traços básicos — páginas 1 e 2 do 汉字笔画练习",
+     "kind": "escrita",
+     "due": "2026-09-28"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "items": [
+    {
+     "id": "w08",
+     "class_no": 7,
+     "title": "Pratique os caracteres chineses nestas duas páginas",
+     "kind": "escrita",
+     "due": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "items": [
+    {
+     "id": "w09",
+     "class_no": 8,
+     "title": "Praticar a escrita dos caracteres — 汉字书写 (Lição 1 你好，我是)",
+     "kind": "escrita",
+     "due": "2026-10-19"
+    }
+   ]
+  }
+ ]
+}

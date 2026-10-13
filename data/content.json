@@ -1,0 +1,4001 @@
+{
+ "meta": {
+  "app": "加油 Jiāyóu",
+  "tab": "content",
+  "version": 1,
+  "generated": "2026-10-13",
+  "course": "Chinês Contemporâneo / 当代中文 (Dāngdài Zhōngwén) — Básico 1",
+  "turma": "ON_B1_2N06 · 2º semestre 2026",
+  "teacher": "朱思文 · Siwen Zhu",
+  "class_day": "mon",
+  "class_time": "19:00",
+  "sources": [
+   "Chinês DB (Units, Chars, Vocab, Audio)",
+   "chines_curriculum.json"
+  ],
+  "id_scheme": {
+   "unit": "Sheet unit id verbatim: front 0.1–0.6 hanzi0 licao1 licao2",
+   "char": "ch-<hanzi>",
+   "word": "wd-<zh> (lesson + reference)",
+   "grammar": "gr-<unit>-<n>",
+   "sentence": "ks-<unit>-<n>",
+   "sound": "sn-<unit>-<sound>",
+   "legacy": "every char/word keeps `legacy` = the Chinês DB row id (h###/v###)"
+  },
+  "taught_rule": "unit.taught_on is a date or null. Taught ⇔ taught_on && taught_on <= today (device date). null = upcoming. Never quiz/surface a unit that is not taught. char/word taught state = its unit's (also_in: any unit taught).",
+  "totals": {
+   "chars_write": 73,
+   "chars_read": 41,
+   "words_lesson": 82,
+   "words_reference": 28
+  },
+  "legend": {
+   "bound": "ⓑ morfema de ligação — não se usa sozinho",
+   "starred": "marcado com * no original (a legenda do asterisco não aparece no livro)"
+  }
+ },
+ "units": [
+  {
+   "id": "front",
+   "label": "Front matter",
+   "title": "Front matter",
+   "kind": "reference",
+   "taught_on": "2026-08-10",
+   "pages": {
+    "aluno": null,
+    "exercicios": null,
+    "caracteres": null
+   },
+   "audio": {
+    "aluno": null,
+    "exercicios": null
+   },
+   "contents": [
+    "Expressões de saudação e de cortesia (áudio 01)",
+    "Lista de personagens (15 personagens recorrentes nos textos)",
+    "Termos gramaticais chineses (chave de abreviaturas)",
+    "Expressões usuais na sala de aula",
+    "Apêndice I — Tabela comparativa Zhuyin / Pinyin / AFI",
+    "Apêndice II — Quadro de sílabas do mandarim"
+   ],
+   "char_ids": [],
+   "word_ids": [],
+   "ref_word_ids": [],
+   "char_ids_also": [],
+   "audio_ids": [
+    "a01"
+   ]
+  },
+  {
+   "id": "0.1",
+   "label": "Lição 0 · 0.1",
+   "title": "Lição 0 · 0.1 — Introdução à fonética",
+   "kind": "fonetica",
+   "taught_on": "2026-08-10",
+   "pages": {
+    "aluno": "1–2",
+    "exercicios": null,
+    "caracteres": null
+   },
+   "audio": {
+    "aluno": "3:10",
+    "exercicios": "4:35"
+   },
+   "contents": [
+    "Estrutura da sílaba: shēngmǔ (inicial) + yùnmǔ (final) + shēngdiào (tom)",
+    "As 21 iniciais e a tabela completa de finais",
+    "Os 4 tons + o tom neutro"
+   ],
+   "char_ids": [],
+   "word_ids": [],
+   "ref_word_ids": [],
+   "char_ids_also": [],
+   "audio_ids": [
+    "a02",
+    "a11"
+   ]
+  },
+  {
+   "id": "0.2",
+   "label": "Lição 0 · 0.2",
+   "title": "Lição 0 · 0.2",
+   "kind": "fonetica",
+   "taught_on": "2026-08-31",
+   "pages": {
+    "aluno": "4",
+    "exercicios": null,
+    "caracteres": null
+   },
+   "audio": {
+    "aluno": "2:35",
+    "exercicios": "12:24"
+   },
+   "notes": [
+    {
+     "id": "nt-0.2-1",
+     "text": "yi / wu / yu"
+    },
+    {
+     "id": "nt-0.2-2",
+     "text": "posição da boca em o e e"
+    },
+    {
+     "id": "nt-0.2-3",
+     "text": "ü"
+    }
+   ],
+   "sounds": {
+    "initials": [
+     {
+      "id": "sn-0.2-b",
+      "s": "b"
+     },
+     {
+      "id": "sn-0.2-p",
+      "s": "p"
+     },
+     {
+      "id": "sn-0.2-m",
+      "s": "m"
+     },
+     {
+      "id": "sn-0.2-f",
+      "s": "f"
+     },
+     {
+      "id": "sn-0.2-d",
+      "s": "d"
+     },
+     {
+      "id": "sn-0.2-t",
+      "s": "t"
+     },
+     {
+      "id": "sn-0.2-n",
+      "s": "n"
+     },
+     {
+      "id": "sn-0.2-l",
+      "s": "l"
+     }
+    ],
+    "finals": [
+     {
+      "id": "sn-0.2-a",
+      "s": "a"
+     },
+     {
+      "id": "sn-0.2-o",
+      "s": "o"
+     },
+     {
+      "id": "sn-0.2-e",
+      "s": "e"
+     },
+     {
+      "id": "sn-0.2-i",
+      "s": "i"
+     },
+     {
+      "id": "sn-0.2-u",
+      "s": "u"
+     },
+     {
+      "id": "sn-0.2-ü",
+      "s": "ü"
+     }
+    ]
+   },
+   "char_ids": [],
+   "word_ids": [],
+   "ref_word_ids": [],
+   "char_ids_also": [],
+   "audio_ids": [
+    "a03",
+    "a12"
+   ]
+  },
+  {
+   "id": "0.3",
+   "label": "Lição 0 · 0.3",
+   "title": "Lição 0 · 0.3",
+   "kind": "fonetica",
+   "taught_on": "2026-08-31",
+   "pages": {
+    "aluno": "5–6",
+    "exercicios": null,
+    "caracteres": null
+   },
+   "audio": {
+    "aluno": "4:19",
+    "exercicios": "12:53"
+   },
+   "notes": [
+    {
+     "id": "nt-0.3-1",
+     "text": "ditongos ai ei ao ou"
+    },
+    {
+     "id": "nt-0.3-2",
+     "text": "[n] vs [ŋ]"
+    },
+    {
+     "id": "nt-0.3-3",
+     "text": "sinal separador de sílaba '"
+    },
+    {
+     "id": "nt-0.3-4",
+     "text": "tom neutro (qīngshēng)"
+    }
+   ],
+   "sounds": {
+    "initials": [
+     {
+      "id": "sn-0.3-g",
+      "s": "g"
+     },
+     {
+      "id": "sn-0.3-k",
+      "s": "k"
+     },
+     {
+      "id": "sn-0.3-h",
+      "s": "h"
+     }
+    ],
+    "finals": [
+     {
+      "id": "sn-0.3-ai",
+      "s": "ai"
+     },
+     {
+      "id": "sn-0.3-ei",
+      "s": "ei"
+     },
+     {
+      "id": "sn-0.3-ao",
+      "s": "ao"
+     },
+     {
+      "id": "sn-0.3-ou",
+      "s": "ou"
+     },
+     {
+      "id": "sn-0.3-an",
+      "s": "an"
+     },
+     {
+      "id": "sn-0.3-en",
+      "s": "en"
+     },
+     {
+      "id": "sn-0.3-ang",
+      "s": "ang"
+     },
+     {
+      "id": "sn-0.3-eng",
+      "s": "eng"
+     },
+     {
+      "id": "sn-0.3-ong",
+      "s": "ong"
+     }
+    ]
+   },
+   "char_ids": [],
+   "word_ids": [],
+   "ref_word_ids": [],
+   "char_ids_also": [],
+   "audio_ids": [
+    "a04",
+    "a13"
+   ]
+  },
+  {
+   "id": "0.4",
+   "label": "Lição 0 · 0.4",
+   "title": "Lição 0 · 0.4",
+   "kind": "fonetica",
+   "taught_on": "2026-08-31",
+   "pages": {
+    "aluno": "6–7",
+    "exercicios": null,
+    "caracteres": null
+   },
+   "audio": {
+    "aluno": "4:10",
+    "exercicios": "13:48"
+   },
+   "notes": [
+    {
+     "id": "nt-0.4-1",
+     "text": "iu"
+    },
+    {
+     "id": "nt-0.4-2",
+     "text": "omissão do trema em ü depois de j q x"
+    },
+    {
+     "id": "nt-0.4-3",
+     "text": "articulação de j q x"
+    },
+    {
+     "id": "nt-0.4-4",
+     "text": "sandhi do 3.º tom"
+    }
+   ],
+   "sounds": {
+    "initials": [
+     {
+      "id": "sn-0.4-j",
+      "s": "j"
+     },
+     {
+      "id": "sn-0.4-q",
+      "s": "q"
+     },
+     {
+      "id": "sn-0.4-x",
+      "s": "x"
+     }
+    ],
+    "finals": [
+     {
+      "id": "sn-0.4-ia",
+      "s": "ia"
+     },
+     {
+      "id": "sn-0.4-ie",
+      "s": "ie"
+     },
+     {
+      "id": "sn-0.4-iao",
+      "s": "iao"
+     },
+     {
+      "id": "sn-0.4-iou",
+      "s": "iou"
+     },
+     {
+      "id": "sn-0.4-ian",
+      "s": "ian"
+     },
+     {
+      "id": "sn-0.4-in",
+      "s": "in"
+     },
+     {
+      "id": "sn-0.4-iang",
+      "s": "iang"
+     },
+     {
+      "id": "sn-0.4-ing",
+      "s": "ing"
+     },
+     {
+      "id": "sn-0.4-iong",
+      "s": "iong"
+     },
+     {
+      "id": "sn-0.4-ü",
+      "s": "ü"
+     },
+     {
+      "id": "sn-0.4-üe",
+      "s": "üe"
+     },
+     {
+      "id": "sn-0.4-üan",
+      "s": "üan"
+     },
+     {
+      "id": "sn-0.4-ün",
+      "s": "ün"
+     }
+    ],
+    "standalone": [
+     {
+      "id": "sn-0.4-ya",
+      "s": "ya"
+     },
+     {
+      "id": "sn-0.4-ye",
+      "s": "ye"
+     },
+     {
+      "id": "sn-0.4-yao",
+      "s": "yao"
+     },
+     {
+      "id": "sn-0.4-you",
+      "s": "you"
+     },
+     {
+      "id": "sn-0.4-yan",
+      "s": "yan"
+     },
+     {
+      "id": "sn-0.4-yin",
+      "s": "yin"
+     },
+     {
+      "id": "sn-0.4-yang",
+      "s": "yang"
+     },
+     {
+      "id": "sn-0.4-ying",
+      "s": "ying"
+     },
+     {
+      "id": "sn-0.4-yong",
+      "s": "yong"
+     },
+     {
+      "id": "sn-0.4-yu",
+      "s": "yu"
+     },
+     {
+      "id": "sn-0.4-yue",
+      "s": "yue"
+     },
+     {
+      "id": "sn-0.4-yuan",
+      "s": "yuan"
+     },
+     {
+      "id": "sn-0.4-yun",
+      "s": "yun"
+     }
+    ]
+   },
+   "char_ids": [],
+   "word_ids": [],
+   "ref_word_ids": [],
+   "char_ids_also": [],
+   "audio_ids": [
+    "a05",
+    "a14"
+   ]
+  },
+  {
+   "id": "0.5",
+   "label": "Lição 0 · 0.5",
+   "title": "Lição 0 · 0.5",
+   "kind": "fonetica",
+   "taught_on": "2026-08-31",
+   "pages": {
+    "aluno": "8",
+    "exercicios": null,
+    "caracteres": null
+   },
+   "audio": {
+    "aluno": "1:33",
+    "exercicios": "13:20"
+   },
+   "notes": [
+    {
+     "id": "nt-0.5-1",
+     "text": "ui / un"
+    },
+    {
+     "id": "nt-0.5-2",
+     "text": "zi ci si"
+    }
+   ],
+   "sounds": {
+    "initials": [
+     {
+      "id": "sn-0.5-z",
+      "s": "z"
+     },
+     {
+      "id": "sn-0.5-c",
+      "s": "c"
+     },
+     {
+      "id": "sn-0.5-s",
+      "s": "s"
+     }
+    ],
+    "finals": [
+     {
+      "id": "sn-0.5-ua",
+      "s": "ua"
+     },
+     {
+      "id": "sn-0.5-uo",
+      "s": "uo"
+     },
+     {
+      "id": "sn-0.5-uai",
+      "s": "uai"
+     },
+     {
+      "id": "sn-0.5-uei",
+      "s": "uei"
+     },
+     {
+      "id": "sn-0.5-uan",
+      "s": "uan"
+     },
+     {
+      "id": "sn-0.5-uen",
+      "s": "uen"
+     },
+     {
+      "id": "sn-0.5-uang",
+      "s": "uang"
+     },
+     {
+      "id": "sn-0.5-ueng",
+      "s": "ueng"
+     }
+    ],
+    "standalone": [
+     {
+      "id": "sn-0.5-wa",
+      "s": "wa"
+     },
+     {
+      "id": "sn-0.5-wo",
+      "s": "wo"
+     },
+     {
+      "id": "sn-0.5-wai",
+      "s": "wai"
+     },
+     {
+      "id": "sn-0.5-wei",
+      "s": "wei"
+     },
+     {
+      "id": "sn-0.5-wan",
+      "s": "wan"
+     },
+     {
+      "id": "sn-0.5-wen",
+      "s": "wen"
+     },
+     {
+      "id": "sn-0.5-wang",
+      "s": "wang"
+     },
+     {
+      "id": "sn-0.5-weng",
+      "s": "weng"
+     },
+     {
+      "id": "sn-0.5-wu",
+      "s": "wu"
+     }
+    ]
+   },
+   "char_ids": [],
+   "word_ids": [],
+   "ref_word_ids": [],
+   "char_ids_also": [],
+   "audio_ids": [
+    "a06",
+    "a15"
+   ]
+  },
+  {
+   "id": "0.6",
+   "label": "Lição 0 · 0.6",
+   "title": "Lição 0 · 0.6",
+   "kind": "fonetica",
+   "taught_on": "2026-08-31",
+   "pages": {
+    "aluno": "8–9",
+    "exercicios": null,
+    "caracteres": null
+   },
+   "audio": {
+    "aluno": "0:33",
+    "exercicios": "10:00"
+   },
+   "notes": [
+    {
+     "id": "nt-0.6-1",
+     "text": "zhi chi shi ri"
+    },
+    {
+     "id": "nt-0.6-2",
+     "text": "zh/ch/sh vs z/c/s"
+    },
+    {
+     "id": "nt-0.6-3",
+     "text": "érhuà yùn 儿化韵 — 这儿 zhèr, 那儿 nàr, 哪儿 nǎr"
+    }
+   ],
+   "cultural": "Notas culturais: história do Hànyǔ Pīnyīn (1955–57, ratificado 11 Fev 1958, norma ISO em 1982); famílias e dialectos do chinês; pǔtōnghuà / guóyǔ / huáyǔ",
+   "sounds": {
+    "initials": [
+     {
+      "id": "sn-0.6-zh",
+      "s": "zh"
+     },
+     {
+      "id": "sn-0.6-ch",
+      "s": "ch"
+     },
+     {
+      "id": "sn-0.6-sh",
+      "s": "sh"
+     },
+     {
+      "id": "sn-0.6-r",
+      "s": "r"
+     }
+    ],
+    "finals": [
+     {
+      "id": "sn-0.6--i (retroflexo)",
+      "s": "-i (retroflexo)"
+     },
+     {
+      "id": "sn-0.6-er",
+      "s": "er"
+     }
+    ]
+   },
+   "hanzi_source": "Livro de Caracteres, p.22 (汉字 Resumo)",
+   "char_ids": [],
+   "word_ids": [],
+   "ref_word_ids": [],
+   "char_ids_also": [],
+   "audio_ids": [
+    "a07",
+    "a16"
+   ]
+  },
+  {
+   "id": "hanzi0",
+   "label": "汉字 · Lição 0 resumo",
+   "title": "汉字本 · Lição 0 — 汉字 Resumo",
+   "kind": "hanzi",
+   "taught_on": "2026-09-21",
+   "pages": {
+    "aluno": null,
+    "exercicios": null,
+    "caracteres": "PDF 25 (livro p.22)"
+   },
+   "audio": {
+    "aluno": null,
+    "exercicios": null
+   },
+   "char_ids": [
+    "ch-一",
+    "ch-二",
+    "ch-三",
+    "ch-四",
+    "ch-五",
+    "ch-六",
+    "ch-七",
+    "ch-八",
+    "ch-九",
+    "ch-十",
+    "ch-上",
+    "ch-下",
+    "ch-大",
+    "ch-中",
+    "ch-小",
+    "ch-人",
+    "ch-口",
+    "ch-国",
+    "ch-学",
+    "ch-习",
+    "ch-汉",
+    "ch-语",
+    "ch-文",
+    "ch-写",
+    "ch-字",
+    "ch-女",
+    "ch-子",
+    "ch-好",
+    "ch-水",
+    "ch-门",
+    "ch-王",
+    "ch-日",
+    "ch-月",
+    "ch-木",
+    "ch-马",
+    "ch-田",
+    "ch-天",
+    "ch-明",
+    "ch-林",
+    "ch-妈",
+    "ch-河"
+   ],
+   "word_ids": [],
+   "ref_word_ids": [],
+   "char_ids_also": [],
+   "audio_ids": []
+  },
+  {
+   "id": "licao1",
+   "label": "Lição 1",
+   "title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?",
+   "kind": "licao",
+   "taught_on": null,
+   "pages": {
+    "aluno": "11–19",
+    "exercicios": "PDF 17–20",
+    "caracteres": "PDF 28–33 (livro pp.25–30)"
+   },
+   "audio": {
+    "aluno": "5:17",
+    "exercicios": "7:43"
+   },
+   "pinyin": "Dì-yī Kè · Nín Guìxìng",
+   "texts": [
+    {
+     "n": 1,
+     "setting": "Bai Xiaohong (estudante chinesa) e Wang Ying (canadiana de ascendência chinesa) — primeiro encontro"
+    },
+    {
+     "n": 2,
+     "setting": "Primeira aula de chinês do professor Zhang Lin"
+    }
+   ],
+   "key_sentences": [
+    {
+     "id": "ks-licao1-1",
+     "zh": "您是葡萄牙人吗？",
+     "py": "Nín shì Pútáoyárén ma?",
+     "pt": "Você é português?"
+    },
+    {
+     "id": "ks-licao1-2",
+     "zh": "您是不是葡萄牙人？",
+     "py": "Nín shì bu shì Pútáoyárén?",
+     "pt": "Você é português ou não (é)?"
+    },
+    {
+     "id": "ks-licao1-3",
+     "zh": "我不是林老师。",
+     "py": "Wǒ bú shì Lín lǎoshī.",
+     "pt": "Não sou o professor Lin."
+    },
+    {
+     "id": "ks-licao1-4",
+     "zh": "您说葡萄牙语还是说法语？",
+     "py": "Nín shuō Pútáoyáyǔ háishi shuō Fǎyǔ?",
+     "pt": "Você fala português ou francês?"
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gr-licao1-1",
+     "text": "Frase simples 1: sujeito + verbo (+ objecto), forma afirmativa e negativa com 不"
+    },
+    {
+     "id": "gr-licao1-2",
+     "text": "Advérbio + verbo — o advérbio precede sempre o verbo (不, 也, 都, 只)"
+    },
+    {
+     "id": "gr-licao1-3",
+     "text": "Frases interrogativas A: declarativa + 吗?"
+    },
+    {
+     "id": "gr-licao1-4",
+     "text": "Frases interrogativas B-a: X 不 X …? (不 em tom átono; 也/都/只 não podem aparecer)"
+    },
+    {
+     "id": "gr-licao1-5",
+     "text": "Frases interrogativas B-b: X 还是 Y?"
+    },
+    {
+     "id": "gr-licao1-6",
+     "text": "Frases interrogativas C: com interrogativos (哪国人, 什么)"
+    },
+    {
+     "id": "gr-licao1-7",
+     "text": "Frases interrogativas D: locução substantiva + 呢?"
+    }
+   ],
+   "phonetics": [
+    {
+     "id": "ph-licao1-1",
+     "text": "Mudança de tom de 不 bù: bù + 1.º/2.º/3.º tom; bú + 4.º tom"
+    }
+   ],
+   "notes": [
+    {
+     "id": "nt-licao1-1",
+     "text": "'张老师' — apelido + lǎoshī para tratar um professor"
+    }
+   ],
+   "cultural": "姓名 xìngmíng = 姓 xìng (apelido, quase sempre 1 caracter) + 名 míng (nome próprio, 1 ou 2). Perguntar o nome: 你叫什么名字？ (neutro) / 您贵姓？ e 您怎么称呼？ (mais formais).",
+   "char_ids": [
+    "ch-您",
+    "ch-贵",
+    "ch-姓",
+    "ch-我",
+    "ch-呢",
+    "ch-是",
+    "ch-吗",
+    "ch-不",
+    "ch-同",
+    "ch-们",
+    "ch-老",
+    "ch-师",
+    "ch-叫",
+    "ch-你",
+    "ch-什",
+    "ch-么",
+    "ch-名",
+    "ch-哪",
+    "ch-也",
+    "ch-说",
+    "ch-葡",
+    "ch-萄",
+    "ch-牙",
+    "ch-还",
+    "ch-法",
+    "ch-都",
+    "ch-只",
+    "ch-他",
+    "ch-她"
+   ],
+   "word_ids": [
+    "wd-您",
+    "wd-好",
+    "wd-贵姓",
+    "wd-姓",
+    "wd-我",
+    "wd-呢",
+    "wd-是",
+    "wd-人",
+    "wd-吗",
+    "wd-不",
+    "wd-同学",
+    "wd-们",
+    "wd-老师",
+    "wd-叫",
+    "wd-你",
+    "wd-什么",
+    "wd-名字",
+    "wd-哪国人",
+    "wd-哪",
+    "wd-国",
+    "wd-也",
+    "wd-说",
+    "wd-葡萄牙语",
+    "wd-还是",
+    "wd-法语",
+    "wd-都",
+    "wd-只",
+    "wd-汉语",
+    "wd-他",
+    "wd-她",
+    "wd-葡萄牙",
+    "wd-中国",
+    "wd-巴西",
+    "wd-美国"
+   ],
+   "ref_word_ids": [
+    "wd-中文/汉语",
+    "wd-英文/英语",
+    "wd-法文/法语",
+    "wd-葡文/葡语",
+    "wd-西文/西语",
+    "wd-普通话",
+    "wd-英国",
+    "wd-俄罗斯",
+    "wd-法国",
+    "wd-德国",
+    "wd-日本",
+    "wd-韩国",
+    "wd-华裔"
+   ],
+   "char_ids_also": [],
+   "audio_ids": [
+    "a08",
+    "a17"
+   ]
+  },
+  {
+   "id": "licao2",
+   "label": "Lição 2",
+   "title": "Lição 2 — 第二课 认识你很高兴 / Muito prazer em conhecê-lo",
+   "kind": "licao",
+   "taught_on": null,
+   "pages": {
+    "aluno": "20–26",
+    "exercicios": "PDF 21–26",
+    "caracteres": "PDF 36–44 (livro pp.33–41)"
+   },
+   "audio": {
+    "aluno": "6:12",
+    "exercicios": "8:17"
+   },
+   "pinyin": "Dì-èr Kè · Rènshi Nǐ hěn Gāoxìng",
+   "texts": [
+    {
+     "n": 1,
+     "setting": "Miguel encontra Bai Xiaohong no avião — apresentações, trabalho/estudo, telefone e e-mail"
+    },
+    {
+     "n": 2,
+     "setting": "Camilo e Zhang Yuanyuan visitam a casa de Ding Hansheng — 请进/请坐/请喝茶 e 怎么样"
+    }
+   ],
+   "key_sentences": [
+    {
+     "id": "ks-licao2-1",
+     "zh": "认识你很高兴！",
+     "py": "Rènshi nǐ hěn gāoxìng!",
+     "pt": "Muito prazer em conhecê-lo!"
+    },
+    {
+     "id": "ks-licao2-2",
+     "zh": "我在里斯本大学文学系学习。",
+     "py": "Wǒ zài Lǐsīběn Dàxué Wénxuéxì xuéxí.",
+     "pt": "Estudo na Faculdade de Letras da Universidade de Lisboa."
+    },
+    {
+     "id": "ks-licao2-3",
+     "zh": "东方学院怎么样？",
+     "py": "Dōngfāng Xuéyuàn zěnmeyàng?",
+     "pt": "Como é o Instituto Oriental?"
+    },
+    {
+     "id": "ks-licao2-4",
+     "zh": "东方学院很大，也很漂亮。",
+     "py": "Dōngfāng Xuéyuàn hěn dà, yě hěn piàoliang.",
+     "pt": "O Instituto Oriental é grande, e é também bonito."
+    }
+   ],
+   "grammar": [
+    {
+     "id": "gr-licao2-1",
+     "text": "Frase simples 2: sujeito + adjectivo — o adjectivo é predicado, sem 是"
+    },
+    {
+     "id": "gr-licao2-2",
+     "text": "很 antes do adjectivo predicativo é neutro; o adjectivo sozinho implica comparação"
+    },
+    {
+     "id": "gr-licao2-3",
+     "text": "的 de — possessivo/atributivo (我的, 我们的)"
+    },
+    {
+     "id": "gr-licao2-4",
+     "text": "在 + lugar + verbo — a locução prepositiva vem antes do verbo"
+    },
+    {
+     "id": "gr-licao2-5",
+     "text": "Ordem de localização: do maior para o menor (中国 上海 复旦 大学)"
+    },
+    {
+     "id": "gr-licao2-6",
+     "text": "可(以)不可以…? — interrogativa X不X com verbo dissilábico"
+    },
+    {
+     "id": "gr-licao2-7",
+     "text": "怎么样 — como é…?"
+    }
+   ],
+   "phonetics": [
+    {
+     "id": "ph-licao2-1",
+     "text": "Acento tónico: (1) tónico + átono (名字, 朋友, 喜欢, 漂亮); (2) última sílaba acentuada (工作, 电话, 汉语, 老师)"
+    }
+   ],
+   "notes": [
+    {
+     "id": "nt-licao2-1",
+     "text": "Números de telefone lêem-se dígito a dígito; 1 pode ler-se yāo para não se confundir com 7"
+    },
+    {
+     "id": "nt-licao2-2",
+     "text": "Orações elípticas são comuns: 很好。很大，也很漂亮。我很喜欢。"
+    }
+   ],
+   "cultural": "Servir chá quente às visitas; outras bebidas conforme a preferência e a estação; álcool geralmente só à refeição; a água canalizada (zìláishuǐ) serve-se fervida (kāishuǐ).",
+   "char_ids": [
+    "ch-很",
+    "ch-高",
+    "ch-兴",
+    "ch-认",
+    "ch-识",
+    "ch-在",
+    "ch-进",
+    "ch-出",
+    "ch-公",
+    "ch-司",
+    "ch-工",
+    "ch-作",
+    "ch-系",
+    "ch-可",
+    "ch-以",
+    "ch-给",
+    "ch-打",
+    "ch-电",
+    "ch-话",
+    "ch-的",
+    "ch-号",
+    "ch-码",
+    "ch-发",
+    "ch-邮",
+    "ch-件",
+    "ch-这",
+    "ch-朋",
+    "ch-友",
+    "ch-请",
+    "ch-坐",
+    "ch-谢",
+    "ch-喝",
+    "ch-茶",
+    "ch-儿",
+    "ch-里",
+    "ch-院",
+    "ch-怎",
+    "ch-样",
+    "ch-漂",
+    "ch-亮",
+    "ch-喜",
+    "ch-欢",
+    "ch-那",
+    "ch-男"
+   ],
+   "word_ids": [
+    "wd-认识",
+    "wd-很",
+    "wd-高兴",
+    "wd-在",
+    "wd-进出口",
+    "wd-进口",
+    "wd-出口",
+    "wd-公司",
+    "wd-工作",
+    "wd-大学",
+    "wd-系",
+    "wd-学习",
+    "wd-可以",
+    "wd-给",
+    "wd-打电话",
+    "wd-电话",
+    "wd-给……打电话",
+    "wd-的",
+    "wd-我的",
+    "wd-我们的",
+    "wd-号码",
+    "wd-〇(零)",
+    "wd-发",
+    "wd-电子邮件",
+    "wd-电子",
+    "wd-邮件",
+    "wd-这",
+    "wd-女",
+    "wd-朋友",
+    "wd-请",
+    "wd-进",
+    "wd-坐",
+    "wd-谢谢",
+    "wd-喝",
+    "wd-茶",
+    "wd-哪儿(哪里)",
+    "wd-学院",
+    "wd-怎么样",
+    "wd-大",
+    "wd-漂亮",
+    "wd-喜欢",
+    "wd-那",
+    "wd-男",
+    "wd-小",
+    "wd-里斯本大学",
+    "wd-文学系",
+    "wd-加拿大",
+    "wd-东方学院"
+   ],
+   "ref_word_ids": [
+    "wd-中学",
+    "wd-小学",
+    "wd-电脑",
+    "wd-饮料",
+    "wd-水",
+    "wd-橙汁",
+    "wd-可口可乐",
+    "wd-咖啡",
+    "wd-亚洲",
+    "wd-欧洲",
+    "wd-美洲",
+    "wd-大洋洲",
+    "wd-非洲",
+    "wd-西方",
+    "wd-东方"
+   ],
+   "char_ids_also": [
+    "ch-哪"
+   ],
+   "audio_ids": [
+    "a09",
+    "a18"
+   ]
+  }
+ ],
+ "chars": [
+  {
+   "id": "ch-您",
+   "hanzi": "您",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 1,
+   "pinyin": "nín",
+   "pt": "forma cortês de 你",
+   "strokes": 11,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h001"
+  },
+  {
+   "id": "ch-贵",
+   "hanzi": "贵",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 2,
+   "pinyin": "guì",
+   "pt": "honrado, nobre",
+   "strokes": 9,
+   "mode": "write",
+   "bound": false,
+   "starred": true,
+   "legacy": "h002"
+  },
+  {
+   "id": "ch-姓",
+   "hanzi": "姓",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 3,
+   "pinyin": "xìng",
+   "pt": "apelido, sobrenome",
+   "strokes": 8,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h003"
+  },
+  {
+   "id": "ch-我",
+   "hanzi": "我",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 4,
+   "pinyin": "wǒ",
+   "pt": "eu",
+   "strokes": 7,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h004"
+  },
+  {
+   "id": "ch-呢",
+   "hanzi": "呢",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 5,
+   "pinyin": "ne",
+   "pt": null,
+   "strokes": 8,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h005",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-是",
+   "hanzi": "是",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 6,
+   "pinyin": "shì",
+   "pt": "ser",
+   "strokes": 9,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h006"
+  },
+  {
+   "id": "ch-吗",
+   "hanzi": "吗",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 7,
+   "pinyin": "ma",
+   "pt": "partícula interrogativa sim/não",
+   "strokes": 6,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h007"
+  },
+  {
+   "id": "ch-不",
+   "hanzi": "不",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 8,
+   "pinyin": "bù",
+   "pt": "não",
+   "strokes": 4,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h008"
+  },
+  {
+   "id": "ch-同",
+   "hanzi": "同",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 9,
+   "pinyin": "tóng",
+   "pt": "juntos, mesmo",
+   "strokes": 6,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h009"
+  },
+  {
+   "id": "ch-们",
+   "hanzi": "们",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 10,
+   "pinyin": "men",
+   "pt": null,
+   "strokes": 5,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h010",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-老",
+   "hanzi": "老",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 11,
+   "pinyin": "lǎo",
+   "pt": "velho",
+   "strokes": 6,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h011"
+  },
+  {
+   "id": "ch-师",
+   "hanzi": "师",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 12,
+   "pinyin": "shī",
+   "pt": "professor, mestre",
+   "strokes": 6,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h012"
+  },
+  {
+   "id": "ch-叫",
+   "hanzi": "叫",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 13,
+   "pinyin": "jiào",
+   "pt": "chamar, chamar-se",
+   "strokes": 5,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h013"
+  },
+  {
+   "id": "ch-你",
+   "hanzi": "你",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 14,
+   "pinyin": "nǐ",
+   "pt": "tu, você",
+   "strokes": 7,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h014"
+  },
+  {
+   "id": "ch-什",
+   "hanzi": "什",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 15,
+   "pinyin": "shén",
+   "pt": null,
+   "strokes": 4,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h015",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-么",
+   "hanzi": "么",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 16,
+   "pinyin": "me",
+   "pt": null,
+   "strokes": 3,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h016",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-名",
+   "hanzi": "名",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 17,
+   "pinyin": "míng",
+   "pt": "nome",
+   "strokes": 6,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h017"
+  },
+  {
+   "id": "ch-哪",
+   "hanzi": "哪",
+   "unit": "licao1",
+   "also_in": [
+    "licao2"
+   ],
+   "n": 18,
+   "pinyin": "nǎ",
+   "pt": "qual",
+   "strokes": 9,
+   "mode": "write",
+   "bound": false,
+   "starred": true,
+   "legacy": "h018",
+   "legacy_also": [
+    "h063"
+   ],
+   "bound_in_also": true
+  },
+  {
+   "id": "ch-也",
+   "hanzi": "也",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 19,
+   "pinyin": "yě",
+   "pt": "também",
+   "strokes": 3,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h019"
+  },
+  {
+   "id": "ch-说",
+   "hanzi": "说",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 20,
+   "pinyin": "shuō",
+   "pt": "dizer, falar",
+   "strokes": 9,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h020"
+  },
+  {
+   "id": "ch-葡",
+   "hanzi": "葡",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 21,
+   "pinyin": "pú",
+   "pt": null,
+   "strokes": 12,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h021",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-萄",
+   "hanzi": "萄",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 22,
+   "pinyin": "táo",
+   "pt": null,
+   "strokes": 11,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h022",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-牙",
+   "hanzi": "牙",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 23,
+   "pinyin": "yá",
+   "pt": "dente",
+   "strokes": 4,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h023"
+  },
+  {
+   "id": "ch-还",
+   "hanzi": "还",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 24,
+   "pinyin": "hái",
+   "pt": null,
+   "strokes": 7,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h024",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-法",
+   "hanzi": "法",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 25,
+   "pinyin": "fǎ",
+   "pt": "método, meio; lei",
+   "strokes": 8,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h025"
+  },
+  {
+   "id": "ch-都",
+   "hanzi": "都",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 26,
+   "pinyin": "dōu",
+   "pt": "tudo, todo",
+   "strokes": 10,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h026"
+  },
+  {
+   "id": "ch-只",
+   "hanzi": "只",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 27,
+   "pinyin": "zhǐ",
+   "pt": "só, unicamente",
+   "strokes": 5,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h027"
+  },
+  {
+   "id": "ch-他",
+   "hanzi": "他",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 28,
+   "pinyin": "tā",
+   "pt": "ele",
+   "strokes": 5,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h028"
+  },
+  {
+   "id": "ch-她",
+   "hanzi": "她",
+   "unit": "licao1",
+   "also_in": [],
+   "n": 29,
+   "pinyin": "tā",
+   "pt": "ela",
+   "strokes": 6,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h029"
+  },
+  {
+   "id": "ch-很",
+   "hanzi": "很",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 1,
+   "pinyin": "hěn",
+   "pt": "muito",
+   "strokes": 9,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h030"
+  },
+  {
+   "id": "ch-高",
+   "hanzi": "高",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 2,
+   "pinyin": "gāo",
+   "pt": "alto",
+   "strokes": 10,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h031"
+  },
+  {
+   "id": "ch-兴",
+   "hanzi": "兴",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 3,
+   "pinyin": "xìng",
+   "pt": "disposição",
+   "strokes": 6,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h032"
+  },
+  {
+   "id": "ch-认",
+   "hanzi": "认",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 4,
+   "pinyin": "rèn",
+   "pt": "conhecer, perceber, reconhecer, saber",
+   "strokes": 4,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h033"
+  },
+  {
+   "id": "ch-识",
+   "hanzi": "识",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 5,
+   "pinyin": "shi",
+   "pt": null,
+   "strokes": 7,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h034",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-在",
+   "hanzi": "在",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 6,
+   "pinyin": "zài",
+   "pt": null,
+   "strokes": 6,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h035",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-进",
+   "hanzi": "进",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 7,
+   "pinyin": "jìn",
+   "pt": "entrar",
+   "strokes": 7,
+   "mode": "write",
+   "bound": false,
+   "starred": true,
+   "legacy": "h036"
+  },
+  {
+   "id": "ch-出",
+   "hanzi": "出",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 8,
+   "pinyin": "chū",
+   "pt": "sair",
+   "strokes": 5,
+   "mode": "write",
+   "bound": false,
+   "starred": true,
+   "legacy": "h037"
+  },
+  {
+   "id": "ch-公",
+   "hanzi": "公",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 9,
+   "pinyin": "gōng",
+   "pt": "público",
+   "strokes": 4,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h038"
+  },
+  {
+   "id": "ch-司",
+   "hanzi": "司",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 10,
+   "pinyin": "sī",
+   "pt": null,
+   "strokes": 5,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h039",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-工",
+   "hanzi": "工",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 11,
+   "pinyin": "gōng",
+   "pt": "trabalho",
+   "strokes": 3,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h040"
+  },
+  {
+   "id": "ch-作",
+   "hanzi": "作",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 12,
+   "pinyin": "zuò",
+   "pt": "fazer",
+   "strokes": 7,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h041"
+  },
+  {
+   "id": "ch-系",
+   "hanzi": "系",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 13,
+   "pinyin": "xì",
+   "pt": "departamento ou faculdade",
+   "strokes": 7,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h042"
+  },
+  {
+   "id": "ch-可",
+   "hanzi": "可",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 14,
+   "pinyin": "kě",
+   "pt": "poder",
+   "strokes": 5,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h043"
+  },
+  {
+   "id": "ch-以",
+   "hanzi": "以",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 15,
+   "pinyin": "yǐ",
+   "pt": null,
+   "strokes": 4,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h044",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-给",
+   "hanzi": "给",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 16,
+   "pinyin": "gěi",
+   "pt": "dar, a, para",
+   "strokes": 9,
+   "mode": "write",
+   "bound": false,
+   "starred": true,
+   "legacy": "h045"
+  },
+  {
+   "id": "ch-打",
+   "hanzi": "打",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 17,
+   "pinyin": "dǎ",
+   "pt": "bater",
+   "strokes": 5,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h046"
+  },
+  {
+   "id": "ch-电",
+   "hanzi": "电",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 18,
+   "pinyin": "diàn",
+   "pt": "electricidade",
+   "strokes": 5,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h047"
+  },
+  {
+   "id": "ch-话",
+   "hanzi": "话",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 19,
+   "pinyin": "huà",
+   "pt": "fala, palavra",
+   "strokes": 8,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h048"
+  },
+  {
+   "id": "ch-的",
+   "hanzi": "的",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 20,
+   "pinyin": "de",
+   "pt": null,
+   "strokes": 8,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h049",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-号",
+   "hanzi": "号",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 21,
+   "pinyin": "hào",
+   "pt": "número",
+   "strokes": 5,
+   "mode": "write",
+   "bound": false,
+   "starred": true,
+   "legacy": "h050"
+  },
+  {
+   "id": "ch-码",
+   "hanzi": "码",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 22,
+   "pinyin": "mǎ",
+   "pt": null,
+   "strokes": 8,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h051",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-发",
+   "hanzi": "发",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 23,
+   "pinyin": "fā",
+   "pt": "enviar, mandar",
+   "strokes": 5,
+   "mode": "write",
+   "bound": false,
+   "starred": true,
+   "legacy": "h052"
+  },
+  {
+   "id": "ch-邮",
+   "hanzi": "邮",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 24,
+   "pinyin": "yóu",
+   "pt": "correio",
+   "strokes": 7,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h053"
+  },
+  {
+   "id": "ch-件",
+   "hanzi": "件",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 25,
+   "pinyin": "jiàn",
+   "pt": null,
+   "strokes": 6,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h054",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-这",
+   "hanzi": "这",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 26,
+   "pinyin": "zhè",
+   "pt": "este, isto",
+   "strokes": 7,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h055"
+  },
+  {
+   "id": "ch-朋",
+   "hanzi": "朋",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 27,
+   "pinyin": "péng",
+   "pt": "amigo",
+   "strokes": 8,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h056"
+  },
+  {
+   "id": "ch-友",
+   "hanzi": "友",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 28,
+   "pinyin": "yǒu",
+   "pt": "amigo",
+   "strokes": 4,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h057"
+  },
+  {
+   "id": "ch-请",
+   "hanzi": "请",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 29,
+   "pinyin": "qǐng",
+   "pt": "faz favor, por favor",
+   "strokes": 10,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h058"
+  },
+  {
+   "id": "ch-坐",
+   "hanzi": "坐",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 30,
+   "pinyin": "zuò",
+   "pt": "sentar-se",
+   "strokes": 7,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h059"
+  },
+  {
+   "id": "ch-谢",
+   "hanzi": "谢",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 31,
+   "pinyin": "xiè",
+   "pt": "agradecer, dizer obrigado",
+   "strokes": 12,
+   "mode": "write",
+   "bound": false,
+   "starred": true,
+   "legacy": "h060"
+  },
+  {
+   "id": "ch-喝",
+   "hanzi": "喝",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 32,
+   "pinyin": "hē",
+   "pt": "beber, tomar (um líquido)",
+   "strokes": 12,
+   "mode": "write",
+   "bound": false,
+   "starred": true,
+   "legacy": "h061"
+  },
+  {
+   "id": "ch-茶",
+   "hanzi": "茶",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 33,
+   "pinyin": "chá",
+   "pt": "chá",
+   "strokes": 9,
+   "mode": "write",
+   "bound": false,
+   "starred": true,
+   "legacy": "h062"
+  },
+  {
+   "id": "ch-儿",
+   "hanzi": "儿",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 35,
+   "pinyin": "ér",
+   "pt": null,
+   "strokes": 2,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h064",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-里",
+   "hanzi": "里",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 36,
+   "pinyin": "lǐ",
+   "pt": null,
+   "strokes": 7,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h065",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-院",
+   "hanzi": "院",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 37,
+   "pinyin": "yuàn",
+   "pt": null,
+   "strokes": 9,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h066",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-怎",
+   "hanzi": "怎",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 38,
+   "pinyin": "zěn",
+   "pt": null,
+   "strokes": 9,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h067",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-样",
+   "hanzi": "样",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 39,
+   "pinyin": "yàng",
+   "pt": null,
+   "strokes": 10,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h068",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-漂",
+   "hanzi": "漂",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 40,
+   "pinyin": "piào",
+   "pt": null,
+   "strokes": 14,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h069",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-亮",
+   "hanzi": "亮",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 41,
+   "pinyin": "liàng",
+   "pt": null,
+   "strokes": 9,
+   "mode": "write",
+   "bound": true,
+   "starred": false,
+   "legacy": "h070",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-喜",
+   "hanzi": "喜",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 42,
+   "pinyin": "xǐ",
+   "pt": null,
+   "strokes": 12,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h071",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-欢",
+   "hanzi": "欢",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 43,
+   "pinyin": "huān",
+   "pt": null,
+   "strokes": 6,
+   "mode": "write",
+   "bound": true,
+   "starred": true,
+   "legacy": "h072",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-那",
+   "hanzi": "那",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 44,
+   "pinyin": "nà",
+   "pt": "aquele, aquilo",
+   "strokes": 6,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h073"
+  },
+  {
+   "id": "ch-男",
+   "hanzi": "男",
+   "unit": "licao2",
+   "also_in": [],
+   "n": 45,
+   "pinyin": "nán",
+   "pt": "masculino",
+   "strokes": null,
+   "mode": "write",
+   "bound": false,
+   "starred": false,
+   "legacy": "h074"
+  },
+  {
+   "id": "ch-一",
+   "hanzi": "一",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": null,
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h075",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-二",
+   "hanzi": "二",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": null,
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h076",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-三",
+   "hanzi": "三",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": null,
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h077",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-四",
+   "hanzi": "四",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": null,
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h078",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-五",
+   "hanzi": "五",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": null,
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h079",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-六",
+   "hanzi": "六",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": null,
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h080",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-七",
+   "hanzi": "七",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": null,
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h081",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-八",
+   "hanzi": "八",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": null,
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h082",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-九",
+   "hanzi": "九",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": null,
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h083",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-十",
+   "hanzi": "十",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": null,
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h084",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-上",
+   "hanzi": "上",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "shàng",
+   "pt": "cima, superior",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h085"
+  },
+  {
+   "id": "ch-下",
+   "hanzi": "下",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "xià",
+   "pt": "baixo, inferior",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h086"
+  },
+  {
+   "id": "ch-大",
+   "hanzi": "大",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "dà",
+   "pt": "grande",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h087"
+  },
+  {
+   "id": "ch-中",
+   "hanzi": "中",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "zhōng",
+   "pt": "médio, central",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h088"
+  },
+  {
+   "id": "ch-小",
+   "hanzi": "小",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "xiǎo",
+   "pt": "pequeno",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h089"
+  },
+  {
+   "id": "ch-人",
+   "hanzi": "人",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "rén",
+   "pt": "pessoa",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h090"
+  },
+  {
+   "id": "ch-口",
+   "hanzi": "口",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "kǒu",
+   "pt": "boca",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h091"
+  },
+  {
+   "id": "ch-国",
+   "hanzi": "国",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "guó",
+   "pt": "país",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h092"
+  },
+  {
+   "id": "ch-学",
+   "hanzi": "学",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "xué",
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h093",
+   "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-习",
+   "hanzi": "习",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "xí",
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h094",
+   "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-汉",
+   "hanzi": "汉",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "hàn",
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h095",
+   "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-语",
+   "hanzi": "语",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "yǔ",
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h096",
+   "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-文",
+   "hanzi": "文",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "wén",
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h097",
+   "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-写",
+   "hanzi": "写",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "xiě",
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h098",
+   "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-字",
+   "hanzi": "字",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "zì",
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h099",
+   "pinyin_src": "Livro de Caracteres p.10 / Practice·caracteres",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-女",
+   "hanzi": "女",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "nǚ",
+   "pt": "feminino",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h100"
+  },
+  {
+   "id": "ch-子",
+   "hanzi": "子",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "zǐ",
+   "pt": "filho",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h101"
+  },
+  {
+   "id": "ch-好",
+   "hanzi": "好",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "hǎo",
+   "pt": "bom",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h102"
+  },
+  {
+   "id": "ch-水",
+   "hanzi": "水",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "shuǐ",
+   "pt": "água",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h103"
+  },
+  {
+   "id": "ch-门",
+   "hanzi": "门",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "mén",
+   "pt": "porta",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h104"
+  },
+  {
+   "id": "ch-王",
+   "hanzi": "王",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": null,
+   "pt": null,
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h105",
+   "gloss_missing": true
+  },
+  {
+   "id": "ch-日",
+   "hanzi": "日",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "rì",
+   "pt": "sol, dia",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h106"
+  },
+  {
+   "id": "ch-月",
+   "hanzi": "月",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "yuè",
+   "pt": "lua, mês",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h107"
+  },
+  {
+   "id": "ch-木",
+   "hanzi": "木",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "mù",
+   "pt": "árvore, madeira",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h108"
+  },
+  {
+   "id": "ch-马",
+   "hanzi": "马",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "mǎ",
+   "pt": "cavalo",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h109"
+  },
+  {
+   "id": "ch-田",
+   "hanzi": "田",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "tián",
+   "pt": "campo",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h110"
+  },
+  {
+   "id": "ch-天",
+   "hanzi": "天",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "tiān",
+   "pt": "céu, dia",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h111"
+  },
+  {
+   "id": "ch-明",
+   "hanzi": "明",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "míng",
+   "pt": "brilhante",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h112"
+  },
+  {
+   "id": "ch-林",
+   "hanzi": "林",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "lín",
+   "pt": "floresta, bosque",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h113"
+  },
+  {
+   "id": "ch-妈",
+   "hanzi": "妈",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "mā",
+   "pt": "mãe",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h114"
+  },
+  {
+   "id": "ch-河",
+   "hanzi": "河",
+   "unit": "hanzi0",
+   "also_in": [],
+   "n": 0,
+   "pinyin": "hé",
+   "pt": "rio",
+   "strokes": null,
+   "mode": "read",
+   "bound": false,
+   "starred": false,
+   "legacy": "h115"
+  }
+ ],
+ "words": [
+  {
+   "id": "wd-您",
+   "zh": "您",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "pron.",
+   "pinyin": "nín",
+   "pt": "você",
+   "legacy": "v001"
+  },
+  {
+   "id": "wd-好",
+   "zh": "好",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "adj.",
+   "pinyin": "hǎo",
+   "pt": "bom",
+   "legacy": "v002"
+  },
+  {
+   "id": "wd-贵姓",
+   "zh": "贵姓",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": null,
+   "pinyin": "guìxìng",
+   "pt": "Qual é o nome?",
+   "legacy": "v003"
+  },
+  {
+   "id": "wd-姓",
+   "zh": "姓",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "v. e n.",
+   "pinyin": "xìng",
+   "pt": "apelido",
+   "legacy": "v004"
+  },
+  {
+   "id": "wd-我",
+   "zh": "我",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "pron.",
+   "pinyin": "wǒ",
+   "pt": "eu",
+   "legacy": "v005"
+  },
+  {
+   "id": "wd-呢",
+   "zh": "呢",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "part.",
+   "pinyin": "ne",
+   "pt": null,
+   "legacy": "v006"
+  },
+  {
+   "id": "wd-是",
+   "zh": "是",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "shì",
+   "pt": "ser",
+   "legacy": "v007"
+  },
+  {
+   "id": "wd-人",
+   "zh": "人",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "rén",
+   "pt": "pessoa, gente",
+   "legacy": "v008"
+  },
+  {
+   "id": "wd-吗",
+   "zh": "吗",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "part.",
+   "pinyin": "ma",
+   "pt": null,
+   "legacy": "v009"
+  },
+  {
+   "id": "wd-不",
+   "zh": "不",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "adv.",
+   "pinyin": "bù",
+   "pt": "não",
+   "legacy": "v010"
+  },
+  {
+   "id": "wd-同学",
+   "zh": "同学",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "tóngxué",
+   "pt": "colega",
+   "legacy": "v011"
+  },
+  {
+   "id": "wd-们",
+   "zh": "们",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "sufixo",
+   "pinyin": "men",
+   "pt": null,
+   "legacy": "v012"
+  },
+  {
+   "id": "wd-老师",
+   "zh": "老师",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "lǎoshī",
+   "pt": "professor",
+   "legacy": "v013"
+  },
+  {
+   "id": "wd-叫",
+   "zh": "叫",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "jiào",
+   "pt": "chamar",
+   "legacy": "v014"
+  },
+  {
+   "id": "wd-你",
+   "zh": "你",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "pron.",
+   "pinyin": "nǐ",
+   "pt": "tu",
+   "legacy": "v015"
+  },
+  {
+   "id": "wd-什么",
+   "zh": "什么",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "interr.",
+   "pinyin": "shénme",
+   "pt": "que",
+   "legacy": "v016"
+  },
+  {
+   "id": "wd-名字",
+   "zh": "名字",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "míngzi",
+   "pt": "nome",
+   "legacy": "v017"
+  },
+  {
+   "id": "wd-哪国人",
+   "zh": "哪国人",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": null,
+   "pinyin": "nǎ guó rén",
+   "pt": "de que país…?",
+   "legacy": "v018"
+  },
+  {
+   "id": "wd-哪",
+   "zh": "哪",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "interr.",
+   "pinyin": "nǎ",
+   "pt": "que, qual",
+   "legacy": "v019"
+  },
+  {
+   "id": "wd-国",
+   "zh": "国",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": null,
+   "pinyin": "guó",
+   "pt": "país",
+   "legacy": "v020"
+  },
+  {
+   "id": "wd-也",
+   "zh": "也",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "adv.",
+   "pinyin": "yě",
+   "pt": "também",
+   "legacy": "v021"
+  },
+  {
+   "id": "wd-说",
+   "zh": "说",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "shuō",
+   "pt": "falar, dizer",
+   "legacy": "v022"
+  },
+  {
+   "id": "wd-葡萄牙语",
+   "zh": "葡萄牙语",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "Pútáoyáyǔ",
+   "pt": "português, língua portuguesa",
+   "legacy": "v023"
+  },
+  {
+   "id": "wd-还是",
+   "zh": "还是",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "conj.",
+   "pinyin": "háishi",
+   "pt": "ou",
+   "legacy": "v024"
+  },
+  {
+   "id": "wd-法语",
+   "zh": "法语",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "Fǎyǔ",
+   "pt": "língua francesa",
+   "legacy": "v025"
+  },
+  {
+   "id": "wd-都",
+   "zh": "都",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "adv.",
+   "pinyin": "dōu",
+   "pt": "todo, todos",
+   "legacy": "v026"
+  },
+  {
+   "id": "wd-只",
+   "zh": "只",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "adv.",
+   "pinyin": "zhǐ",
+   "pt": "apenas, só",
+   "legacy": "v027"
+  },
+  {
+   "id": "wd-汉语",
+   "zh": "汉语",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "Hànyǔ",
+   "pt": "chinês, língua chinesa",
+   "legacy": "v028"
+  },
+  {
+   "id": "wd-他",
+   "zh": "他",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "pron.",
+   "pinyin": "tā",
+   "pt": "ele",
+   "legacy": "v029"
+  },
+  {
+   "id": "wd-她",
+   "zh": "她",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "pron.",
+   "pinyin": "tā",
+   "pt": "ela",
+   "legacy": "v030"
+  },
+  {
+   "id": "wd-葡萄牙",
+   "zh": "葡萄牙",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "prop.",
+   "pinyin": "Pútáoyá",
+   "pt": "Portugal",
+   "legacy": "v031"
+  },
+  {
+   "id": "wd-中国",
+   "zh": "中国",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "prop.",
+   "pinyin": "Zhōngguó",
+   "pt": "China",
+   "legacy": "v032"
+  },
+  {
+   "id": "wd-巴西",
+   "zh": "巴西",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "prop.",
+   "pinyin": "Bāxī",
+   "pt": "Brasil",
+   "legacy": "v033"
+  },
+  {
+   "id": "wd-美国",
+   "zh": "美国",
+   "unit": "licao1",
+   "kind": "lesson",
+   "pos": "prop.",
+   "pinyin": "Měiguó",
+   "pt": "Estados Unidos da América",
+   "legacy": "v034"
+  },
+  {
+   "id": "wd-中文/汉语",
+   "zh": "中文 / 汉语",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Zhōngwén/Hànyǔ",
+   "pt": "língua chinesa",
+   "legacy": "v035"
+  },
+  {
+   "id": "wd-英文/英语",
+   "zh": "英文 / 英语",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Yīngwén/Yīngyǔ",
+   "pt": "língua inglesa",
+   "legacy": "v036"
+  },
+  {
+   "id": "wd-法文/法语",
+   "zh": "法文 / 法语",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Fǎwén/Fǎyǔ",
+   "pt": "língua francesa",
+   "legacy": "v037"
+  },
+  {
+   "id": "wd-葡文/葡语",
+   "zh": "葡文 / 葡语",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Pǔwén/Pǔyǔ",
+   "pt": "língua portuguesa",
+   "legacy": "v038"
+  },
+  {
+   "id": "wd-西文/西语",
+   "zh": "西文 / 西语",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Xīwén/Xīyǔ",
+   "pt": "língua espanhola",
+   "legacy": "v039"
+  },
+  {
+   "id": "wd-普通话",
+   "zh": "普通话",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Pǔtōnghuà",
+   "pt": "mandarim (lit. 'linguagem comum')",
+   "legacy": "v040"
+  },
+  {
+   "id": "wd-英国",
+   "zh": "英国",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Yīngguó",
+   "pt": "Reino Unido",
+   "legacy": "v041"
+  },
+  {
+   "id": "wd-俄罗斯",
+   "zh": "俄罗斯",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Éluósī",
+   "pt": "Rússia",
+   "legacy": "v042"
+  },
+  {
+   "id": "wd-法国",
+   "zh": "法国",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Fǎguó",
+   "pt": "França",
+   "legacy": "v043"
+  },
+  {
+   "id": "wd-德国",
+   "zh": "德国",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Déguó",
+   "pt": "Alemanha",
+   "legacy": "v044"
+  },
+  {
+   "id": "wd-日本",
+   "zh": "日本",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Rìběn",
+   "pt": "Japão",
+   "legacy": "v045"
+  },
+  {
+   "id": "wd-韩国",
+   "zh": "韩国",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Hánguó",
+   "pt": "Coreia do Sul",
+   "legacy": "v046"
+  },
+  {
+   "id": "wd-华裔",
+   "zh": "华裔",
+   "unit": "licao1",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "huáyì",
+   "pt": "descendente de chinês",
+   "legacy": "v047"
+  },
+  {
+   "id": "wd-认识",
+   "zh": "认识",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "rènshi",
+   "pt": "conhecer",
+   "legacy": "v048"
+  },
+  {
+   "id": "wd-很",
+   "zh": "很",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "adv.",
+   "pinyin": "hěn",
+   "pt": "muito",
+   "legacy": "v049"
+  },
+  {
+   "id": "wd-高兴",
+   "zh": "高兴",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "adj.",
+   "pinyin": "gāoxìng",
+   "pt": "contente",
+   "legacy": "v050"
+  },
+  {
+   "id": "wd-在",
+   "zh": "在",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "prep. & v.",
+   "pinyin": "zài",
+   "pt": "em, estar, ficar",
+   "legacy": "v051"
+  },
+  {
+   "id": "wd-进出口",
+   "zh": "进出口",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": null,
+   "pinyin": "jìnchūkǒu",
+   "pt": "importação e exportação",
+   "legacy": "v052"
+  },
+  {
+   "id": "wd-进口",
+   "zh": "进口",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "jìnkǒu",
+   "pt": "importar",
+   "legacy": "v053"
+  },
+  {
+   "id": "wd-出口",
+   "zh": "出口",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "chūkǒu",
+   "pt": "exportar",
+   "legacy": "v054"
+  },
+  {
+   "id": "wd-公司",
+   "zh": "公司",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "gōngsī",
+   "pt": "companhia",
+   "legacy": "v055"
+  },
+  {
+   "id": "wd-工作",
+   "zh": "工作",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v. & n.",
+   "pinyin": "gōngzuò",
+   "pt": "trabalhar, trabalho",
+   "legacy": "v056"
+  },
+  {
+   "id": "wd-大学",
+   "zh": "大学",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "dàxué",
+   "pt": "universidade",
+   "legacy": "v057"
+  },
+  {
+   "id": "wd-系",
+   "zh": "系",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "xì",
+   "pt": "faculdade (da universidade)",
+   "legacy": "v058"
+  },
+  {
+   "id": "wd-学习",
+   "zh": "学习",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "xuéxí",
+   "pt": "estudar, aprender",
+   "legacy": "v059"
+  },
+  {
+   "id": "wd-可以",
+   "zh": "可以",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.o.",
+   "pinyin": "kěyǐ",
+   "pt": "poder",
+   "legacy": "v060"
+  },
+  {
+   "id": "wd-给",
+   "zh": "给",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "prep.",
+   "pinyin": "gěi",
+   "pt": "a, para",
+   "legacy": "v061"
+  },
+  {
+   "id": "wd-打电话",
+   "zh": "打电话",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": null,
+   "pinyin": "dǎ diànhuà",
+   "pt": "telefonar",
+   "legacy": "v062"
+  },
+  {
+   "id": "wd-电话",
+   "zh": "电话",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "diànhuà",
+   "pt": "telefone",
+   "legacy": "v063"
+  },
+  {
+   "id": "wd-给……打电话",
+   "zh": "给……打电话",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": null,
+   "pinyin": "gěi…dǎ diànhuà",
+   "pt": "telefonar a alguém",
+   "legacy": "v064"
+  },
+  {
+   "id": "wd-的",
+   "zh": "的",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "part.",
+   "pinyin": "de",
+   "pt": null,
+   "legacy": "v065"
+  },
+  {
+   "id": "wd-我的",
+   "zh": "我的",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": null,
+   "pinyin": "wǒ de",
+   "pt": "meu(s), minha(s)",
+   "legacy": "v066"
+  },
+  {
+   "id": "wd-我们的",
+   "zh": "我们的",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": null,
+   "pinyin": "wǒmen de",
+   "pt": "nosso(s), nossa(s)",
+   "legacy": "v067"
+  },
+  {
+   "id": "wd-号码",
+   "zh": "号码",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "hàomǎ",
+   "pt": "número",
+   "legacy": "v068"
+  },
+  {
+   "id": "wd-〇(零)",
+   "zh": "〇(零)",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "num.",
+   "pinyin": "líng",
+   "pt": "zero",
+   "legacy": "v069"
+  },
+  {
+   "id": "wd-发",
+   "zh": "发",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "fā",
+   "pt": "enviar, mandar",
+   "legacy": "v070"
+  },
+  {
+   "id": "wd-电子邮件",
+   "zh": "电子邮件",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": null,
+   "pinyin": "diànzǐ yóujiàn",
+   "pt": "correio electrónico, e-mail",
+   "legacy": "v071"
+  },
+  {
+   "id": "wd-电子",
+   "zh": "电子",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "diànzǐ",
+   "pt": "electrónica",
+   "legacy": "v072"
+  },
+  {
+   "id": "wd-邮件",
+   "zh": "邮件",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "yóujiàn",
+   "pt": "correio",
+   "legacy": "v073"
+  },
+  {
+   "id": "wd-这",
+   "zh": "这",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "pron.",
+   "pinyin": "zhè",
+   "pt": "este(a), isto",
+   "legacy": "v074"
+  },
+  {
+   "id": "wd-女",
+   "zh": "女",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "adj.",
+   "pinyin": "nǚ",
+   "pt": "feminino",
+   "legacy": "v075"
+  },
+  {
+   "id": "wd-朋友",
+   "zh": "朋友",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "péngyou",
+   "pt": "namorado(a); amigo(a)",
+   "legacy": "v076"
+  },
+  {
+   "id": "wd-请",
+   "zh": "请",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "qǐng",
+   "pt": "fazer favor",
+   "legacy": "v077"
+  },
+  {
+   "id": "wd-进",
+   "zh": "进",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "jìn",
+   "pt": "entrar",
+   "legacy": "v078"
+  },
+  {
+   "id": "wd-坐",
+   "zh": "坐",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "zuò",
+   "pt": "sentar-se",
+   "legacy": "v079"
+  },
+  {
+   "id": "wd-谢谢",
+   "zh": "谢谢",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "xièxie",
+   "pt": "agradecer",
+   "legacy": "v080"
+  },
+  {
+   "id": "wd-喝",
+   "zh": "喝",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "hē",
+   "pt": "beber",
+   "legacy": "v081"
+  },
+  {
+   "id": "wd-茶",
+   "zh": "茶",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "chá",
+   "pt": "chá",
+   "legacy": "v082"
+  },
+  {
+   "id": "wd-哪儿(哪里)",
+   "zh": "哪儿(哪里)",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "interr.",
+   "pinyin": "nǎr (nǎli)",
+   "pt": "onde",
+   "legacy": "v083"
+  },
+  {
+   "id": "wd-学院",
+   "zh": "学院",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "n.",
+   "pinyin": "xuéyuàn",
+   "pt": "instituto",
+   "legacy": "v084"
+  },
+  {
+   "id": "wd-怎么样",
+   "zh": "怎么样",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "interr.",
+   "pinyin": "zěnmeyàng",
+   "pt": "como",
+   "legacy": "v085"
+  },
+  {
+   "id": "wd-大",
+   "zh": "大",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "adj.",
+   "pinyin": "dà",
+   "pt": "grande",
+   "legacy": "v086"
+  },
+  {
+   "id": "wd-漂亮",
+   "zh": "漂亮",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "adj.",
+   "pinyin": "piàoliang",
+   "pt": "bonito, lindo",
+   "legacy": "v087"
+  },
+  {
+   "id": "wd-喜欢",
+   "zh": "喜欢",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "v.",
+   "pinyin": "xǐhuan",
+   "pt": "gostar",
+   "legacy": "v088"
+  },
+  {
+   "id": "wd-那",
+   "zh": "那",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "pron.",
+   "pinyin": "nà",
+   "pt": "aquele, aquilo",
+   "legacy": "v089"
+  },
+  {
+   "id": "wd-男",
+   "zh": "男",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "adj.",
+   "pinyin": "nán",
+   "pt": "masculino",
+   "legacy": "v090"
+  },
+  {
+   "id": "wd-小",
+   "zh": "小",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "adj.",
+   "pinyin": "xiǎo",
+   "pt": "pequeno",
+   "legacy": "v091"
+  },
+  {
+   "id": "wd-里斯本大学",
+   "zh": "里斯本大学",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "prop.",
+   "pinyin": "Lǐsīběn Dàxué",
+   "pt": "Universidade de Lisboa",
+   "legacy": "v092"
+  },
+  {
+   "id": "wd-文学系",
+   "zh": "文学系",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "prop.",
+   "pinyin": "Wénxuéxì",
+   "pt": "Faculdade de Letras",
+   "legacy": "v093"
+  },
+  {
+   "id": "wd-加拿大",
+   "zh": "加拿大",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "prop.",
+   "pinyin": "Jiānádà",
+   "pt": "Canadá",
+   "legacy": "v094"
+  },
+  {
+   "id": "wd-东方学院",
+   "zh": "东方学院",
+   "unit": "licao2",
+   "kind": "lesson",
+   "pos": "prop.",
+   "pinyin": "Dōngfāng Xuéyuàn",
+   "pt": "Instituto Oriental",
+   "legacy": "v095"
+  },
+  {
+   "id": "wd-中学",
+   "zh": "中学",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "zhōngxué",
+   "pt": "escola secundária",
+   "legacy": "v096"
+  },
+  {
+   "id": "wd-小学",
+   "zh": "小学",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "xiǎoxué",
+   "pt": "escola primária",
+   "legacy": "v097"
+  },
+  {
+   "id": "wd-电脑",
+   "zh": "电脑",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "diànnǎo",
+   "pt": "computador",
+   "legacy": "v098"
+  },
+  {
+   "id": "wd-饮料",
+   "zh": "饮料",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "yǐnliào",
+   "pt": "bebida",
+   "legacy": "v099"
+  },
+  {
+   "id": "wd-水",
+   "zh": "水",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "shuǐ",
+   "pt": "água",
+   "legacy": "v100"
+  },
+  {
+   "id": "wd-橙汁",
+   "zh": "橙汁",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "chéngzhī",
+   "pt": "sumo de laranja",
+   "legacy": "v101"
+  },
+  {
+   "id": "wd-可口可乐",
+   "zh": "可口可乐",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "kěkǒukělè",
+   "pt": "coca-cola",
+   "legacy": "v102"
+  },
+  {
+   "id": "wd-咖啡",
+   "zh": "咖啡",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "kāfēi",
+   "pt": "café",
+   "legacy": "v103"
+  },
+  {
+   "id": "wd-亚洲",
+   "zh": "亚洲",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Yàzhōu",
+   "pt": "Ásia",
+   "legacy": "v104"
+  },
+  {
+   "id": "wd-欧洲",
+   "zh": "欧洲",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Ōuzhōu",
+   "pt": "Europa",
+   "legacy": "v105"
+  },
+  {
+   "id": "wd-美洲",
+   "zh": "美洲",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Měizhōu",
+   "pt": "América",
+   "legacy": "v106"
+  },
+  {
+   "id": "wd-大洋洲",
+   "zh": "大洋洲",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Dàyángzhōu",
+   "pt": "Oceânia",
+   "legacy": "v107"
+  },
+  {
+   "id": "wd-非洲",
+   "zh": "非洲",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "n.",
+   "pinyin": "Fēizhōu",
+   "pt": "África",
+   "legacy": "v108"
+  },
+  {
+   "id": "wd-西方",
+   "zh": "西方",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "p.l.",
+   "pinyin": "Xīfāng",
+   "pt": "Ocidente",
+   "legacy": "v109"
+  },
+  {
+   "id": "wd-东方",
+   "zh": "东方",
+   "unit": "licao2",
+   "kind": "reference",
+   "pos": "p.l.",
+   "pinyin": "Dōngfāng",
+   "pt": "Oriente",
+   "legacy": "v110"
+  }
+ ],
+ "audio": [
+  {
+   "id": "a01",
+   "unit": "front",
+   "book": "aluno",
+   "dur": "0:57",
+   "track": "01-0-INTRO-EXPRESSAO-SAUDACAO-CORTESIA"
+  },
+  {
+   "id": "a02",
+   "unit": "0.1",
+   "book": "aluno",
+   "dur": "3:10",
+   "track": "02-0.1"
+  },
+  {
+   "id": "a03",
+   "unit": "0.2",
+   "book": "aluno",
+   "dur": "2:35",
+   "track": "03-0.2"
+  },
+  {
+   "id": "a04",
+   "unit": "0.3",
+   "book": "aluno",
+   "dur": "4:19",
+   "track": "04-0.3"
+  },
+  {
+   "id": "a05",
+   "unit": "0.4",
+   "book": "aluno",
+   "dur": "4:10",
+   "track": "05-0.4"
+  },
+  {
+   "id": "a06",
+   "unit": "0.5",
+   "book": "aluno",
+   "dur": "1:33",
+   "track": "06-0.5"
+  },
+  {
+   "id": "a07",
+   "unit": "0.6",
+   "book": "aluno",
+   "dur": "0:33",
+   "track": "07-0.6"
+  },
+  {
+   "id": "a08",
+   "unit": "licao1",
+   "book": "aluno",
+   "dur": "5:17",
+   "track": "08-Licao 1"
+  },
+  {
+   "id": "a09",
+   "unit": "licao2",
+   "book": "aluno",
+   "dur": "6:12",
+   "track": "09-Licao 2"
+  },
+  {
+   "id": "a10",
+   "unit": "",
+   "book": "exercicios",
+   "dur": "0:28",
+   "track": "0-0-TITULO"
+  },
+  {
+   "id": "a11",
+   "unit": "0.1",
+   "book": "exercicios",
+   "dur": "4:35",
+   "track": "01-0.1"
+  },
+  {
+   "id": "a12",
+   "unit": "0.2",
+   "book": "exercicios",
+   "dur": "12:24",
+   "track": "02-0.2"
+  },
+  {
+   "id": "a13",
+   "unit": "0.3",
+   "book": "exercicios",
+   "dur": "12:53",
+   "track": "03-0.3"
+  },
+  {
+   "id": "a14",
+   "unit": "0.4",
+   "book": "exercicios",
+   "dur": "13:48",
+   "track": "04-0.4"
+  },
+  {
+   "id": "a15",
+   "unit": "0.5",
+   "book": "exercicios",
+   "dur": "13:20",
+   "track": "05-0.5"
+  },
+  {
+   "id": "a16",
+   "unit": "0.6",
+   "book": "exercicios",
+   "dur": "10:00",
+   "track": "06-0.6"
+  },
+  {
+   "id": "a17",
+   "unit": "licao1",
+   "book": "exercicios",
+   "dur": "7:43",
+   "track": "07-Licao 1"
+  },
+  {
+   "id": "a18",
+   "unit": "licao2",
+   "book": "exercicios",
+   "dur": "8:17",
+   "track": "08-Licao 2"
+  }
+ ]
+}

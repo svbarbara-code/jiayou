@@ -1,0 +1,347 @@
+{
+ "version": 1,
+ "generated": "2026-10-13",
+ "books": {
+  "aluno": "Student book",
+  "exercicios": "Workbook"
+ },
+ "bytes_note": "audio/aNN.m4a = mono AAC ~48 kbps transcode of the Drive MP3s (ids = Chinês DB Audio.id)",
+ "tracks": [
+  {
+   "id": "a01",
+   "book": "aluno",
+   "unit": "front",
+   "title": "Front matter",
+   "sub": "Expressões de saudação e de cortesia",
+   "sec": 57,
+   "dur": "0:57",
+   "src": "audio/a01.m4a",
+   "cues": []
+  },
+  {
+   "id": "a02",
+   "book": "aluno",
+   "unit": "0.1",
+   "title": "Lição 0 · 0.1",
+   "sub": "Introdução à fonética",
+   "sec": 191,
+   "dur": "3:10",
+   "src": "audio/a02.m4a",
+   "cues": []
+  },
+  {
+   "id": "a03",
+   "book": "aluno",
+   "unit": "0.2",
+   "title": "Lição 0 · 0.2",
+   "sub": "iniciais b p m f d t n l · finais a o e i u ü",
+   "sec": 155,
+   "dur": "2:35",
+   "src": "audio/a03.m4a",
+   "cues": []
+  },
+  {
+   "id": "a04",
+   "book": "aluno",
+   "unit": "0.3",
+   "title": "Lição 0 · 0.3",
+   "sub": "iniciais g k h · finais ai ei ao ou an en…",
+   "sec": 260,
+   "dur": "4:19",
+   "src": "audio/a04.m4a",
+   "cues": []
+  },
+  {
+   "id": "a05",
+   "book": "aluno",
+   "unit": "0.4",
+   "title": "Lição 0 · 0.4",
+   "sub": "iniciais j q x · finais ia ie iao iou ian in…",
+   "sec": 251,
+   "dur": "4:10",
+   "src": "audio/a05.m4a",
+   "cues": []
+  },
+  {
+   "id": "a06",
+   "book": "aluno",
+   "unit": "0.5",
+   "title": "Lição 0 · 0.5",
+   "sub": "iniciais z c s · finais ua uo uai uei uan uen…",
+   "sec": 94,
+   "dur": "1:33",
+   "src": "audio/a06.m4a",
+   "cues": []
+  },
+  {
+   "id": "a07",
+   "book": "aluno",
+   "unit": "0.6",
+   "title": "Lição 0 · 0.6",
+   "sub": "iniciais zh ch sh r · finais -i (retroflexo) er",
+   "sec": 34,
+   "dur": "0:33",
+   "src": "audio/a07.m4a",
+   "cues": []
+  },
+  {
+   "id": "a08",
+   "book": "aluno",
+   "unit": "licao1",
+   "title": "Lição 1",
+   "sub": "第一课 您贵姓 · Nín Guìxìng",
+   "sec": 317,
+   "dur": "5:17",
+   "src": "audio/a08.m4a",
+   "cues": []
+  },
+  {
+   "id": "a09",
+   "book": "aluno",
+   "unit": "licao2",
+   "title": "Lição 2",
+   "sub": "第二课 认识你很高兴 · Rènshi Nǐ hěn Gāoxìng",
+   "sec": 372,
+   "dur": "6:12",
+   "src": "audio/a09.m4a",
+   "cues": []
+  },
+  {
+   "id": "a10",
+   "book": "exercicios",
+   "unit": null,
+   "title": "Título",
+   "sub": "Faixa de título do caderno",
+   "sec": 28,
+   "dur": "0:28",
+   "src": "audio/a10.m4a",
+   "cues": []
+  },
+  {
+   "id": "a11",
+   "book": "exercicios",
+   "unit": "0.1",
+   "title": "Lição 0 · 0.1",
+   "sub": "Introdução à fonética",
+   "sec": 276,
+   "dur": "4:35",
+   "src": "audio/a11.m4a",
+   "cues": []
+  },
+  {
+   "id": "a12",
+   "book": "exercicios",
+   "unit": "0.2",
+   "title": "Lição 0 · 0.2",
+   "sub": "iniciais b p m f d t n l · finais a o e i u ü",
+   "sec": 745,
+   "dur": "12:24",
+   "src": "audio/a12.m4a",
+   "cues": [
+    {
+     "t": 90,
+     "at": "01:30",
+     "ex": "x02",
+     "ref": "I·2",
+     "label": "Escreva a consoante inicial que ouve"
+    },
+    {
+     "t": 185,
+     "at": "03:05",
+     "ex": "x03",
+     "ref": "I·3",
+     "label": "Escreva a vogal final que ouve"
+    },
+    {
+     "t": 245,
+     "at": "04:05",
+     "ex": "x04",
+     "ref": "I·4",
+     "label": "Anote os tons que ouve"
+    },
+    {
+     "t": 385,
+     "at": "06:25",
+     "ex": "x05",
+     "ref": "I·5",
+     "label": "Escreva as sílabas que ouve"
+    }
+   ]
+  },
+  {
+   "id": "a13",
+   "book": "exercicios",
+   "unit": "0.3",
+   "title": "Lição 0 · 0.3",
+   "sub": "iniciais g k h · finais ai ei ao ou an en…",
+   "sec": 774,
+   "dur": "12:53",
+   "src": "audio/a13.m4a",
+   "cues": [
+    {
+     "t": 90,
+     "at": "01:30",
+     "ex": "x07",
+     "ref": "I·2",
+     "label": "Escreva a consoante inicial que ouve"
+    },
+    {
+     "t": 143,
+     "at": "02:23",
+     "ex": "x08",
+     "ref": "I·3",
+     "label": "Escreva a vogal final que ouve"
+    },
+    {
+     "t": 250,
+     "at": "04:10",
+     "ex": "x09",
+     "ref": "I·4",
+     "label": "Anote os tons que ouve"
+    },
+    {
+     "t": 362,
+     "at": "06:02",
+     "ex": "x10",
+     "ref": "I·5",
+     "label": "Escreva as sílabas que ouve"
+    }
+   ]
+  },
+  {
+   "id": "a14",
+   "book": "exercicios",
+   "unit": "0.4",
+   "title": "Lição 0 · 0.4",
+   "sub": "iniciais j q x · finais ia ie iao iou ian in…",
+   "sec": 828,
+   "dur": "13:48",
+   "src": "audio/a14.m4a",
+   "cues": [
+    {
+     "t": 96,
+     "at": "01:36",
+     "ex": "x13",
+     "ref": "I·2",
+     "label": "Escreva a consoante inicial que ouve"
+    },
+    {
+     "t": 154,
+     "at": "02:34",
+     "ex": "x14",
+     "ref": "I·3",
+     "label": "Escreva a vogal final que ouve"
+    },
+    {
+     "t": 247,
+     "at": "04:07",
+     "ex": "x15",
+     "ref": "I·4",
+     "label": "Anote os tons que ouve"
+    },
+    {
+     "t": 307,
+     "at": "05:07",
+     "ex": "x16",
+     "ref": "I·5",
+     "label": "Escreva as sílabas que ouve"
+    }
+   ]
+  },
+  {
+   "id": "a15",
+   "book": "exercicios",
+   "unit": "0.5",
+   "title": "Lição 0 · 0.5",
+   "sub": "iniciais z c s · finais ua uo uai uei uan uen…",
+   "sec": 800,
+   "dur": "13:20",
+   "src": "audio/a15.m4a",
+   "cues": [
+    {
+     "t": 115,
+     "at": "01:55",
+     "ex": "x18",
+     "ref": "I·2",
+     "label": "Escreva a consoante inicial que ouve"
+    },
+    {
+     "t": 185,
+     "at": "03:05",
+     "ex": "x19",
+     "ref": "I·3",
+     "label": "Escreva a vogal final que ouve"
+    },
+    {
+     "t": 307,
+     "at": "05:07",
+     "ex": "x20",
+     "ref": "I·4",
+     "label": "Anote os tons que ouve"
+    },
+    {
+     "t": 380,
+     "at": "06:20",
+     "ex": "x21",
+     "ref": "I·5",
+     "label": "Escreva as sílabas que ouve"
+    }
+   ]
+  },
+  {
+   "id": "a16",
+   "book": "exercicios",
+   "unit": "0.6",
+   "title": "Lição 0 · 0.6",
+   "sub": "iniciais zh ch sh r · finais -i (retroflexo) er",
+   "sec": 601,
+   "dur": "10:00",
+   "src": "audio/a16.m4a",
+   "cues": [
+    {
+     "t": 110,
+     "at": "01:50",
+     "ex": "x23",
+     "ref": "I·2",
+     "label": "Escreva a consoante inicial que ouve"
+    },
+    {
+     "t": 178,
+     "at": "02:58",
+     "ex": "x24",
+     "ref": "I·3",
+     "label": "Anote os tons que ouve"
+    },
+    {
+     "t": 266,
+     "at": "04:26",
+     "ex": "x25",
+     "ref": "I·4",
+     "label": "Escreva as sílabas que ouve"
+    }
+   ]
+  },
+  {
+   "id": "a17",
+   "book": "exercicios",
+   "unit": "licao1",
+   "title": "Lição 1",
+   "sub": "第一课 您贵姓 · Nín Guìxìng",
+   "sec": 464,
+   "dur": "7:43",
+   "src": "audio/a17.m4a",
+   "cues": []
+  },
+  {
+   "id": "a18",
+   "book": "exercicios",
+   "unit": "licao2",
+   "title": "Lição 2",
+   "sub": "第二课 认识你很高兴 · Rènshi Nǐ hěn Gāoxìng",
+   "sec": 497,
+   "dur": "8:17",
+   "src": "audio/a18.m4a",
+   "cues": []
+  }
+ ]
+}

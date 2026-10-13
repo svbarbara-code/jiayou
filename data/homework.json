@@ -1,0 +1,328 @@
+{
+ "exported": "2026-10-13",
+ "turma": "ON_B1_2N06",
+ "rows": [
+  {
+   "id": "w01",
+   "class_no": 1,
+   "class_date": "2026-08-10",
+   "due": "2026-08-17",
+   "kind": "prep",
+   "title": "Baixar o texto da Lição 0 e instalar o teclado pinyin",
+   "detail": "Na próxima aula, estudaremos a Lição 0, a parte fonética. Faça o download do texto no grupo e baixe o método de entrada Pinyin.",
+   "submit": "",
+   "status": "done",
+   "done_on": "",
+   "counts": true,
+   "drill": [],
+   "files": [
+    {
+     "name": "2026-08-10_expressoes-saudacoes-cortesia.pptx",
+     "label": "Slides",
+     "shipped": false,
+     "pages": [],
+     "pdf": ""
+    }
+   ]
+  },
+  {
+   "id": "w02",
+   "class_no": 2,
+   "class_date": "2026-08-17",
+   "due": "2026-08-24",
+   "kind": "gravação",
+   "title": "Revisar a pronúncia das vogais (finais) e enviar a gravação",
+   "detail": "Lição de casa de hoje: Revise a pronúncia das vogais, depois grave e envie para mim.",
+   "submit": "gravação para a professora",
+   "status": "done",
+   "done_on": "",
+   "counts": true,
+   "drill": [
+    {
+     "set": "finais",
+     "n": 36
+    }
+   ],
+   "files": [
+    {
+     "name": "2026-08-17_licao0-fonetica.pptx",
+     "label": "Slides",
+     "shipped": false,
+     "pages": [],
+     "pdf": ""
+    }
+   ]
+  },
+  {
+   "id": "w03",
+   "class_no": 3,
+   "class_date": "2026-08-24",
+   "due": "2026-08-31",
+   "kind": "gravação",
+   "title": "Revisar as iniciais e enviar a gravação",
+   "detail": "Lição de casa de hoje: Por favor, revise as inicials e me envie a gravação.",
+   "submit": "gravação para a professora",
+   "status": "done",
+   "done_on": "",
+   "counts": true,
+   "drill": [
+    {
+     "set": "iniciais",
+     "n": 23
+    }
+   ],
+   "files": [
+    {
+     "name": "2026-08-24_iniciais-video.mp4",
+     "label": "Video",
+     "shipped": false,
+     "pages": [],
+     "pdf": ""
+    }
+   ]
+  },
+  {
+   "id": "w04",
+   "class_no": 4,
+   "class_date": "2026-08-31",
+   "due": "2026-09-14",
+   "kind": "gravação",
+   "title": "Gravar as 16 palavras de prática de tons",
+   "detail": "Hoje aprendemos a parte do tom. Lição de casa: Envie-me a gravação dessas palavras. — 听 tīng · 说 shuō · 吃 chī · 喝 hē · 来 lái · 学 xué · 读 dú · 玩 wán · 买 mǎi · 想 xiǎng · 写 xiě · 给 gěi · 做 zuò · 要 yào · 去 qù · 看 kàn",
+   "submit": "gravação para a professora",
+   "status": "done",
+   "done_on": "",
+   "counts": true,
+   "drill": [
+    {
+     "set": "tons",
+     "n": 16
+    }
+   ],
+   "files": [
+    {
+     "name": "2026-08-31_tons-palavras.jpg",
+     "label": "Image",
+     "shipped": true,
+     "pages": [
+      "img/hw-w04-tons-palavras.jpg"
+     ],
+     "pdf": ""
+    }
+   ]
+  },
+  {
+   "id": "w05",
+   "class_no": 4,
+   "class_date": "2026-08-31",
+   "due": "2026-09-14",
+   "kind": "prep",
+   "title": "Imprimir a folha de quadrículas (空白字帖) para praticar caracteres",
+   "detail": "Terminamos de aprender a parte fonética do chinês e começaremos a aprender caracteres chineses na próxima aula. Por favor, prepare-se para imprimir este documento para praticar caracteres chineses.",
+   "submit": "",
+   "status": "done",
+   "done_on": "",
+   "counts": true,
+   "drill": [],
+   "files": [
+    {
+     "name": "2026-08-31_zitie-grade-em-branco.pdf",
+     "label": "PDF",
+     "shipped": true,
+     "pages": [
+      "img/hw-w05-zitie-grade-em-branco-p1.jpg"
+     ],
+     "pdf": "img/hw-w05-zitie-grade-em-branco.pdf",
+     "npages": 1,
+     "only_pages": null
+    }
+   ]
+  },
+  {
+   "id": "w06",
+   "class_no": 5,
+   "class_date": "2026-09-14",
+   "due": "2026-09-21",
+   "kind": "material",
+   "title": "Letra de 月亮代表我的心 (zh + PT-BR)",
+   "detail": "A professora postou a letra em chinês e em português. Não foi passada outra tarefa nessa aula — confirmado no grupo no dia seguinte.",
+   "submit": "",
+   "status": "done",
+   "done_on": "2026-09-14",
+   "counts": false,
+   "drill": [],
+   "files": [
+    {
+     "name": "2026-09-14_yueliang-letra-zh.pdf",
+     "label": "PDF",
+     "shipped": true,
+     "pages": [
+      "img/hw-w06-yueliang-letra-zh-p1.jpg",
+      "img/hw-w06-yueliang-letra-zh-p2.jpg"
+     ],
+     "pdf": "img/hw-w06-yueliang-letra-zh.pdf",
+     "npages": 2,
+     "only_pages": null
+    }
+   ]
+  },
+  {
+   "id": "w07",
+   "class_no": 6,
+   "class_date": "2026-09-21",
+   "due": "2026-09-28",
+   "kind": "escrita",
+   "title": "Praticar os traços básicos — páginas 1 e 2 do 汉字笔画练习",
+   "detail": "Hoje vamos aprender os traços básicos dos caracteres chineses. Por favor, pratique os traços no formulário. Na próxima aula, continuaremos a aprender sobre outros traços compostos e a estrutura dos caracteres chineses. — só as páginas 1 e 2, confirmado pela professora no grupo em 22/09.",
+   "submit": "foto no grupo",
+   "status": "done",
+   "done_on": "2026-09-28",
+   "counts": true,
+   "drill": [
+    {
+     "set": "tracos",
+     "n": 16
+    }
+   ],
+   "files": [
+    {
+     "name": "2026-09-21_hanzi-bihua-pratica.pdf",
+     "label": "PDF",
+     "shipped": true,
+     "pages": [
+      "img/hw-w07-hanzi-bihua-pratica-p1.jpg",
+      "img/hw-w07-hanzi-bihua-pratica-p2.jpg"
+     ],
+     "pdf": "",
+     "npages": 4,
+     "only_pages": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w08",
+   "class_no": 7,
+   "class_date": "2026-09-28",
+   "due": "2026-10-05",
+   "kind": "escrita",
+   "title": "Pratique os caracteres chineses nestas duas páginas",
+   "detail": "Lição de casa de hoje: Pratique os caracteres chineses nestas duas páginas. 👆🏻👆🏻\nPreste atenção à ordem e estrutura do golpe",
+   "submit": "",
+   "status": "todo",
+   "done_on": "",
+   "counts": true,
+   "drill": [
+    {
+     "set": "caracteres",
+     "n": 18
+    }
+   ],
+   "files": [
+    {
+     "name": "2026-09-28_10.pdf",
+     "label": "PDF",
+     "shipped": true,
+     "pages": [
+      "img/hw-w08-10-p1.jpg"
+     ],
+     "pdf": "img/hw-w08-10.pdf",
+     "npages": 1,
+     "only_pages": null
+    },
+    {
+     "name": "2026-09-28_16.pdf",
+     "label": "PDF",
+     "shipped": true,
+     "pages": [
+      "img/hw-w08-16-p1.jpg"
+     ],
+     "pdf": "img/hw-w08-16.pdf",
+     "npages": 1,
+     "only_pages": null
+    },
+    {
+     "name": "2026-09-28_photo-2026-09-28-22-12-49.jpg",
+     "label": "Image",
+     "shipped": true,
+     "pages": [
+      "img/hw-w08-photo-2026-09-28-22-12-49.jpg"
+     ],
+     "pdf": ""
+    },
+    {
+     "name": "2026-09-28_photo-2026-09-28-22-12-50.jpg",
+     "label": "Image",
+     "shipped": true,
+     "pages": [
+      "img/hw-w08-photo-2026-09-28-22-12-50.jpg"
+     ],
+     "pdf": ""
+    },
+    {
+     "name": "2026-09-28_空白字帖.pdf",
+     "label": "PDF",
+     "shipped": true,
+     "pages": [
+      "img/hw-w08-file-p1.jpg"
+     ],
+     "pdf": "img/hw-w08-file.pdf",
+     "npages": 1,
+     "only_pages": null
+    }
+   ]
+  },
+  {
+   "id": "w09",
+   "class_no": 8,
+   "class_date": "2026-10-05",
+   "due": "2026-10-19",
+   "kind": "escrita",
+   "title": "Praticar a escrita dos caracteres — 汉字书写 (Lição 1 你好，我是)",
+   "detail": "Lição de casa da aula 8 (05/10): praticar a escrita dos caracteres da Lição 1 (你好，我是). A profa. postou o 作业 汉字书写 (2 páginas) junto com o slide da aula. 12/10 suspenso (N. Sra. Aparecida) — entrega na próxima aula, 19/10.",
+   "submit": "",
+   "status": "todo",
+   "done_on": "",
+   "counts": true,
+   "drill": [],
+   "files": [
+    {
+     "name": "2026-10-05_5-作业-汉字书写.pdf",
+     "label": "PDF",
+     "shipped": true,
+     "pages": [
+      "img/hw-w09-5-p1.jpg",
+      "img/hw-w09-5-p2.jpg"
+     ],
+     "pdf": "img/hw-w09-5.pdf",
+     "npages": 2,
+     "only_pages": null
+    },
+    {
+     "name": "2026-10-05_5-初级1-第1课-你好-我是.pptx",
+     "label": "Slides",
+     "shipped": false,
+     "pages": [],
+     "pdf": ""
+    },
+    {
+     "name": "2026-10-08_base-ptg.pdf",
+     "label": "PDF",
+     "shipped": true,
+     "pages": [
+      "img/hw-w09-base-ptg-p1.jpg",
+      "img/hw-w09-base-ptg-p2.jpg",
+      "img/hw-w09-base-ptg-p3.jpg",
+      "img/hw-w09-base-ptg-p4.jpg",
+      "img/hw-w09-base-ptg-p5.jpg"
+     ],
+     "pdf": "img/hw-w09-base-ptg.pdf",
+     "npages": 5,
+     "only_pages": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "_about": "jy-progress defaults. Source: Chinês DB > Settings (read 13 Oct 2026). The engine reads these as window.JY_DATA.progress; edit here, not in progress.js.",
+  "settings": {
+    "leitner_days": [0, 1, 2, 4, 8, 16, 32],
+    "known_box": 3,
+    "daily_new": 5,
+    "daily_review_cap": 40,
+    "session_minutes": 10,
+    "gap_cap_seconds": 240
+  },
+  "levels": [
+    { "frac": 0.00, "zh": "起步", "pinyin": "Qǐbù",   "en": "Getting started" },
+    { "frac": 0.10, "zh": "入门", "pinyin": "Rùmén",  "en": "Through the door" },
+    { "frac": 0.25, "zh": "上路", "pinyin": "Shànglù", "en": "On the road" },
+    { "frac": 0.40, "zh": "进步", "pinyin": "Jìnbù",  "en": "Making progress" },
+    { "frac": 0.60, "zh": "扎实", "pinyin": "Zhāshi", "en": "Solid" },
+    { "frac": 0.80, "zh": "熟练", "pinyin": "Shúliàn", "en": "Fluent with it" },
+    { "frac": 1.00, "zh": "毕业", "pinyin": "Bìyè",   "en": "Básico 1, done" }
+  ]
+}
