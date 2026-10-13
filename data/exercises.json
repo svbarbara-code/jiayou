@@ -2002,6 +2002,13 @@
     }
    ],
    "py_added": true,
+   "needs": {
+    "grammar": [
+     "gr-licao1-2",
+     "gr-licao1-3",
+     "gr-licao1-7"
+    ]
+   },
    "unit_title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?"
   },
   {
@@ -2044,6 +2051,12 @@
     }
    ],
    "py_added": true,
+   "needs": {
+    "grammar": [
+     "gr-licao1-1",
+     "gr-licao1-2"
+    ]
+   },
    "unit_title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?"
   },
   {
@@ -2095,6 +2108,12 @@
     }
    ],
    "py_added": true,
+   "needs": {
+    "grammar": [
+     "gr-licao1-1",
+     "gr-licao1-2"
+    ]
+   },
    "unit_title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?"
   },
   {
@@ -2143,6 +2162,12 @@
     }
    ],
    "py_added": true,
+   "needs": {
+    "grammar": [
+     "gr-licao1-3",
+     "gr-licao1-4"
+    ]
+   },
    "unit_title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?"
   },
   {
@@ -2205,6 +2230,15 @@
     }
    ],
    "py_added": true,
+   "needs": {
+    "grammar": [
+     "gr-licao1-1",
+     "gr-licao1-2",
+     "gr-licao1-3",
+     "gr-licao1-5",
+     "gr-licao1-6"
+    ]
+   },
    "unit_title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?"
   },
   {
@@ -2265,6 +2299,9 @@
     }
    ],
    "py_added": true,
+   "needs": {
+    "grammar": []
+   },
    "unit_title": "Lição 2 — 第二课 认识你很高兴 / Muito prazer em conhecê-lo"
   },
   {
@@ -2318,6 +2355,12 @@
     }
    ],
    "py_added": true,
+   "needs": {
+    "grammar": [
+     "gr-licao2-3",
+     "gr-licao2-4"
+    ]
+   },
    "unit_title": "Lição 2 — 第二课 认识你很高兴 / Muito prazer em conhecê-lo"
   },
   {
@@ -2380,6 +2423,15 @@
     }
    ],
    "py_added": true,
+   "needs": {
+    "grammar": [
+     "gr-licao2-1",
+     "gr-licao2-2",
+     "gr-licao2-3",
+     "gr-licao2-4",
+     "gr-licao2-5"
+    ]
+   },
    "unit_title": "Lição 2 — 第二课 认识你很高兴 / Muito prazer em conhecê-lo"
   },
   {
@@ -2409,6 +2461,9 @@
     }
    ],
    "py_added": true,
+   "needs": {
+    "grammar": []
+   },
    "unit_title": "Lição 2 — 第二课 认识你很高兴 / Muito prazer em conhecê-lo"
   }
  ]
