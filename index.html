@@ -1691,9 +1691,10 @@ window.JY_DATA = window.JY_DATA || {}; Object.assign(window.JY_DATA, {"audio": {
     if (days > 0) {
       n.textContent = '🔥 ' + days + (days === 1 ? ' day' : ' days');
       if (!s.studiedToday) n.className = 'pill pill--brand dy-streak';
-      n.title = s.studiedToday ? 'Streak is safe today' : 'Study today to keep your streak';
+      n.title = s.studiedToday ? 'Streak is safe today' : 'Reach your daily minutes to keep the streak';
     } else {
       n.textContent = s.studiedToday ? '🔥 1 day' : 'Start a streak';
+      n.title = s.studiedToday ? '' : 'A day counts once you reach your daily minutes';
       if (!s.studiedToday) n.className = 'pill pill--muted dy-streak';
     }
   }
@@ -4013,24 +4014,30 @@ window.JY_DATA = window.JY_DATA || {}; Object.assign(window.JY_DATA, {"audio": {
                reviewed: rec.graded, correct: rec.ok, newCards: rec.fresh, studied: studied(rec), byKind: by };
     }
 
-    /* ----- streak (days with any study; floorDays = days that met the floor) ----- */
+    /* ----- streak: consecutive days that MET the floor (Bárbara's rule, 13 Oct) -----
+       days/best/atRisk/studiedToday are all about the floor streak. Any-study days are kept
+       as separate stats (studyDays / anyStudyToday / anyStudyDays). Today counts the moment the
+       floor is reached; a day below the floor breaks the run; the run survives until the end
+       of today, so an unfinished today never shows as broken. */
     function streak() {
-      var s = load(), t = today(), dates = Object.keys(s.days).filter(function (d) { return studied(s.days[d]); }).sort();
-      var set = {}; dates.forEach(function (d) { set[d] = true; });
-      var studiedToday = !!set[t];
-      var cursor = studiedToday ? t : addDays(t, -1), days = 0;
-      while (set[cursor]) { days++; cursor = addDays(cursor, -1); }
+      var s = load(), t = today(), floorSec = cfg.session_minutes * 60;
+      function met(d) { return !!s.days[d] && totalSec(s.days[d]) >= floorSec; }
+      var all = Object.keys(s.days).sort();
+      var metDates = all.filter(met), studiedDates = all.filter(function (d) { return studied(s.days[d]); });
+      var metToday = met(t);
+      var cursor = metToday ? t : addDays(t, -1), days = 0;
+      while (met(cursor)) { days++; cursor = addDays(cursor, -1); }
       var best = 0, run = 0, prev = null;
-      dates.forEach(function (d) {
+      metDates.forEach(function (d) {
         run = (prev && diffDays(d, prev) === 1) ? run + 1 : 1;
         if (run > best) best = run; prev = d;
       });
-      var fd = 0, c2 = t;
-      if (!(s.days[t] && totalSec(s.days[t]) / 60 >= cfg.session_minutes)) c2 = addDays(t, -1);
-      while (s.days[c2] && totalSec(s.days[c2]) / 60 >= cfg.session_minutes) { fd++; c2 = addDays(c2, -1); }
-      return { days: days, best: Math.max(best, days), studiedToday: studiedToday,
-               atRisk: !studiedToday && days > 0, floorDays: fd, lastStudied: dates.length ? dates[dates.length - 1] : null,
-               totalDays: dates.length };
+      var anyToday = studied(s.days[t]);
+      var any = 0, c2 = anyToday ? t : addDays(t, -1);
+      while (studied(s.days[c2])) { any++; c2 = addDays(c2, -1); }
+      return { days: days, best: Math.max(best, days), studiedToday: metToday, floorMetToday: metToday,
+               atRisk: !metToday && days > 0, lastMet: metDates.length ? metDates[metDates.length - 1] : null,
+               anyStudyToday: anyToday, studyDays: any, totalDays: studiedDates.length, floorDays: metDates.length };
     }
 
     /* ----- knowledge ----- */
@@ -4205,9 +4212,9 @@ window.JY_DATA = window.JY_DATA || {}; Object.assign(window.JY_DATA, {"audio": {
       '<p class="pg-sub">' + nextTxt + '</p>';
 
     /* --- stat tiles --- */
-    var streakSub = st.studiedToday ? 'studied today ✓' : (st.days > 0 ? 'study today to keep it' : 'start one today');
+    var streakSub = st.floorMetToday ? 'floor met today ✓' : (st.days > 0 ? 'meet today\'s ' + td.floor + ' min to keep it' : (st.anyStudyToday ? 'keep going to ' + td.floor + ' min' : 'start one today'));
     $('#pg-tiles').innerHTML =
-      tile(st.days, 'day streak', streakSub + (st.best > st.days ? ' · best ' + st.best : '')) +
+      tile(st.days, 'day streak (floor)', streakSub + (st.best > st.days ? ' · best ' + st.best : '')) +
       tile(kn.known + '<small> / ' + kn.total + '</small>', 'characters known', 'known = box ' + (bx.knownBox + 1) + '+ · taught so far') +
       tile(fmtMin(td.minutes) + '<small> / ' + td.floor + ' min</small>', 'minutes today', td.floorMet ? 'floor met ✓' : (td.minutes ? 'floor = your bad-day minimum' : 'nothing logged yet')) +
       tile(tot.reviews, 'cards reviewed', tot.accuracy == null ? 'no reviews yet' : tot.accuracy + '% got it · all time');
