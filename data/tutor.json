@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "version": 1,
+    "generated": "2026-10-13",
+    "owner": "jy-tutor",
+    "note": "Scripted speaking/conversation practice. Everything is class-axis gated: dialogues reference curriculum ids (wd-/ch-) and a unit; the tab shows them only when JY_CONTENT.isTaught(unit) is true, never fabricating a gloss or pinyin. Phrase text is composed at runtime from the tokens' own hanzi; phrase pinyin is the join of each token's pinyin from content.json. 'en' is a short communicative label for the UI (what the line DOES), not a claimed book translation. Pronunciation sets are phonetics (Licao 0, taught); hanzi/gloss shown only where a taught, glossed character exists."
+  },
+
+  "pronunciation": [
+    {
+      "id": "pr-tones",
+      "unit": "0.2",
+      "title": "The four tones",
+      "en": "Hear and copy the four tone contours. Same syllable, four meanings.",
+      "kind": "tones",
+      "items": [
+        { "pinyin": "mā", "tone": 1, "charId": "ch-妈" },
+        { "pinyin": "má", "tone": 2 },
+        { "pinyin": "mǎ", "tone": 3, "charId": "ch-马" },
+        { "pinyin": "mà", "tone": 4 }
+      ],
+      "note": "妈 mā and 马 mǎ are taught characters (Lição 0 汉字). The 2nd and 4th tones here are shown as sound only — Básico 1 glosses no character for them, so none is invented."
+    },
+    {
+      "id": "pr-initials",
+      "unit": "0.3",
+      "title": "Initials 声母",
+      "en": "Repeat each initial after the model. These are sounds, not words.",
+      "kind": "sounds",
+      "groups": [
+        { "label": "Lips / teeth", "items": ["b", "p", "m", "f"] },
+        { "label": "Tongue-tip", "items": ["d", "t", "n", "l"] },
+        { "label": "Back", "items": ["g", "k", "h"] },
+        { "label": "Palatal", "items": ["j", "q", "x"] },
+        { "label": "Retroflex", "items": ["zh", "ch", "sh", "r"] },
+        { "label": "Dental", "items": ["z", "c", "s"] },
+        { "label": "Semi-vowels", "items": ["y", "w"] }
+      ],
+      "note": "23 initials including y and w, exactly as her Lição 0 fonética deck lists them. The full table with the book's pictures lives in Content; the real recordings are in Audio."
+    },
+    {
+      "id": "pr-finals",
+      "unit": "0.3",
+      "title": "Finals 韵母",
+      "en": "Repeat each final after the model.",
+      "kind": "sounds",
+      "groups": [
+        { "label": "Single", "items": ["a", "o", "e", "i", "u", "ü"] },
+        { "label": "Compound", "items": ["ai", "ei", "ao", "ou"] },
+        { "label": "Nasal", "items": ["an", "en", "ang", "eng", "ong"] },
+        { "label": "With -i / -u", "items": ["ia", "ie", "ua", "uo", "üe"] }
+      ],
+      "note": "A representative set from the Lição 0 韵母 table; see Content for the full table and Audio for the recordings."
+    }
+  ],
+
+  "readAloud": {
+    "id": "ra-chars",
+    "title": "Say the character",
+    "en": "A taught character appears — say its reading aloud, then hear the model and rate yourself.",
+    "source": "taughtCardableChars",
+    "note": "Pulled live from JY_CONTENT.taughtChars() filtered to cardable — so it always holds exactly the characters your class has reached, and never one without a reading."
+  },
+
+  "dialogues": [
+    {
+      "id": "dl-hello",
+      "unit": "licao1",
+      "title": "Saying hello",
+      "en": "The first exchange of every class: greet, and greet back.",
+      "roles": { "a": "老师 Teacher", "b": "You" },
+      "turns": [
+        { "who": "a", "en": "Teacher greets the class", "tokens": ["wd-你", "wd-好"] },
+        { "who": "b", "en": "Greet back", "prompt": "The teacher said 你好. Say hello back.",
+          "options": [
+            { "tokens": ["wd-你", "wd-好"], "en": "Hello (to anyone)" },
+            { "tokens": ["wd-您", "wd-好"], "en": "Hello (polite, 您)" }
+          ],
+          "hint": "好 hǎo is the character you already know. Put 你 nǐ (or polite 您 nín) in front." },
+        { "who": "a", "en": "Teacher addresses herself as 老师", "tokens": ["wd-老师", "wd-好"] },
+        { "who": "b", "en": "Greet the teacher", "prompt": "Greet the teacher, 老师.",
+          "options": [ { "tokens": ["wd-老师", "wd-好"], "en": "Hello, teacher" } ],
+          "hint": "老师 lǎoshī = professor. Same pattern: name + 好." }
+      ]
+    },
+    {
+      "id": "dl-intro",
+      "unit": "licao1",
+      "title": "Introducing yourself",
+      "en": "Give your name and where you are from.",
+      "roles": { "a": "老师 Teacher", "b": "You" },
+      "turns": [
+        { "who": "a", "en": "Teacher asks your name", "tokens": ["wd-你", "wd-叫", "wd-什么", "wd-名字"] },
+        { "who": "b", "en": "Say your name", "prompt": "Answer: 我叫 … (say your name).",
+          "options": [ { "tokens": ["wd-我", "wd-叫"], "nameSlot": true, "en": "My name is …" } ],
+          "hint": "我 wǒ = eu, 叫 jiào = chamar. Say 我叫 then your own name." },
+        { "who": "a", "en": "Teacher asks your nationality", "tokens": ["wd-你", "wd-是", "wd-哪国人"] },
+        { "who": "b", "en": "Say where you are from", "prompt": "Answer: 我是 … 人.",
+          "options": [
+            { "tokens": ["wd-我", "wd-是", "wd-巴西", "wd-人"], "en": "I'm Brazilian", "default": true },
+            { "tokens": ["wd-我", "wd-是", "wd-中国", "wd-人"], "en": "I'm Chinese" },
+            { "tokens": ["wd-我", "wd-是", "wd-葡萄牙", "wd-人"], "en": "I'm Portuguese" }
+          ],
+          "hint": "是 shì = ser. 巴西 Bāxī = Brasil, then 人 rén = pessoa." }
+      ]
+    },
+    {
+      "id": "dl-nice",
+      "unit": "licao2",
+      "title": "Nice to meet you",
+      "en": "Close the introduction warmly.",
+      "roles": { "a": "同学 Classmate", "b": "You" },
+      "turns": [
+        { "who": "a", "en": "Classmate: nice to meet you", "tokens": ["wd-认识", "wd-你", "wd-很", "wd-高兴"] },
+        { "who": "b", "en": "Say it back", "prompt": "Say 'nice to meet you too'.",
+          "options": [ { "tokens": ["wd-认识", "wd-你", "wd-很", "wd-高兴"], "en": "Nice to meet you too" } ],
+          "hint": "认识 rènshi = conhecer, 很 hěn = muito, 高兴 gāoxìng = contente." }
+      ]
+    }
+  ]
+}

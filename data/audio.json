@@ -13,9 +13,10 @@
    "unit": "front",
    "title": "Front matter",
    "sub": "Expressões de saudação e de cortesia",
-   "sec": 57,
+   "sec": 57.3,
    "dur": "0:57",
    "src": "audio/a01.m4a",
+   "bytes": 391501,
    "cues": []
   },
   {
@@ -24,9 +25,10 @@
    "unit": "0.1",
    "title": "Lição 0 · 0.1",
    "sub": "Introdução à fonética",
-   "sec": 191,
+   "sec": 190.9,
    "dur": "3:10",
    "src": "audio/a02.m4a",
+   "bytes": 1199805,
    "cues": []
   },
   {
@@ -35,9 +37,10 @@
    "unit": "0.2",
    "title": "Lição 0 · 0.2",
    "sub": "iniciais b p m f d t n l · finais a o e i u ü",
-   "sec": 155,
+   "sec": 155.1,
    "dur": "2:35",
    "src": "audio/a03.m4a",
+   "bytes": 1080491,
    "cues": []
   },
   {
@@ -46,9 +49,10 @@
    "unit": "0.3",
    "title": "Lição 0 · 0.3",
    "sub": "iniciais g k h · finais ai ei ao ou an en…",
-   "sec": 260,
+   "sec": 260.0,
    "dur": "4:19",
    "src": "audio/a04.m4a",
+   "bytes": 1852048,
    "cues": []
   },
   {
@@ -57,9 +61,10 @@
    "unit": "0.4",
    "title": "Lição 0 · 0.4",
    "sub": "iniciais j q x · finais ia ie iao iou ian in…",
-   "sec": 251,
+   "sec": 250.8,
    "dur": "4:10",
    "src": "audio/a05.m4a",
+   "bytes": 1788053,
    "cues": []
   },
   {
@@ -68,9 +73,10 @@
    "unit": "0.5",
    "title": "Lição 0 · 0.5",
    "sub": "iniciais z c s · finais ua uo uai uei uan uen…",
-   "sec": 94,
+   "sec": 94.0,
    "dur": "1:33",
    "src": "audio/a06.m4a",
+   "bytes": 651845,
    "cues": []
   },
   {
@@ -79,9 +85,10 @@
    "unit": "0.6",
    "title": "Lição 0 · 0.6",
    "sub": "iniciais zh ch sh r · finais -i (retroflexo) er",
-   "sec": 34,
+   "sec": 33.9,
    "dur": "0:33",
    "src": "audio/a07.m4a",
+   "bytes": 199647,
    "cues": []
   },
   {
@@ -90,9 +97,10 @@
    "unit": "licao1",
    "title": "Lição 1",
    "sub": "第一课 您贵姓 · Nín Guìxìng",
-   "sec": 317,
+   "sec": 317.4,
    "dur": "5:17",
    "src": "audio/a08.m4a",
+   "bytes": 2344968,
    "cues": []
   },
   {
@@ -101,9 +109,10 @@
    "unit": "licao2",
    "title": "Lição 2",
    "sub": "第二课 认识你很高兴 · Rènshi Nǐ hěn Gāoxìng",
-   "sec": 372,
+   "sec": 372.5,
    "dur": "6:12",
    "src": "audio/a09.m4a",
+   "bytes": 2666416,
    "cues": []
   },
   {
@@ -112,9 +121,10 @@
    "unit": null,
    "title": "Título",
    "sub": "Faixa de título do caderno",
-   "sec": 28,
+   "sec": 28.2,
    "dur": "0:28",
    "src": "audio/a10.m4a",
+   "bytes": 199367,
    "cues": []
   },
   {
@@ -123,9 +133,10 @@
    "unit": "0.1",
    "title": "Lição 0 · 0.1",
    "sub": "Introdução à fonética",
-   "sec": 276,
+   "sec": 275.7,
    "dur": "4:35",
    "src": "audio/a11.m4a",
+   "bytes": 1972835,
    "cues": []
   },
   {
@@ -134,9 +145,10 @@
    "unit": "0.2",
    "title": "Lição 0 · 0.2",
    "sub": "iniciais b p m f d t n l · finais a o e i u ü",
-   "sec": 745,
+   "sec": 744.8,
    "dur": "12:24",
    "src": "audio/a12.m4a",
+   "bytes": 4626389,
    "cues": [
     {
      "t": 90,
@@ -174,9 +186,10 @@
    "unit": "0.3",
    "title": "Lição 0 · 0.3",
    "sub": "iniciais g k h · finais ai ei ao ou an en…",
-   "sec": 774,
+   "sec": 773.8,
    "dur": "12:53",
    "src": "audio/a13.m4a",
+   "bytes": 4484455,
    "cues": [
     {
      "t": 90,
@@ -214,9 +227,10 @@
    "unit": "0.4",
    "title": "Lição 0 · 0.4",
    "sub": "iniciais j q x · finais ia ie iao iou ian in…",
-   "sec": 828,
+   "sec": 828.4,
    "dur": "13:48",
    "src": "audio/a14.m4a",
+   "bytes": 4530122,
    "cues": [
     {
      "t": 96,
@@ -254,9 +268,10 @@
    "unit": "0.5",
    "title": "Lição 0 · 0.5",
    "sub": "iniciais z c s · finais ua uo uai uei uan uen…",
-   "sec": 800,
+   "sec": 800.5,
    "dur": "13:20",
    "src": "audio/a15.m4a",
+   "bytes": 4743839,
    "cues": [
     {
      "t": 115,
@@ -294,9 +309,10 @@
    "unit": "0.6",
    "title": "Lição 0 · 0.6",
    "sub": "iniciais zh ch sh r · finais -i (retroflexo) er",
-   "sec": 601,
+   "sec": 600.8,
    "dur": "10:00",
    "src": "audio/a16.m4a",
+   "bytes": 3996612,
    "cues": [
     {
      "t": 110,
@@ -327,9 +343,10 @@
    "unit": "licao1",
    "title": "Lição 1",
    "sub": "第一课 您贵姓 · Nín Guìxìng",
-   "sec": 464,
+   "sec": 464.0,
    "dur": "7:43",
    "src": "audio/a17.m4a",
+   "bytes": 3365383,
    "cues": []
   },
   {
@@ -338,9 +355,10 @@
    "unit": "licao2",
    "title": "Lição 2",
    "sub": "第二课 认识你很高兴 · Rènshi Nǐ hěn Gāoxìng",
-   "sec": 497,
+   "sec": 497.4,
    "dur": "8:17",
    "src": "audio/a18.m4a",
+   "bytes": 3516214,
    "cues": []
   }
  ]

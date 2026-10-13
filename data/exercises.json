@@ -1,0 +1,2415 @@
+{
+ "meta": {
+  "built": "2026-10-13",
+  "jy": "exercises",
+  "source": "Chinês DB Exercises/Units/Audio; Caderno de Exercícios PDF pp.2-26 (worksheets, cropped) + gabarito pp.27-42",
+  "note": "Key tone notation is numeric 0-4 in the book; the app shows tone marks. Grammar keys (p.42) give characters only: pinyin lines are added (py_added)."
+ },
+ "units": [
+  {
+   "id": "0.2",
+   "title": "Lição 0 · 0.2",
+   "subtitle": "iniciais b p m f d t n l · finais a o e i u ü",
+   "taught_on": "2026-08-31",
+   "track": "a12"
+  },
+  {
+   "id": "0.3",
+   "title": "Lição 0 · 0.3",
+   "subtitle": "iniciais g k h · finais ai ei ao ou an en…",
+   "taught_on": "2026-08-31",
+   "track": "a13"
+  },
+  {
+   "id": "0.4",
+   "title": "Lição 0 · 0.4",
+   "subtitle": "iniciais j q x · finais ia ie iao iou ian in…",
+   "taught_on": "2026-08-31",
+   "track": "a14"
+  },
+  {
+   "id": "0.5",
+   "title": "Lição 0 · 0.5",
+   "subtitle": "iniciais z c s · finais ua uo uai uei uan uen…",
+   "taught_on": "2026-08-31",
+   "track": "a15"
+  },
+  {
+   "id": "0.6",
+   "title": "Lição 0 · 0.6",
+   "subtitle": "iniciais zh ch sh r · finais -i (retroflexo) er",
+   "taught_on": "2026-08-31",
+   "track": "a16"
+  },
+  {
+   "id": "licao1",
+   "title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?",
+   "subtitle": "Dì-yī Kè · Nín Guìxìng",
+   "taught_on": null,
+   "track": "a17"
+  },
+  {
+   "id": "licao2",
+   "title": "Lição 2 — 第二课 认识你很高兴 / Muito prazer em conhecê-lo",
+   "subtitle": "Dì-èr Kè · Rènshi Nǐ hěn Gāoxìng",
+   "taught_on": null,
+   "track": "a18"
+  }
+ ],
+ "drills": [
+  {
+   "id": "x01",
+   "unit": "0.2",
+   "section": "I",
+   "ref": "1",
+   "label_pt": "Indique as palavras que ouve",
+   "img": "img/ex-x01.jpg",
+   "type": "ab",
+   "label_en": "Which one do you hear?",
+   "key_page": 27,
+   "items": [
+    {
+     "n": 1,
+     "k": "A"
+    },
+    {
+     "n": 2,
+     "k": "A"
+    },
+    {
+     "n": 3,
+     "k": "B"
+    },
+    {
+     "n": 4,
+     "k": "B"
+    },
+    {
+     "n": 5,
+     "k": "A"
+    },
+    {
+     "n": 6,
+     "k": "B"
+    },
+    {
+     "n": 7,
+     "k": "A"
+    },
+    {
+     "n": 8,
+     "k": "B"
+    },
+    {
+     "n": 9,
+     "k": "A"
+    },
+    {
+     "n": 10,
+     "k": "A"
+    },
+    {
+     "n": 11,
+     "k": "A"
+    },
+    {
+     "n": 12,
+     "k": "B"
+    }
+   ],
+   "choices": [
+    "A",
+    "B"
+   ],
+   "audio": {
+    "track": "a12",
+    "at": "00:00",
+    "sec": 0,
+    "no_cue": true
+   },
+   "unit_title": "Lição 0 · 0.2"
+  },
+  {
+   "id": "x02",
+   "unit": "0.2",
+   "section": "I",
+   "ref": "2",
+   "label_pt": "Escreva a consoante inicial que ouve",
+   "img": "img/ex-x02.jpg",
+   "type": "initial",
+   "label_en": "Write the initial consonant you hear",
+   "key_page": 27,
+   "items": [
+    {
+     "n": 1,
+     "k": "b"
+    },
+    {
+     "n": 2,
+     "k": "p"
+    },
+    {
+     "n": 3,
+     "k": "p"
+    },
+    {
+     "n": 4,
+     "k": "b"
+    },
+    {
+     "n": 5,
+     "k": "d"
+    },
+    {
+     "n": 6,
+     "k": "t"
+    },
+    {
+     "n": 7,
+     "k": "t"
+    },
+    {
+     "n": 8,
+     "k": "d"
+    },
+    {
+     "n": 9,
+     "k": "n"
+    },
+    {
+     "n": 10,
+     "k": "l"
+    },
+    {
+     "n": 11,
+     "k": "l"
+    },
+    {
+     "n": 12,
+     "k": "n"
+    },
+    {
+     "n": 13,
+     "k": "m"
+    },
+    {
+     "n": 14,
+     "k": "n"
+    },
+    {
+     "n": 15,
+     "k": "f"
+    }
+   ],
+   "audio": {
+    "track": "a12",
+    "at": "01:30",
+    "sec": 90
+   },
+   "unit_title": "Lição 0 · 0.2"
+  },
+  {
+   "id": "x03",
+   "unit": "0.2",
+   "section": "I",
+   "ref": "3",
+   "label_pt": "Escreva a vogal final que ouve",
+   "img": "img/ex-x03.jpg",
+   "type": "final",
+   "label_en": "Write the final vowel you hear",
+   "key_page": 28,
+   "items": [
+    {
+     "n": 1,
+     "k": "o1"
+    },
+    {
+     "n": 2,
+     "k": "e1"
+    },
+    {
+     "n": 3,
+     "k": "i3"
+    },
+    {
+     "n": 4,
+     "k": "v3"
+    },
+    {
+     "n": 5,
+     "k": "i4"
+    },
+    {
+     "n": 6,
+     "k": "v4"
+    },
+    {
+     "n": 7,
+     "k": "o2"
+    },
+    {
+     "n": 8,
+     "k": "u2"
+    },
+    {
+     "n": 9,
+     "k": "a4"
+    },
+    {
+     "n": 10,
+     "k": "e4"
+    }
+   ],
+   "audio": {
+    "track": "a12",
+    "at": "03:05",
+    "sec": 185
+   },
+   "unit_title": "Lição 0 · 0.2"
+  },
+  {
+   "id": "x04",
+   "unit": "0.2",
+   "section": "I",
+   "ref": "4",
+   "label_pt": "Anote os tons que ouve",
+   "img": "img/ex-x04.jpg",
+   "type": "tones",
+   "label_en": "Mark the tones you hear",
+   "key_page": 28,
+   "items": [
+    {
+     "n": 1,
+     "k": "1"
+    },
+    {
+     "n": 2,
+     "k": "2"
+    },
+    {
+     "n": 3,
+     "k": "3"
+    },
+    {
+     "n": 4,
+     "k": "4"
+    },
+    {
+     "n": 5,
+     "k": "4"
+    },
+    {
+     "n": 6,
+     "k": "3"
+    },
+    {
+     "n": 7,
+     "k": "2"
+    },
+    {
+     "n": 8,
+     "k": "1"
+    },
+    {
+     "n": 9,
+     "k": "1"
+    },
+    {
+     "n": 10,
+     "k": "2"
+    },
+    {
+     "n": 11,
+     "k": "3"
+    },
+    {
+     "n": 12,
+     "k": "4"
+    },
+    {
+     "n": 13,
+     "k": "1"
+    },
+    {
+     "n": 14,
+     "k": "2"
+    },
+    {
+     "n": 15,
+     "k": "3"
+    },
+    {
+     "n": 16,
+     "k": "4"
+    },
+    {
+     "n": 17,
+     "k": "3"
+    },
+    {
+     "n": 18,
+     "k": "2"
+    },
+    {
+     "n": 19,
+     "k": "1"
+    },
+    {
+     "n": 20,
+     "k": "3"
+    },
+    {
+     "n": 21,
+     "k": "3"
+    },
+    {
+     "n": 22,
+     "k": "4"
+    }
+   ],
+   "audio": {
+    "track": "a12",
+    "at": "04:05",
+    "sec": 245
+   },
+   "unit_title": "Lição 0 · 0.2"
+  },
+  {
+   "id": "x05",
+   "unit": "0.2",
+   "section": "I",
+   "ref": "5",
+   "label_pt": "Escreva as sílabas que ouve",
+   "img": "img/ex-x05.jpg",
+   "type": "syllables",
+   "label_en": "Write the syllables you hear",
+   "key_page": 29,
+   "items": [
+    {
+     "n": 1,
+     "k": "yu3"
+    },
+    {
+     "n": 2,
+     "k": "wu4"
+    },
+    {
+     "n": 3,
+     "k": "yi1"
+    },
+    {
+     "n": 4,
+     "k": "bu4"
+    },
+    {
+     "n": 5,
+     "k": "tu3"
+    },
+    {
+     "n": 6,
+     "k": "na2"
+    },
+    {
+     "n": 7,
+     "k": "ta1"
+    },
+    {
+     "n": 8,
+     "k": "pa4"
+    },
+    {
+     "n": 9,
+     "k": "ti3"
+    }
+   ],
+   "audio": {
+    "track": "a12",
+    "at": "06:25",
+    "sec": 385
+   },
+   "unit_title": "Lição 0 · 0.2"
+  },
+  {
+   "id": "x06",
+   "unit": "0.3",
+   "section": "I",
+   "ref": "1",
+   "label_pt": "Indique as sílabas que ouve",
+   "img": "img/ex-x06.jpg",
+   "type": "ab",
+   "label_en": "Which one do you hear?",
+   "key_page": 30,
+   "items": [
+    {
+     "n": 1,
+     "k": "A"
+    },
+    {
+     "n": 2,
+     "k": "B"
+    },
+    {
+     "n": 3,
+     "k": "A"
+    },
+    {
+     "n": 4,
+     "k": "A"
+    },
+    {
+     "n": 5,
+     "k": "B"
+    },
+    {
+     "n": 6,
+     "k": "B"
+    },
+    {
+     "n": 7,
+     "k": "A"
+    },
+    {
+     "n": 8,
+     "k": "B"
+    },
+    {
+     "n": 9,
+     "k": "B"
+    },
+    {
+     "n": 10,
+     "k": "A"
+    },
+    {
+     "n": 11,
+     "k": "B"
+    },
+    {
+     "n": 12,
+     "k": "A"
+    }
+   ],
+   "choices": [
+    "A",
+    "B"
+   ],
+   "audio": {
+    "track": "a13",
+    "at": "00:00",
+    "sec": 0,
+    "no_cue": true
+   },
+   "unit_title": "Lição 0 · 0.3"
+  },
+  {
+   "id": "x07",
+   "unit": "0.3",
+   "section": "I",
+   "ref": "2",
+   "label_pt": "Escreva a consoante inicial que ouve",
+   "img": "img/ex-x07.jpg",
+   "type": "initial",
+   "label_en": "Write the initial consonant you hear",
+   "key_page": 30,
+   "items": [
+    {
+     "n": 1,
+     "k": "g"
+    },
+    {
+     "n": 2,
+     "k": "k"
+    },
+    {
+     "n": 3,
+     "k": "g"
+    },
+    {
+     "n": 4,
+     "k": "k"
+    },
+    {
+     "n": 5,
+     "k": "h"
+    },
+    {
+     "n": 6,
+     "k": "f"
+    },
+    {
+     "n": 7,
+     "k": "h"
+    },
+    {
+     "n": 8,
+     "k": "f"
+    }
+   ],
+   "audio": {
+    "track": "a13",
+    "at": "01:30",
+    "sec": 90
+   },
+   "unit_title": "Lição 0 · 0.3"
+  },
+  {
+   "id": "x08",
+   "unit": "0.3",
+   "section": "I",
+   "ref": "3",
+   "label_pt": "Escreva a vogal final que ouve",
+   "img": "img/ex-x08.jpg",
+   "type": "final",
+   "label_en": "Write the final vowel you hear",
+   "key_page": 31,
+   "items": [
+    {
+     "n": 1,
+     "k": "ai3"
+    },
+    {
+     "n": 2,
+     "k": "ei3"
+    },
+    {
+     "n": 3,
+     "k": "ao3"
+    },
+    {
+     "n": 4,
+     "k": "ou3"
+    },
+    {
+     "n": 5,
+     "k": "an4"
+    },
+    {
+     "n": 6,
+     "k": "en4"
+    },
+    {
+     "n": 7,
+     "k": "ang2"
+    },
+    {
+     "n": 8,
+     "k": "eng2"
+    },
+    {
+     "n": 9,
+     "k": "ong2"
+    },
+    {
+     "n": 10,
+     "k": "a3"
+    },
+    {
+     "n": 11,
+     "k": "ai1"
+    },
+    {
+     "n": 12,
+     "k": "ao4"
+    },
+    {
+     "n": 13,
+     "k": "an4"
+    },
+    {
+     "n": 14,
+     "k": "ang4"
+    },
+    {
+     "n": 15,
+     "k": "e1"
+    },
+    {
+     "n": 16,
+     "k": "ei1"
+    },
+    {
+     "n": 17,
+     "k": "en3"
+    },
+    {
+     "n": 18,
+     "k": "eng2"
+    }
+   ],
+   "audio": {
+    "track": "a13",
+    "at": "02:23",
+    "sec": 143
+   },
+   "unit_title": "Lição 0 · 0.3"
+  },
+  {
+   "id": "x09",
+   "unit": "0.3",
+   "section": "I",
+   "ref": "4",
+   "label_pt": "Anote os tons que ouve",
+   "img": "img/ex-x09.jpg",
+   "type": "tones",
+   "label_en": "Mark the tones you hear",
+   "key_page": 31,
+   "items": [
+    {
+     "n": 1,
+     "k": "1"
+    },
+    {
+     "n": 2,
+     "k": "2"
+    },
+    {
+     "n": 3,
+     "k": "3"
+    },
+    {
+     "n": 4,
+     "k": "4"
+    },
+    {
+     "n": 5,
+     "k": "11"
+    },
+    {
+     "n": 6,
+     "k": "12"
+    },
+    {
+     "n": 7,
+     "k": "13"
+    },
+    {
+     "n": 8,
+     "k": "14"
+    },
+    {
+     "n": 9,
+     "k": "24"
+    },
+    {
+     "n": 10,
+     "k": "24"
+    },
+    {
+     "n": 11,
+     "k": "24"
+    },
+    {
+     "n": 12,
+     "k": "44"
+    },
+    {
+     "n": 13,
+     "k": "42"
+    },
+    {
+     "n": 14,
+     "k": "44"
+    },
+    {
+     "n": 15,
+     "k": "41"
+    },
+    {
+     "n": 16,
+     "k": "12"
+    },
+    {
+     "n": 17,
+     "k": "11"
+    },
+    {
+     "n": 18,
+     "k": "23"
+    }
+   ],
+   "audio": {
+    "track": "a13",
+    "at": "04:10",
+    "sec": 250
+   },
+   "unit_title": "Lição 0 · 0.3"
+  },
+  {
+   "id": "x10",
+   "unit": "0.3",
+   "section": "I",
+   "ref": "5",
+   "label_pt": "Escreva as sílabas que ouve",
+   "img": "img/ex-x10.jpg",
+   "type": "syllables",
+   "label_en": "Write the syllables you hear",
+   "key_page": 32,
+   "items": [
+    {
+     "n": 1,
+     "k": "hong2"
+    },
+    {
+     "n": 2,
+     "k": "hen3"
+    },
+    {
+     "n": 3,
+     "k": "gan4"
+    },
+    {
+     "n": 4,
+     "k": "gai1"
+    },
+    {
+     "n": 5,
+     "k": "gou3"
+    },
+    {
+     "n": 6,
+     "k": "nei4bu4"
+    },
+    {
+     "n": 7,
+     "k": "mang2lu4"
+    },
+    {
+     "n": 8,
+     "k": "bao1han2"
+    },
+    {
+     "n": 9,
+     "k": "gen1ben3"
+    }
+   ],
+   "audio": {
+    "track": "a13",
+    "at": "06:02",
+    "sec": 362
+   },
+   "unit_title": "Lição 0 · 0.3"
+  },
+  {
+   "id": "x11",
+   "unit": "0.3",
+   "section": "I",
+   "ref": "6",
+   "label_pt": "Ouça e anote as sílabas de tom neutro",
+   "img": "img/ex-x11.jpg",
+   "type": "neutral",
+   "label_en": "Write the neutral-tone syllables you hear",
+   "key_page": 33,
+   "items": [
+    {
+     "n": 1,
+     "k": "ge1ge0"
+    },
+    {
+     "n": 2,
+     "k": "ke3yi3"
+    },
+    {
+     "n": 3,
+     "k": "bo1li0"
+    },
+    {
+     "n": 4,
+     "k": "dan1gan4"
+    },
+    {
+     "n": 5,
+     "k": "yi1kao4"
+    },
+    {
+     "n": 6,
+     "k": "yi1fu0"
+    },
+    {
+     "n": 7,
+     "k": "hou2long0"
+    }
+   ],
+   "audio": {
+    "track": "a13",
+    "at": "00:00",
+    "sec": 0,
+    "no_cue": true
+   },
+   "unit_title": "Lição 0 · 0.3"
+  },
+  {
+   "id": "x12",
+   "unit": "0.4",
+   "section": "I",
+   "ref": "1",
+   "label_pt": "Indique as sílabas que ouve",
+   "img": "img/ex-x12.jpg",
+   "type": "ab",
+   "label_en": "Which one do you hear?",
+   "key_page": 33,
+   "items": [
+    {
+     "n": 1,
+     "k": "A"
+    },
+    {
+     "n": 2,
+     "k": "B"
+    },
+    {
+     "n": 3,
+     "k": "B"
+    },
+    {
+     "n": 4,
+     "k": "B"
+    },
+    {
+     "n": 5,
+     "k": "A"
+    },
+    {
+     "n": 6,
+     "k": "A"
+    },
+    {
+     "n": 7,
+     "k": "B"
+    },
+    {
+     "n": 8,
+     "k": "B"
+    },
+    {
+     "n": 9,
+     "k": "A"
+    },
+    {
+     "n": 10,
+     "k": "B"
+    },
+    {
+     "n": 11,
+     "k": "A"
+    },
+    {
+     "n": 12,
+     "k": "B"
+    },
+    {
+     "n": 13,
+     "k": "A"
+    },
+    {
+     "n": 14,
+     "k": "A"
+    }
+   ],
+   "choices": [
+    "A",
+    "B"
+   ],
+   "audio": {
+    "track": "a14",
+    "at": "00:00",
+    "sec": 0,
+    "no_cue": true
+   },
+   "unit_title": "Lição 0 · 0.4"
+  },
+  {
+   "id": "x13",
+   "unit": "0.4",
+   "section": "I",
+   "ref": "2",
+   "label_pt": "Escreva a consoante inicial que ouve",
+   "img": "img/ex-x13.jpg",
+   "type": "initial",
+   "label_en": "Write the initial consonant you hear",
+   "key_page": 34,
+   "items": [
+    {
+     "n": 1,
+     "k": "q"
+    },
+    {
+     "n": 2,
+     "k": "j"
+    },
+    {
+     "n": 3,
+     "k": "q"
+    },
+    {
+     "n": 4,
+     "k": "j"
+    },
+    {
+     "n": 5,
+     "k": "x"
+    },
+    {
+     "n": 6,
+     "k": "q"
+    },
+    {
+     "n": 7,
+     "k": "j"
+    },
+    {
+     "n": 8,
+     "k": "j-t"
+    },
+    {
+     "n": 9,
+     "k": "x-x"
+    },
+    {
+     "n": 10,
+     "k": "j-q"
+    }
+   ],
+   "audio": {
+    "track": "a14",
+    "at": "01:36",
+    "sec": 96
+   },
+   "unit_title": "Lição 0 · 0.4"
+  },
+  {
+   "id": "x14",
+   "unit": "0.4",
+   "section": "I",
+   "ref": "3",
+   "label_pt": "Escreva a vogal final que ouve",
+   "img": "img/ex-x14.jpg",
+   "type": "final",
+   "label_en": "Write the final vowel you hear",
+   "key_page": 34,
+   "items": [
+    {
+     "n": 1,
+     "k": "ie2"
+    },
+    {
+     "n": 2,
+     "k": "iao1"
+    },
+    {
+     "n": 3,
+     "k": "iu1"
+    },
+    {
+     "n": 4,
+     "k": "ian2"
+    },
+    {
+     "n": 5,
+     "k": "in2"
+    },
+    {
+     "n": 6,
+     "k": "ia4"
+    },
+    {
+     "n": 7,
+     "k": "iang3"
+    },
+    {
+     "n": 8,
+     "k": "ing3"
+    },
+    {
+     "n": 9,
+     "k": "iang3"
+    },
+    {
+     "n": 10,
+     "k": "ian2 ie1"
+    },
+    {
+     "n": 11,
+     "k": "iao1 i4"
+    },
+    {
+     "n": 12,
+     "k": "iong1 i4"
+    },
+    {
+     "n": 13,
+     "k": "iang3 iu0"
+    },
+    {
+     "n": 14,
+     "k": "ue2 ie4"
+    },
+    {
+     "n": 15,
+     "k": "ue1 ian4"
+    },
+    {
+     "n": 16,
+     "k": "qin1 ve4"
+    }
+   ],
+   "audio": {
+    "track": "a14",
+    "at": "02:34",
+    "sec": 154
+   },
+   "unit_title": "Lição 0 · 0.4"
+  },
+  {
+   "id": "x15",
+   "unit": "0.4",
+   "section": "I",
+   "ref": "4",
+   "label_pt": "Anote os tons que ouve",
+   "img": "img/ex-x15.jpg",
+   "type": "tones",
+   "label_en": "Mark the tones you hear",
+   "key_page": 35,
+   "items": [
+    {
+     "n": 1,
+     "k": "14"
+    },
+    {
+     "n": 2,
+     "k": "14"
+    },
+    {
+     "n": 3,
+     "k": "14"
+    },
+    {
+     "n": 4,
+     "k": "22"
+    },
+    {
+     "n": 5,
+     "k": "24"
+    },
+    {
+     "n": 6,
+     "k": "21"
+    },
+    {
+     "n": 7,
+     "k": "20"
+    },
+    {
+     "n": 8,
+     "k": "41"
+    },
+    {
+     "n": 9,
+     "k": "40"
+    },
+    {
+     "n": 10,
+     "k": "43"
+    }
+   ],
+   "audio": {
+    "track": "a14",
+    "at": "04:07",
+    "sec": 247
+   },
+   "unit_title": "Lição 0 · 0.4"
+  },
+  {
+   "id": "x16",
+   "unit": "0.4",
+   "section": "I",
+   "ref": "5",
+   "label_pt": "Escreva as sílabas que ouve",
+   "img": "img/ex-x16.jpg",
+   "type": "syllables",
+   "label_en": "Write the syllables you hear",
+   "key_page": 35,
+   "items": [
+    {
+     "n": 1,
+     "k": "ji3"
+    },
+    {
+     "n": 2,
+     "k": "ju4"
+    },
+    {
+     "n": 3,
+     "k": "jiu3"
+    },
+    {
+     "n": 4,
+     "k": "qi4"
+    },
+    {
+     "n": 5,
+     "k": "qu1"
+    },
+    {
+     "n": 6,
+     "k": "qiu2"
+    },
+    {
+     "n": 7,
+     "k": "xi3"
+    },
+    {
+     "n": 8,
+     "k": "qi3"
+    },
+    {
+     "n": 9,
+     "k": "xiu1"
+    },
+    {
+     "n": 10,
+     "k": "qie3"
+    },
+    {
+     "n": 11,
+     "k": "jun1"
+    },
+    {
+     "n": 12,
+     "k": "xuan3"
+    },
+    {
+     "n": 13,
+     "k": "jiong3"
+    },
+    {
+     "n": 14,
+     "k": "qi2ji4"
+    },
+    {
+     "n": 15,
+     "k": "yan3qian2"
+    },
+    {
+     "n": 16,
+     "k": "xiang1yan1"
+    },
+    {
+     "n": 17,
+     "k": "yan2jiu1"
+    },
+    {
+     "n": 18,
+     "k": "jian4mian4"
+    }
+   ],
+   "audio": {
+    "track": "a14",
+    "at": "05:07",
+    "sec": 307
+   },
+   "unit_title": "Lição 0 · 0.4"
+  },
+  {
+   "id": "x17",
+   "unit": "0.5",
+   "section": "I",
+   "ref": "1",
+   "label_pt": "Indique as sílabas que ouve",
+   "img": "img/ex-x17.jpg",
+   "type": "ab",
+   "label_en": "Which one do you hear?",
+   "key_page": 36,
+   "items": [
+    {
+     "n": 1,
+     "k": "A"
+    },
+    {
+     "n": 2,
+     "k": "A"
+    },
+    {
+     "n": 3,
+     "k": "B"
+    },
+    {
+     "n": 4,
+     "k": "A"
+    },
+    {
+     "n": 5,
+     "k": "B"
+    },
+    {
+     "n": 6,
+     "k": "A"
+    },
+    {
+     "n": 7,
+     "k": "A"
+    },
+    {
+     "n": 8,
+     "k": "B"
+    },
+    {
+     "n": 9,
+     "k": "B"
+    },
+    {
+     "n": 10,
+     "k": "A"
+    },
+    {
+     "n": 11,
+     "k": "B"
+    },
+    {
+     "n": 12,
+     "k": "B"
+    },
+    {
+     "n": 13,
+     "k": "B"
+    },
+    {
+     "n": 14,
+     "k": "A"
+    },
+    {
+     "n": 15,
+     "k": "A"
+    },
+    {
+     "n": 16,
+     "k": "A"
+    },
+    {
+     "n": 17,
+     "k": "B"
+    }
+   ],
+   "choices": [
+    "A",
+    "B"
+   ],
+   "audio": {
+    "track": "a15",
+    "at": "00:00",
+    "sec": 0,
+    "no_cue": true
+   },
+   "unit_title": "Lição 0 · 0.5"
+  },
+  {
+   "id": "x18",
+   "unit": "0.5",
+   "section": "I",
+   "ref": "2",
+   "label_pt": "Escreva a consoante inicial que ouve",
+   "img": "img/ex-x18.jpg",
+   "type": "initial",
+   "label_en": "Write the initial consonant you hear",
+   "key_page": 37,
+   "items": [
+    {
+     "n": 1,
+     "k": "z"
+    },
+    {
+     "n": 2,
+     "k": "j"
+    },
+    {
+     "n": 3,
+     "k": "c"
+    },
+    {
+     "n": 4,
+     "k": "q"
+    },
+    {
+     "n": 5,
+     "k": "s"
+    },
+    {
+     "n": 6,
+     "k": "x"
+    },
+    {
+     "n": 7,
+     "k": "zi4xi2"
+    },
+    {
+     "n": 8,
+     "k": "zi4si1"
+    },
+    {
+     "n": 9,
+     "k": "ci2qi4"
+    },
+    {
+     "n": 10,
+     "k": "ji1qi4"
+    },
+    {
+     "n": 11,
+     "k": "ming2ci2"
+    },
+    {
+     "n": 12,
+     "k": "ming2qi4"
+    }
+   ],
+   "audio": {
+    "track": "a15",
+    "at": "01:55",
+    "sec": 115
+   },
+   "unit_title": "Lição 0 · 0.5"
+  },
+  {
+   "id": "x19",
+   "unit": "0.5",
+   "section": "I",
+   "ref": "3",
+   "label_pt": "Escreva a vogal final que ouve",
+   "img": "img/ex-x19.jpg",
+   "type": "final",
+   "label_en": "Write the final vowel you hear",
+   "key_page": 37,
+   "items": [
+    {
+     "n": 1,
+     "k": "a3"
+    },
+    {
+     "n": 2,
+     "k": "ua1"
+    },
+    {
+     "n": 3,
+     "k": "uai4"
+    },
+    {
+     "n": 4,
+     "k": "uan1"
+    },
+    {
+     "n": 5,
+     "k": "uang1"
+    },
+    {
+     "n": 6,
+     "k": "ei1"
+    },
+    {
+     "n": 7,
+     "k": "ui4"
+    },
+    {
+     "n": 8,
+     "k": "en3"
+    },
+    {
+     "n": 9,
+     "k": "un1"
+    },
+    {
+     "n": 10,
+     "k": "uan3"
+    },
+    {
+     "n": 11,
+     "k": "uang3"
+    },
+    {
+     "n": 12,
+     "k": "ou1"
+    },
+    {
+     "n": 13,
+     "k": "uo2"
+    },
+    {
+     "n": 14,
+     "k": "ou2"
+    },
+    {
+     "n": 15,
+     "k": "uo2"
+    },
+    {
+     "n": 16,
+     "k": "ong1 uo4"
+    },
+    {
+     "n": 17,
+     "k": "ui1 u4"
+    },
+    {
+     "n": 18,
+     "k": "i3 un1"
+    },
+    {
+     "n": 19,
+     "k": "an1 uan1"
+    },
+    {
+     "n": 20,
+     "k": "ou2 ui1"
+    },
+    {
+     "n": 21,
+     "k": "uang1 iang2"
+    }
+   ],
+   "audio": {
+    "track": "a15",
+    "at": "03:05",
+    "sec": 185
+   },
+   "unit_title": "Lição 0 · 0.5"
+  },
+  {
+   "id": "x20",
+   "unit": "0.5",
+   "section": "I",
+   "ref": "4",
+   "label_pt": "Anote os tons que ouve",
+   "img": "img/ex-x20.jpg",
+   "type": "tones",
+   "label_en": "Mark the tones you hear",
+   "key_page": 38,
+   "items": [
+    {
+     "n": 1,
+     "k": "13"
+    },
+    {
+     "n": 2,
+     "k": "13"
+    },
+    {
+     "n": 3,
+     "k": "11"
+    },
+    {
+     "n": 4,
+     "k": "44"
+    },
+    {
+     "n": 5,
+     "k": "44"
+    },
+    {
+     "n": 6,
+     "k": "44"
+    },
+    {
+     "n": 7,
+     "k": "30"
+    },
+    {
+     "n": 8,
+     "k": "24"
+    },
+    {
+     "n": 9,
+     "k": "34"
+    },
+    {
+     "n": 10,
+     "k": "21"
+    },
+    {
+     "n": 11,
+     "k": "22"
+    },
+    {
+     "n": 12,
+     "k": "24"
+    }
+   ],
+   "audio": {
+    "track": "a15",
+    "at": "05:07",
+    "sec": 307
+   },
+   "unit_title": "Lição 0 · 0.5"
+  },
+  {
+   "id": "x21",
+   "unit": "0.5",
+   "section": "I",
+   "ref": "5",
+   "label_pt": "Escreva as sílabas que ouve",
+   "img": "img/ex-x21.jpg",
+   "type": "syllables",
+   "label_en": "Write the syllables you hear",
+   "key_page": 38,
+   "items": [
+    {
+     "n": 1,
+     "k": "wen1he2"
+    },
+    {
+     "n": 2,
+     "k": "wa1ku3"
+    },
+    {
+     "n": 3,
+     "k": "wei1feng1"
+    },
+    {
+     "n": 4,
+     "k": "cang1ku4"
+    },
+    {
+     "n": 5,
+     "k": "ci2dian3"
+    },
+    {
+     "n": 6,
+     "k": "sen1lin2"
+    },
+    {
+     "n": 7,
+     "k": "yuan2ze2"
+    },
+    {
+     "n": 8,
+     "k": "kuan1kuo4"
+    },
+    {
+     "n": 9,
+     "k": "jie2hun1"
+    }
+   ],
+   "audio": {
+    "track": "a15",
+    "at": "06:20",
+    "sec": 380
+   },
+   "unit_title": "Lição 0 · 0.5"
+  },
+  {
+   "id": "x22",
+   "unit": "0.6",
+   "section": "I",
+   "ref": "1",
+   "label_pt": "Indique as sílabas que ouve",
+   "img": "img/ex-x22.jpg",
+   "type": "ab",
+   "label_en": "Which one do you hear?",
+   "key_page": 39,
+   "items": [
+    {
+     "n": 1,
+     "k": "B"
+    },
+    {
+     "n": 2,
+     "k": "A"
+    },
+    {
+     "n": 3,
+     "k": "A"
+    },
+    {
+     "n": 4,
+     "k": "B"
+    },
+    {
+     "n": 5,
+     "k": "A"
+    },
+    {
+     "n": 6,
+     "k": "B"
+    },
+    {
+     "n": 7,
+     "k": "A"
+    },
+    {
+     "n": 8,
+     "k": "B"
+    },
+    {
+     "n": 9,
+     "k": "B"
+    },
+    {
+     "n": 10,
+     "k": "B"
+    },
+    {
+     "n": 11,
+     "k": "C"
+    },
+    {
+     "n": 12,
+     "k": "A"
+    },
+    {
+     "n": 13,
+     "k": "C"
+    },
+    {
+     "n": 14,
+     "k": "B"
+    },
+    {
+     "n": 15,
+     "k": "A"
+    },
+    {
+     "n": 16,
+     "k": "B"
+    },
+    {
+     "n": 17,
+     "k": "C"
+    }
+   ],
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ],
+   "audio": {
+    "track": "a16",
+    "at": "00:00",
+    "sec": 0,
+    "no_cue": true
+   },
+   "unit_title": "Lição 0 · 0.6"
+  },
+  {
+   "id": "x23",
+   "unit": "0.6",
+   "section": "I",
+   "ref": "2",
+   "label_pt": "Escreva a consoante inicial que ouve",
+   "img": "img/ex-x23.jpg",
+   "type": "initial",
+   "label_en": "Write the initial consonant you hear",
+   "key_page": 40,
+   "items": [
+    {
+     "n": 1,
+     "k": "zh"
+    },
+    {
+     "n": 2,
+     "k": "j"
+    },
+    {
+     "n": 3,
+     "k": "z"
+    },
+    {
+     "n": 4,
+     "k": "c"
+    },
+    {
+     "n": 5,
+     "k": "q"
+    },
+    {
+     "n": 6,
+     "k": "ch"
+    },
+    {
+     "n": 7,
+     "k": "x"
+    },
+    {
+     "n": 8,
+     "k": "s"
+    },
+    {
+     "n": 9,
+     "k": "sh"
+    },
+    {
+     "n": 10,
+     "k": "x-sh"
+    },
+    {
+     "n": 11,
+     "k": "c-zh"
+    },
+    {
+     "n": 12,
+     "k": "r-sh"
+    },
+    {
+     "n": 13,
+     "k": "ch-sh"
+    }
+   ],
+   "audio": {
+    "track": "a16",
+    "at": "01:50",
+    "sec": 110
+   },
+   "unit_title": "Lição 0 · 0.6"
+  },
+  {
+   "id": "x24",
+   "unit": "0.6",
+   "section": "I",
+   "ref": "3",
+   "label_pt": "Anote os tons que ouve",
+   "img": "img/ex-x24.jpg",
+   "type": "tones",
+   "label_en": "Mark the tones you hear",
+   "key_page": 40,
+   "items": [
+    {
+     "n": 1,
+     "k": "12"
+    },
+    {
+     "n": 2,
+     "k": "12"
+    },
+    {
+     "n": 3,
+     "k": "14"
+    },
+    {
+     "n": 4,
+     "k": "14"
+    },
+    {
+     "n": 5,
+     "k": "22"
+    },
+    {
+     "n": 6,
+     "k": "22"
+    },
+    {
+     "n": 7,
+     "k": "23"
+    },
+    {
+     "n": 8,
+     "k": "21"
+    },
+    {
+     "n": 9,
+     "k": "44"
+    },
+    {
+     "n": 10,
+     "k": "44"
+    },
+    {
+     "n": 11,
+     "k": "42"
+    },
+    {
+     "n": 12,
+     "k": "42"
+    },
+    {
+     "n": 13,
+     "k": "34"
+    },
+    {
+     "n": 14,
+     "k": "31"
+    },
+    {
+     "n": 15,
+     "k": "33"
+    },
+    {
+     "n": 16,
+     "k": "32"
+    }
+   ],
+   "audio": {
+    "track": "a16",
+    "at": "02:58",
+    "sec": 178
+   },
+   "unit_title": "Lição 0 · 0.6"
+  },
+  {
+   "id": "x25",
+   "unit": "0.6",
+   "section": "I",
+   "ref": "4",
+   "label_pt": "Escreva as sílabas que ouve",
+   "img": "img/ex-x25.jpg",
+   "type": "syllables",
+   "label_en": "Write the syllables you hear",
+   "key_page": 41,
+   "items": [
+    {
+     "n": 1,
+     "k": "zhi1dao"
+    },
+    {
+     "n": 2,
+     "k": "chi1fan4"
+    },
+    {
+     "n": 3,
+     "k": "shi2si4"
+    },
+    {
+     "n": 4,
+     "k": "ri4ji4"
+    },
+    {
+     "n": 5,
+     "k": "er2qie3"
+    },
+    {
+     "n": 6,
+     "k": "shou1suo1"
+    },
+    {
+     "n": 7,
+     "k": "zhong1cheng2"
+    },
+    {
+     "n": 8,
+     "k": "shuai1luo4"
+    },
+    {
+     "n": 9,
+     "k": "huar1"
+    },
+    {
+     "n": 10,
+     "k": "wanr2"
+    }
+   ],
+   "audio": {
+    "track": "a16",
+    "at": "04:26",
+    "sec": 266
+   },
+   "unit_title": "Lição 0 · 0.6"
+  },
+  {
+   "id": "x26",
+   "unit": "licao1",
+   "section": "II",
+   "ref": "2",
+   "label_pt": "Preencha os espaços vazios com as seguintes palavras",
+   "img": "img/ex-x26.jpg",
+   "type": "grammar",
+   "label_en": "Fill in the blanks with the given words",
+   "key_page": 42,
+   "items": [
+    {
+     "n": 1,
+     "blanks": [
+      "是"
+     ],
+     "py": [
+      "shì"
+     ],
+     "alts": [
+      "是"
+     ]
+    },
+    {
+     "n": 2,
+     "blanks": [
+      "姓"
+     ],
+     "py": [
+      "xìng"
+     ],
+     "alts": [
+      "姓"
+     ]
+    },
+    {
+     "n": 3,
+     "blanks": [
+      "叫"
+     ],
+     "py": [
+      "jiào"
+     ],
+     "alts": [
+      "叫"
+     ]
+    },
+    {
+     "n": 4,
+     "blanks": [
+      "说"
+     ],
+     "py": [
+      "shuō"
+     ],
+     "alts": [
+      "说"
+     ]
+    },
+    {
+     "n": 5,
+     "blanks": [
+      "也",
+      "都"
+     ],
+     "py": [
+      "yě",
+      "dōu"
+     ],
+     "alts": [
+      "也 都"
+     ]
+    },
+    {
+     "n": 6,
+     "blanks": [
+      "也",
+      "都"
+     ],
+     "py": [
+      "yě",
+      "dōu"
+     ],
+     "alts": [
+      "也 都"
+     ]
+    },
+    {
+     "n": 7,
+     "blanks": [
+      "吗",
+      "呢"
+     ],
+     "py": [
+      "ma",
+      "ne"
+     ],
+     "alts": [
+      "吗 呢"
+     ]
+    }
+   ],
+   "py_added": true,
+   "unit_title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?"
+  },
+  {
+   "id": "x27",
+   "unit": "licao1",
+   "section": "II",
+   "ref": "3",
+   "label_pt": "Transforme as seguintes frases afirmativas em frases negativas",
+   "img": "img/ex-x27.jpg",
+   "type": "grammar",
+   "label_en": "Turn these into negative sentences",
+   "key_page": 42,
+   "items": [
+    {
+     "n": 1,
+     "alts": [
+      "他不是汉语老师。"
+     ],
+     "py": [
+      "Tā bú shì Hànyǔ lǎoshī."
+     ]
+    },
+    {
+     "n": 2,
+     "alts": [
+      "他不说葡语。"
+     ],
+     "py": [
+      "Tā bù shuō Pǔyǔ."
+     ]
+    },
+    {
+     "n": 3,
+     "alts": [
+      "他们都不是葡萄牙人。"
+     ],
+     "py": [
+      "Tāmen dōu bú shì Pútáoyárén."
+     ]
+    }
+   ],
+   "py_added": true,
+   "unit_title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?"
+  },
+  {
+   "id": "x28",
+   "unit": "licao1",
+   "section": "II",
+   "ref": "4",
+   "label_pt": "Ponha em ordem adequada as seguintes palavras para que se tornem em frases correctas",
+   "img": "img/ex-x28.jpg",
+   "type": "grammar",
+   "label_en": "Put the words in the right order",
+   "key_page": 42,
+   "items": [
+    {
+     "n": 1,
+     "alts": [
+      "我是葡萄牙人。"
+     ],
+     "py": [
+      "Wǒ shì Pútáoyárén."
+     ]
+    },
+    {
+     "n": 2,
+     "alts": [
+      "她也是葡萄牙人。"
+     ],
+     "py": [
+      "Tā yě shì Pútáoyárén."
+     ]
+    },
+    {
+     "n": 3,
+     "alts": [
+      "他不是葡萄牙人。"
+     ],
+     "py": [
+      "Tā bú shì Pútáoyárén."
+     ]
+    },
+    {
+     "n": 4,
+     "alts": [
+      "你叫什么名字？"
+     ],
+     "py": [
+      "Nǐ jiào shénme míngzi?"
+     ]
+    }
+   ],
+   "py_added": true,
+   "unit_title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?"
+  },
+  {
+   "id": "x29",
+   "unit": "licao1",
+   "section": "II",
+   "ref": "5",
+   "label_pt": "Transforme as seguintes frases em orações interrogativas com «吗» (ma) e de X 不 (bù) X",
+   "img": "img/ex-x29.jpg",
+   "type": "grammar",
+   "label_en": "Make questions with 吗 and with X不X",
+   "key_page": 42,
+   "items": [
+    {
+     "n": 1,
+     "alts": [
+      "他是你同学吗？",
+      "他是不是你同学？"
+     ],
+     "py": [
+      "Tā shì nǐ tóngxué ma?",
+      "Tā shì bu shì nǐ tóngxué?"
+     ]
+    },
+    {
+     "n": 2,
+     "alts": [
+      "他说汉语吗？",
+      "他说不说汉语？"
+     ],
+     "py": [
+      "Tā shuō Hànyǔ ma?",
+      "Tā shuō bu shuō Hànyǔ?"
+     ]
+    },
+    {
+     "n": 3,
+     "alts": [
+      "他是张老师吗？",
+      "他是不是张老师？"
+     ],
+     "py": [
+      "Tā shì Zhāng lǎoshī ma?",
+      "Tā shì bu shì Zhāng lǎoshī?"
+     ]
+    }
+   ],
+   "py_added": true,
+   "unit_title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?"
+  },
+  {
+   "id": "x30",
+   "unit": "licao1",
+   "section": "II",
+   "ref": "6",
+   "label_pt": "Traduza as seguintes frases em chinês",
+   "img": "img/ex-x30.jpg",
+   "type": "grammar",
+   "label_en": "Translate into Chinese",
+   "key_page": 42,
+   "items": [
+    {
+     "n": 1,
+     "alts": [
+      "我只说汉语。"
+     ],
+     "py": [
+      "Wǒ zhǐ shuō Hànyǔ."
+     ]
+    },
+    {
+     "n": 2,
+     "alts": [
+      "你叫什么名字？"
+     ],
+     "py": [
+      "Nǐ jiào shénme míngzi?"
+     ]
+    },
+    {
+     "n": 3,
+     "alts": [
+      "你是中国人吗？",
+      "你是不是中国人？"
+     ],
+     "py": [
+      "Nǐ shì Zhōngguórén ma?",
+      "Nǐ shì bu shì Zhōngguórén?"
+     ]
+    },
+    {
+     "n": 4,
+     "alts": [
+      "你说英语还是葡语？"
+     ],
+     "py": [
+      "Nǐ shuō Yīngyǔ háishi Pǔyǔ?"
+     ]
+    },
+    {
+     "n": 5,
+     "alts": [
+      "我不姓王，我姓张。"
+     ],
+     "py": [
+      "Wǒ bú xìng Wáng, wǒ xìng Zhāng."
+     ]
+    }
+   ],
+   "py_added": true,
+   "unit_title": "Lição 1 — 第一课 您贵姓 / Qual é o seu nome?"
+  },
+  {
+   "id": "x31",
+   "unit": "licao2",
+   "section": "II",
+   "ref": "2",
+   "label_pt": "Preencha os espaços vazios com as palavras dadas",
+   "img": "img/ex-x31.jpg",
+   "type": "grammar",
+   "label_en": "Fill in the blanks with the given words",
+   "key_page": 42,
+   "items": [
+    {
+     "n": 1,
+     "alts": [
+      "打"
+     ],
+     "py": [
+      "dǎ"
+     ]
+    },
+    {
+     "n": 2,
+     "alts": [
+      "发"
+     ],
+     "py": [
+      "fā"
+     ]
+    },
+    {
+     "n": 3,
+     "alts": [
+      "认识"
+     ],
+     "py": [
+      "rènshi"
+     ]
+    },
+    {
+     "n": 4,
+     "alts": [
+      "工作"
+     ],
+     "py": [
+      "gōngzuò"
+     ]
+    },
+    {
+     "n": 5,
+     "alts": [
+      "喝"
+     ],
+     "py": [
+      "hē"
+     ]
+    }
+   ],
+   "py_added": true,
+   "unit_title": "Lição 2 — 第二课 认识你很高兴 / Muito prazer em conhecê-lo"
+  },
+  {
+   "id": "x32",
+   "unit": "licao2",
+   "section": "II",
+   "ref": "3",
+   "label_pt": "Ponha em ordem adequada as seguintes palavras para que se tornem em frases correctas",
+   "img": "img/ex-x32.jpg",
+   "type": "grammar",
+   "label_en": "Put the words in the right order",
+   "key_page": 42,
+   "items": [
+    {
+     "n": 1,
+     "alts": [
+      "我在进出口公司工作。"
+     ],
+     "py": [
+      "Wǒ zài jìnchūkǒu gōngsī gōngzuò."
+     ]
+    },
+    {
+     "n": 2,
+     "alts": [
+      "他是我们的老师。"
+     ],
+     "py": [
+      "Tā shì wǒmen de lǎoshī."
+     ]
+    },
+    {
+     "n": 3,
+     "alts": [
+      "我是文学系的学生。"
+     ],
+     "py": [
+      "Wǒ shì wénxuéxì de xuésheng."
+     ]
+    },
+    {
+     "n": 4,
+     "alts": [
+      "我可以给你打电话吗？",
+      "我可以打电话给你吗？"
+     ],
+     "py": [
+      "Wǒ kěyǐ gěi nǐ dǎ diànhuà ma?",
+      "Wǒ kěyǐ dǎ diànhuà gěi nǐ ma?"
+     ]
+    }
+   ],
+   "py_added": true,
+   "unit_title": "Lição 2 — 第二课 认识你很高兴 / Muito prazer em conhecê-lo"
+  },
+  {
+   "id": "x33",
+   "unit": "licao2",
+   "section": "II",
+   "ref": "6",
+   "label_pt": "Traduza as seguintes frases em chinês",
+   "img": "img/ex-x33.jpg",
+   "type": "grammar",
+   "label_en": "Translate into Chinese",
+   "key_page": 42,
+   "items": [
+    {
+     "n": 1,
+     "alts": [
+      "很高兴认识你！",
+      "认识你（我）很高兴！"
+     ],
+     "py": [
+      "Hěn gāoxìng rènshi nǐ!",
+      "Rènshi nǐ (wǒ) hěn gāoxìng!"
+     ]
+    },
+    {
+     "n": 2,
+     "alts": [
+      "请进！"
+     ],
+     "py": [
+      "Qǐng jìn!"
+     ]
+    },
+    {
+     "n": 3,
+     "alts": [
+      "我在里斯本大学文学系学习。"
+     ],
+     "py": [
+      "Wǒ zài Lǐsīběn Dàxué Wénxuéxì xuéxí."
+     ]
+    },
+    {
+     "n": 4,
+     "alts": [
+      "他（的）女朋友很漂亮。"
+     ],
+     "py": [
+      "Tā (de) nǚ péngyou hěn piàoliang."
+     ]
+    },
+    {
+     "n": 5,
+     "alts": [
+      "他们（的）大学很大，也很漂亮。"
+     ],
+     "py": [
+      "Tāmen (de) dàxué hěn dà, yě hěn piàoliang."
+     ]
+    }
+   ],
+   "py_added": true,
+   "unit_title": "Lição 2 — 第二课 认识你很高兴 / Muito prazer em conhecê-lo"
+  },
+  {
+   "id": "x34",
+   "unit": "licao2",
+   "section": "IV",
+   "ref": "3",
+   "label_pt": "Adivinhe o que quer dizer a dona de casa",
+   "img": "img/ex-x34.jpg",
+   "type": "grammar",
+   "label_en": "Guess what the lady of the house is saying",
+   "key_page": 42,
+   "items": [
+    {
+     "n": 1,
+     "alts": [
+      "请进！请坐！请喝茶！"
+     ],
+     "py": [
+      "Qǐng jìn! Qǐng zuò! Qǐng hē chá!"
+     ],
+     "phrases": [
+      "请进！",
+      "请坐！",
+      "请喝茶！"
+     ]
+    }
+   ],
+   "py_added": true,
+   "unit_title": "Lição 2 — 第二课 认识你很高兴 / Muito prazer em conhecê-lo"
+  }
+ ]
+}
