@@ -1,0 +1,17 @@
+{
+  "name": "加油 Jiāyóu",
+  "short_name": "加油",
+  "description": "Bárbara's Mandarin learning app — Chinês Contemporâneo Básico 1",
+  "lang": "en",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fdf6f3",
+  "theme_color": "#de2910",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

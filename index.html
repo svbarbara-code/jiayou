@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#de2910">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>加油 Jiāyóu</title>
+<style>
+/* build.py injects tabs/00-design.css (tokens + base) then every tab's css below */
+/* 00-design.css — global tokens + base. OWNED BY jy-design (placeholder v0 by hub).
+   Every tab styles through these tokens; redefine the palette here, not in a tab. */
+:root {
+  --red: #de2910; --red-ink: #b21f0d; --gold: #e8a700;
+  --bg: #fdf6f3; --surface: #ffffff; --ink: #1c1614; --muted: #8a7d77;
+  --line: #ecdcd4; --accent: var(--red);
+  --u: 1px; /* reserved for a responsive unit if a tab wants it */
+  --radius: 14px; --gap: 14px; --maxw: 680px;
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --han: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17120f; --surface: #221a16; --ink: #f4ece8; --muted: #a99c95;
+    --line: #342722; --red: #ff5a42; --accent: var(--red);
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font); font-size: 16px; line-height: 1.5;
+  -webkit-text-size-adjust: 100%; padding-bottom: 40px;
+}
+:lang(zh), .han { font-family: var(--han); }
+
+.appbar {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 16px calc(12px + env(safe-area-inset-top, 0)); padding-top: max(12px, env(safe-area-inset-top));
+  background: var(--red); color: #fff;
+}
+.appbar .brand { font-family: var(--han); font-weight: 700; font-size: 20px; letter-spacing: .5px; }
+.appbar .brand small { font-family: var(--font); font-weight: 600; opacity: .9; font-size: 13px; margin-left: 4px; }
+
+.tabs {
+  display: flex; gap: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  padding: 10px 16px; position: sticky; top: 0; background: var(--bg);
+  border-bottom: 1px solid var(--line); scrollbar-width: none;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-chip {
+  flex: 0 0 auto; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  font: 500 14px/1 var(--font); padding: 9px 14px; border-radius: 999px; cursor: pointer;
+}
+.tab-chip[aria-current="page"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.tab-chip:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+
+main { max-width: var(--maxw); margin: 0 auto; padding: 16px; }
+.tab[hidden] { display: none; }
+
+.card {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 16px; margin-bottom: var(--gap);
+}
+.muted { color: var(--muted); }
+.placeholder { text-align: center; padding: 48px 16px; color: var(--muted); }
+.placeholder p:first-child { font-size: 22px; color: var(--ink); font-weight: 600; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+</style>
+</head>
+<body>
+<header class="appbar">
+  <span class="brand">加油 <small>Jiāyóu</small></span>
+  <span class="appbar-right" id="appbar-right"></span>
+</header>
+<nav class="tabs" id="nav" aria-label="Sections"><button type="button" class="tab-chip" data-go="daily">Today</button>
+<button type="button" class="tab-chip" data-go="content">Content</button>
+<button type="button" class="tab-chip" data-go="schedule">Schedule</button>
+<button type="button" class="tab-chip" data-go="methods">Methods</button>
+<button type="button" class="tab-chip" data-go="exercises">Exercises</button>
+<button type="button" class="tab-chip" data-go="homework">Homework</button>
+<button type="button" class="tab-chip" data-go="audio">Audio</button>
+<button type="button" class="tab-chip" data-go="progress">Progress</button>
+<button type="button" class="tab-chip" data-go="tutor">Tutor</button></nav>
+<main id="main"><section class="tab" id="tab-daily" data-tab="daily" hidden>
+  <div class="card">
+    <p class="muted" style="margin:0 0 4px">欢迎 · welcome</p>
+    <h1 style="margin:.1em 0;font-size:26px">加油, Bárbara</h1>
+    <p>Your Mandarin app for <strong>Chinês Contemporâneo Básico 1</strong>. The pieces are
+    being built by topic — Content, Schedule, Methods, Exercises, Homework, Audio, Progress
+    and the Tutor. This card is a hub placeholder for <em>jy-daily</em> to replace with the
+    real Today view (the 10-minute floor + streak).</p>
+  </div>
+</section>
+<section class="tab" id="tab-content" data-tab="content" hidden><div class="placeholder"><p>Content</p><p class="muted">being built…</p></div></section>
+<section class="tab" id="tab-schedule" data-tab="schedule" hidden><div class="placeholder"><p>Schedule</p><p class="muted">being built…</p></div></section>
+<section class="tab" id="tab-methods" data-tab="methods" hidden><div class="placeholder"><p>Methods</p><p class="muted">being built…</p></div></section>
+<section class="tab" id="tab-exercises" data-tab="exercises" hidden><div class="placeholder"><p>Exercises</p><p class="muted">being built…</p></div></section>
+<section class="tab" id="tab-homework" data-tab="homework" hidden><div class="placeholder"><p>Homework</p><p class="muted">being built…</p></div></section>
+<section class="tab" id="tab-audio" data-tab="audio" hidden><div class="placeholder"><p>Audio</p><p class="muted">being built…</p></div></section>
+<section class="tab" id="tab-progress" data-tab="progress" hidden><div class="placeholder"><p>Progress</p><p class="muted">being built…</p></div></section>
+<section class="tab" id="tab-tutor" data-tab="tutor" hidden><div class="placeholder"><p>Tutor</p><p class="muted">being built…</p></div></section></main>
+
+<script>
+/* Base tab switching + tiny shared helpers. Tabs may extend window.JY. */
+window.JY = window.JY || {};
+window.JY_DATA = window.JY_DATA || {}; Object.assign(window.JY_DATA, {});
+(function () {
+  const main = document.getElementById('main');
+  const nav = document.getElementById('nav');
+  function show(tab) {
+    main.querySelectorAll('.tab').forEach(s => { s.hidden = s.dataset.tab !== tab; });
+    nav.querySelectorAll('[data-go]').forEach(b => b.setAttribute('aria-current', b.dataset.go === tab ? 'page' : 'false'));
+    try { localStorage.setItem('jy.tab', tab); } catch (e) {}
+    document.dispatchEvent(new CustomEvent('jy:tab', { detail: tab }));
+    window.scrollTo(0, 0);
+  }
+  window.JY.show = show;
+  nav.addEventListener('click', e => { const b = e.target.closest('[data-go]'); if (b) show(b.dataset.go); });
+  let start; try { start = localStorage.getItem('jy.tab'); } catch (e) {}
+  const first = nav.querySelector('[data-go]');
+  show(start && main.querySelector('.tab[data-tab="' + start + '"]') ? start : (first ? first.dataset.go : null));
+})();
+</script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+}
+</script>
+</body>
+</html>
