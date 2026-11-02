@@ -3,7 +3,7 @@
   "app": "加油 Jiāyóu",
   "tab": "content",
   "version": 1,
-  "generated": "2026-10-13",
+  "generated": "2026-11-02",
   "course": "Chinês Contemporâneo / 当代中文 (Dāngdài Zhōngwén) — Básico 1",
   "turma": "ON_B1_2N06 · 2º semestre 2026",
   "teacher": "朱思文 · Siwen Zhu",
@@ -29,8 +29,8 @@
    "words_lesson": 82,
    "words_reference": 28,
    "chars_added_from_dictionary": 18,
-   "chars_taught_now": 54,
-   "words_taught_now": 13
+   "chars_taught_now": 70,
+   "words_taught_now": 47
   },
   "legend": {
    "added": "gloss added from a dictionary — not in the book",
@@ -758,7 +758,7 @@
     {
      "n": 2,
      "setting": "Primeira aula de chinês do professor Zhang Lin",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     }
    ],
    "key_sentences": [
@@ -767,55 +767,55 @@
      "zh": "您是葡萄牙人吗？",
      "py": "Nín shì Pútáoyárén ma?",
      "pt": "Você é português?",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     },
     {
      "id": "ks-licao1-2",
      "zh": "您是不是葡萄牙人？",
      "py": "Nín shì bu shì Pútáoyárén?",
      "pt": "Você é português ou não (é)?",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     },
     {
      "id": "ks-licao1-3",
      "zh": "我不是林老师。",
      "py": "Wǒ bú shì Lín lǎoshī.",
      "pt": "Não sou o professor Lin.",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     },
     {
      "id": "ks-licao1-4",
      "zh": "您说葡萄牙语还是说法语？",
      "py": "Nín shuō Pútáoyáyǔ háishi shuō Fǎyǔ?",
      "pt": "Você fala português ou francês?",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     }
    ],
    "grammar": [
     {
      "id": "gr-licao1-1",
      "text": "Frase simples 1: sujeito + verbo (+ objecto), forma afirmativa e negativa com 不",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     },
     {
      "id": "gr-licao1-2",
      "text": "Advérbio + verbo — o advérbio precede sempre o verbo (不, 也, 都, 只)",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     },
     {
      "id": "gr-licao1-3",
      "text": "Frases interrogativas A: declarativa + 吗?",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     },
     {
      "id": "gr-licao1-4",
      "text": "Frases interrogativas B-a: X 不 X …? (不 em tom átono; 也/都/只 não podem aparecer)",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     },
     {
      "id": "gr-licao1-5",
      "text": "Frases interrogativas B-b: X 还是 Y?",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     },
     {
      "id": "gr-licao1-6",
@@ -832,14 +832,14 @@
     {
      "id": "ph-licao1-1",
      "text": "Mudança de tom de 不 bù: bù + 1.º/2.º/3.º tom; bú + 4.º tom",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     }
    ],
    "notes": [
     {
      "id": "nt-licao1-1",
      "text": "'张老师' — apelido + lǎoshī para tratar um professor",
-     "taught_on": null
+     "taught_on": "2026-10-05"
     }
    ],
    "cultural": "姓名 xìngmíng = 姓 xìng (apelido, quase sempre 1 caracter) + 名 míng (nome próprio, 1 ou 2). Perguntar o nome: 你叫什么名字？ (neutro) / 您贵姓？ e 您怎么称呼？ (mais formais).",
@@ -926,8 +926,6 @@
     "wd-华裔"
    ],
    "char_ids_also": [],
-   "partial": true,
-   "taught_scope": "Aula 8, 5 Oct 2026 — Siwen's deck 初级1-第1课-你好-我是 (vocabulary slides 9–18, 29–30; Texto 1, slides 17/32) + the 汉字书写 homework (你 好 我 是 姓 …). The deck presents the book's Lição 1 opening, not the whole lesson.",
    "cultural_taught_on": "2026-10-05",
    "audio_ids": [
     "a08",
@@ -1277,7 +1275,7 @@
    "bound": false,
    "starred": false,
    "legacy": "h007",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-不",
@@ -1292,7 +1290,7 @@
    "bound": false,
    "starred": false,
    "legacy": "h008",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-同",
@@ -1307,7 +1305,7 @@
    "bound": true,
    "starred": false,
    "legacy": "h009",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-们",
@@ -1323,7 +1321,7 @@
    "starred": false,
    "legacy": "h010",
    "gloss_missing": true,
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-老",
@@ -1338,7 +1336,7 @@
    "bound": false,
    "starred": false,
    "legacy": "h011",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-师",
@@ -1353,7 +1351,7 @@
    "bound": true,
    "starred": false,
    "legacy": "h012",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-叫",
@@ -1451,7 +1449,7 @@
     "h063"
    ],
    "bound_in_also": true,
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-也",
@@ -1466,7 +1464,7 @@
    "bound": false,
    "starred": false,
    "legacy": "h019",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-说",
@@ -1481,7 +1479,7 @@
    "bound": false,
    "starred": false,
    "legacy": "h020",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-葡",
@@ -1497,7 +1495,7 @@
    "starred": false,
    "legacy": "h021",
    "gloss_missing": true,
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-萄",
@@ -1513,7 +1511,7 @@
    "starred": false,
    "legacy": "h022",
    "gloss_missing": true,
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-牙",
@@ -1528,7 +1526,7 @@
    "bound": false,
    "starred": false,
    "legacy": "h023",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-还",
@@ -1544,7 +1542,7 @@
    "starred": false,
    "legacy": "h024",
    "gloss_missing": true,
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-法",
@@ -1559,7 +1557,7 @@
    "bound": true,
    "starred": true,
    "legacy": "h025",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-都",
@@ -1574,7 +1572,7 @@
    "bound": false,
    "starred": false,
    "legacy": "h026",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-只",
@@ -1589,7 +1587,7 @@
    "bound": false,
    "starred": false,
    "legacy": "h027",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "ch-他",
@@ -3054,7 +3052,7 @@
    "pinyin": "rén",
    "pt": "pessoa, gente",
    "legacy": "v008",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-吗",
@@ -3065,7 +3063,7 @@
    "pinyin": "ma",
    "pt": null,
    "legacy": "v009",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-不",
@@ -3076,7 +3074,7 @@
    "pinyin": "bù",
    "pt": "não",
    "legacy": "v010",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-同学",
@@ -3087,7 +3085,7 @@
    "pinyin": "tóngxué",
    "pt": "colega",
    "legacy": "v011",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-们",
@@ -3098,7 +3096,7 @@
    "pinyin": "men",
    "pt": null,
    "legacy": "v012",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-老师",
@@ -3109,7 +3107,7 @@
    "pinyin": "lǎoshī",
    "pt": "professor",
    "legacy": "v013",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-叫",
@@ -3164,7 +3162,7 @@
    "pinyin": "nǎ guó rén",
    "pt": "de que país…?",
    "legacy": "v018",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-哪",
@@ -3175,7 +3173,7 @@
    "pinyin": "nǎ",
    "pt": "que, qual",
    "legacy": "v019",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-国",
@@ -3186,7 +3184,7 @@
    "pinyin": "guó",
    "pt": "país",
    "legacy": "v020",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-也",
@@ -3197,7 +3195,7 @@
    "pinyin": "yě",
    "pt": "também",
    "legacy": "v021",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-说",
@@ -3208,7 +3206,7 @@
    "pinyin": "shuō",
    "pt": "falar, dizer",
    "legacy": "v022",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-葡萄牙语",
@@ -3219,7 +3217,7 @@
    "pinyin": "Pútáoyáyǔ",
    "pt": "português, língua portuguesa",
    "legacy": "v023",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-还是",
@@ -3230,7 +3228,7 @@
    "pinyin": "háishi",
    "pt": "ou",
    "legacy": "v024",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-法语",
@@ -3241,7 +3239,7 @@
    "pinyin": "Fǎyǔ",
    "pt": "língua francesa",
    "legacy": "v025",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-都",
@@ -3252,7 +3250,7 @@
    "pinyin": "dōu",
    "pt": "todo, todos",
    "legacy": "v026",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-只",
@@ -3263,7 +3261,7 @@
    "pinyin": "zhǐ",
    "pt": "apenas, só",
    "legacy": "v027",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-汉语",
@@ -3274,7 +3272,7 @@
    "pinyin": "Hànyǔ",
    "pt": "chinês, língua chinesa",
    "legacy": "v028",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-他",
@@ -3307,7 +3305,7 @@
    "pinyin": "Pútáoyá",
    "pt": "Portugal",
    "legacy": "v031",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-中国",
@@ -3318,7 +3316,7 @@
    "pinyin": "Zhōngguó",
    "pt": "China",
    "legacy": "v032",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-巴西",
@@ -3329,7 +3327,7 @@
    "pinyin": "Bāxī",
    "pt": "Brasil",
    "legacy": "v033",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-美国",
@@ -3340,7 +3338,7 @@
    "pinyin": "Měiguó",
    "pt": "Estados Unidos da América",
    "legacy": "v034",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-中文/汉语",
@@ -3351,7 +3349,7 @@
    "pinyin": "Zhōngwén/Hànyǔ",
    "pt": "língua chinesa",
    "legacy": "v035",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-英文/英语",
@@ -3362,7 +3360,7 @@
    "pinyin": "Yīngwén/Yīngyǔ",
    "pt": "língua inglesa",
    "legacy": "v036",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-法文/法语",
@@ -3373,7 +3371,7 @@
    "pinyin": "Fǎwén/Fǎyǔ",
    "pt": "língua francesa",
    "legacy": "v037",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-葡文/葡语",
@@ -3384,7 +3382,7 @@
    "pinyin": "Pǔwén/Pǔyǔ",
    "pt": "língua portuguesa",
    "legacy": "v038",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-西文/西语",
@@ -3395,7 +3393,7 @@
    "pinyin": "Xīwén/Xīyǔ",
    "pt": "língua espanhola",
    "legacy": "v039",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-普通话",
@@ -3406,7 +3404,7 @@
    "pinyin": "Pǔtōnghuà",
    "pt": "mandarim (lit. 'linguagem comum')",
    "legacy": "v040",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-英国",
@@ -3417,7 +3415,7 @@
    "pinyin": "Yīngguó",
    "pt": "Reino Unido",
    "legacy": "v041",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-俄罗斯",
@@ -3428,7 +3426,7 @@
    "pinyin": "Éluósī",
    "pt": "Rússia",
    "legacy": "v042",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-法国",
@@ -3439,7 +3437,7 @@
    "pinyin": "Fǎguó",
    "pt": "França",
    "legacy": "v043",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-德国",
@@ -3450,7 +3448,7 @@
    "pinyin": "Déguó",
    "pt": "Alemanha",
    "legacy": "v044",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-日本",
@@ -3461,7 +3459,7 @@
    "pinyin": "Rìběn",
    "pt": "Japão",
    "legacy": "v045",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-韩国",
@@ -3472,7 +3470,7 @@
    "pinyin": "Hánguó",
    "pt": "Coreia do Sul",
    "legacy": "v046",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-华裔",
@@ -3483,7 +3481,7 @@
    "pinyin": "huáyì",
    "pt": "descendente de chinês",
    "legacy": "v047",
-   "taught_on": null
+   "taught_on": "2026-10-05"
   },
   {
    "id": "wd-认识",
