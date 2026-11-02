@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-10-13",
+ "generated": "2026-11-02",
  "tz": "America/Sao_Paulo",
  "class_day": "mon",
  "class_time": "19:00",
@@ -21,6 +21,11 @@
    "date": "2026-10-12",
    "reason": "Nossa Senhora Aparecida",
    "note": "Work set on aula 8 (5 Oct) is therefore due 19 Oct."
+  },
+  {
+   "date": "2026-11-02",
+   "reason": "Finados",
+   "note": "Confirmed suspended (Instituto comunicado 22 Oct). Work set on aula 10 (26 Oct) is therefore due 9 Nov."
   }
  ],
  "holidays": [
@@ -219,6 +224,30 @@
      "title": "Praticar a escrita dos caracteres — 汉字书写 (Lição 1 你好，我是)",
      "kind": "escrita",
      "due": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "items": [
+    {
+     "id": "w10",
+     "class_no": 9,
+     "title": "Praticar os caracteres de países/nacionalidades (国家) — Lição 1 我是巴西人",
+     "kind": "escrita",
+     "due": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "items": [
+    {
+     "id": "w11",
+     "class_no": 10,
+     "title": "Praticar caracteres chineses + lição de casa PDF — Lição 1 你说葡萄牙语还是汉语",
+     "kind": "escrita",
+     "due": "2026-11-09"
     }
    ]
   }
